@@ -1,1 +1,1 @@
-Prueba de modificacion rafafafafa
+En esta carpeta va toda la documentación externa del proyecto, pruebas funcionales.
