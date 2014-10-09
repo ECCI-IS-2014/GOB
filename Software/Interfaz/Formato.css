@@ -18,16 +18,17 @@
 			border-width:5px;	
 			border-style:outset;
 			border-color:white;
-			height: 50px;
-			width: 300px;
+			height: 170px;
+			width: 1072px;
 			background: #000000;
 			position: relative;
 			-webkit-animation: mymove 5s; /* Chrome, Safari, Opera */
 			animation: mymove 10s;
-			background-image: url('tiquiciaheader.jpg')}
+			background-image: url('headerBack.gif')}
 		 
 		 ul.navbar{
-			top: 5.5em;
+			top: 1.5em;
+			left: 0em;
 		 }
 		 
 		 ul.navbar li{
@@ -47,13 +48,43 @@
 			padding-top: 1em;
 			border-top: thin dotted }
 			
+		#menu {
+			width: 1000px;
+			height: 35px;
+			font-size: 16px;
+			font-family: Tahoma, Geneva, sans-serif;
+			font-weight: bold;
+			text-align: center;
+			text-shadow: 3px 2px 3px #333333;
+			background-color: #33ADAD;
+			border-radius: 8px;
+		}
+		#menu ul {
+			height: auto;
+			padding: 8px 0px;
+			margin: 0px;
+		}
+		#menu li { 
+			display: inline; 
+			padding: 20px; 
+		}
+		#menu a {
+			text-decoration: none;
+			color: #003366;
+			padding: 8px 8px 8px 8px;
+		}
+		#menu a:hover {
+			color: #4D7094;
+			background-color: #005C5C;
+		}
 			
-	@-webkit-keyframes mymove {
-    from {right: 60px;}
-    to {right: 0px;}
-    }
+			
+		@-webkit-keyframes mymove {
+			from {right: 40px;}
+			to {right: 0px;}
+		}
 
-	@keyframes mymove {
-    from {right: 60px;}
-    to {right: 0px;}
-	}
+		@keyframes mymove {
+			from {right: 40px;}
+			to {right: 0px;}
+		}
