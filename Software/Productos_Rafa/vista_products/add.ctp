@@ -1,0 +1,9 @@
+Anadir:
+<?php
+echo $this->Form->create('Product');
+echo $this->Form->input('name');
+echo $this->Form->input('type');
+echo $this->Form->input('price');
+echo $this->Form->input('weight');
+echo $this->Form->end('Agregar Producto');
+?>
