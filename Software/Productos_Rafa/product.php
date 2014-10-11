@@ -8,17 +8,12 @@
 
 class Product extends AppModel {
     var $name = 'Product';
-
+    var $hasMany = array('Keyword' => array('className' => 'Keyword'));
     var $validate = array(
         'name' => array(
             'rule' => array('maxLength', '40'),
             'allowEmpty' => false,
             'message' => 'Nombre no válido'
-        ),
-        'keywords' => array(
-            'rule' => array('maxLength', '40'),
-            'allowEmpty' => false,
-            'message' => 'Palabras clave no válidas'
         ),
         'type' => array(
             'rule' => array('maxLength', '40'),
