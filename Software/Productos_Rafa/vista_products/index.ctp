@@ -1,17 +1,23 @@
-<h1>Productos Disponibles</h1>
-<?php foreach ($products as $product): ?>
+<fieldset>
+<legend>Productos disponibles</legend>
 <table>
+    <tr>
+        <th>Id</th>
+        <th>Producto</th>
+        <th>Precio</th>
+    </tr>
+<?php foreach ($products as $product): ?>
 
-<?php echo $product['Product']['name']; ?>
-<?php echo " "; ?>
-<?php echo $product['Product']['price']; ?>
+<tr>
+<td><?php echo $product['Product']['id']; ?></td>
+<td><?php echo $product['Product']['name']; ?></td>
+<td><?php echo $product['Product']['price']; ?></td>
+</tr>
 
+<?php endforeach; ?>
 </table>
 
 </br>
 
-<?php endforeach; ?>
-
-</br>
-
 <?php echo $this->Html->link('Añadir Producto', '/products/add');?>
+</fieldset>

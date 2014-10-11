@@ -15,20 +15,25 @@ class Product extends AppModel {
             'allowEmpty' => false,
             'message' => 'Nombre no válido'
         ),
+        'keywords' => array(
+            'rule' => array('maxLength', '40'),
+            'allowEmpty' => false,
+            'message' => 'Palabras clave no válidas'
+        ),
         'type' => array(
             'rule' => array('maxLength', '40'),
-            'required' => false,
+            'allowEmpty' => false,
             'message' => 'Tipo no válido'
         ),
         'price' => array(
             'rule' => 'alphaNumeric',
-            'required' => false,
+            'allowEmpty' => false,
             'message' => 'Precio incorrecto'
         ),
         'weight' => array(
             'rule' => 'alphaNumeric',
-            'required' => false,
-            'message' => 'Precio incorrecto'
+            'allowEmpty' => false,
+            'message' => 'Digite un peso correcto'
         )
     );
 }
