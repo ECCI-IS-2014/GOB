@@ -31,4 +31,7 @@ class Product extends AppModel {
             'message' => 'Digite un peso correcto'
         )
     );
+    var $actsAs = array(
+        'MeioUpload' => array('filename')
+    );
 }
