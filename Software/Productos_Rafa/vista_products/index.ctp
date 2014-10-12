@@ -4,6 +4,7 @@
     <tr>
         <th>Id</th>
         <th>Producto</th>
+        <th>Imagen</th>
         <th>Precio</th>
         <th>Palabras Claves</th>
         <th>Añadir Palabra Clave</th>
@@ -13,6 +14,7 @@
 <tr>
 <td><?php echo $product['Product']['id']; ?></td>
 <td><?php echo $product['Product']['name']; ?></td>
+<td><?php echo $this->Html->image('uploads/product/filename/'.$product['Product']['filename'],array('alt'=>$product['Product']['name'],'width'=>'200')); ?></td>
 <td><?php echo $product['Product']['price']; ?></td>
 <ul>
     <td>
