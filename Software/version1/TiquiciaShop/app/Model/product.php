@@ -8,12 +8,18 @@
 
 class Product extends AppModel {
     var $name = 'Product';
-    var $hasMany = array('Keyword' => array('className' => 'Keyword'));
     var $validate = array(
         'name' => array(
             'rule' => array('maxLength', '40'),
             'allowEmpty' => false,
             'message' => 'Nombre no válido'
+        ),
+        'category' => array(
+            'valid' => array(
+                'rule' => array('inList', array('Tennis_de_mesa', 'Volleyball','Baseball','Ciclismo','Futbol','Baloncesto','Otros')),
+                'message' => 'Please enter a valid category',
+                'allowEmpty' => false
+            )
         ),
         'type' => array(
             'rule' => array('maxLength', '40'),
@@ -29,6 +35,12 @@ class Product extends AppModel {
             'rule' => 'alphaNumeric',
             'allowEmpty' => false,
             'message' => 'Digite un peso correcto'
+        ),
+        'keywords' => array(
+            'rule' => array('maxLength', '40'),
+            'required' => true,
+            'allowEmpty' => false,
+            'message' => 'Necesario'
         )
     );
     var $actsAs = array(

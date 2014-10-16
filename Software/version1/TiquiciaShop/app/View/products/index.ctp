@@ -1,41 +1,53 @@
 <fieldset>
-<legend>Productos Disponibles</legend>
-<?php echo $this->Form->input('Buscar');
-echo $this->Form->end('Buscar');?>
+<legend>Productos disponibles</legend>
+<?php echo $this->Form->input('Buscar por palabra clave');?>
+<br/>
+<?php echo $this->Form->submit('Buscar');?>
+<br/>
 <table>
     <tr>
         <th>Id</th>
+        <th>Categoria</th>
         <th>Producto</th>
         <th>Imagen</th>
+        <th>Descripcion</th>
         <th>Precio</th>
         <th>Palabras Claves</th>
-        <th>Añadir Palabra Clave</th>
         <th>Editar</th>
         <th>Eliminar</th>
+
     </tr>
 <?php foreach ($products as $product): ?>
-
 <tr>
 <td><?php echo $product['Product']['id']; ?></td>
+<td><?php echo $product['Product']['category']; ?></td>
 <td><?php echo $product['Product']['name']; ?></td>
 <td><?php echo $this->Html->image('uploads/product/filename/'.$product['Product']['filename'],array('alt'=>$product['Product']['name'],'width'=>'200')); ?></td>
+<td><?php echo $product['Product']['type']; ?></td>
 <td><?php echo $product['Product']['price']; ?></td>
 <ul>
     <td>
-    <?php foreach ($product['Keyword'] as $keyword): ?>
-        <?php echo $keyword['palabraclave']; ?>
-    <?php endforeach; ?>
+        <li><?php echo $product['Product']['keywords']; ?></li>
     </td>
-    <td><li><?php echo $this->Html->link('Añadir palabra clave', '/keywords/add/' . $product['Product']['id']);?></li></td>
+    <td><?php echo $this->Html->link('Actualizar Producto',array("controller" => "Products",
+                                    "action" => "searchUpdate",
+                                    $product['Product']['id']));?></td>
+
+    <td><?php echo $this->Html->link('Borrar Producto',array("controller" => "Products",
+                                        "action" => "searchDelete",
+                                        $product['Product']['id']));?></td>
+
+
 </ul>
-</tr>
+
 
 <?php endforeach; ?>
+</tr>
 </table>
 
 </br>
 
-<?php echo $this->Html->link('Add product', '/products/add');?>
+<?php echo $this->Html->link('Añadir Producto', '/products/add');?>
 <br>
 <?php echo $this->Html->link('Home', '/');?>
 </fieldset>

@@ -8,11 +8,11 @@
 class Keyword extends AppModel {
     var $name = 'Keyword';
 
-    var $belongsTo = array('Product' => array('className' => 'Product'));
+
 
     var $validate = array(
         'palabraclave' => array(
-            'rule' => array('maxLength', '40'),
+            'rule' => array('custom','([\w.-])'),
             'required' => true,
             'allowEmpty' => false,
             'message' => 'Necesario'
