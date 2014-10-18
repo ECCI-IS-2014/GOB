@@ -15,7 +15,7 @@ echo $this->Form->input('category', array(
             'Otros' => 'Otros')));
 echo $this->Form->input('filename',array('type'=>'file'));
 echo $this->Form->input('dir',array('type'=>'hidden'));
-echo $this->Form->input('type',array('label'=>'Descripción del producto'));
+echo $this->Form->input('type', array('type' => 'textarea','label' =>  'Descripción del producto'));
 echo $this->Form->input('price');
 echo $this->Form->input('weight');
 echo $this->Form->input('keywords');

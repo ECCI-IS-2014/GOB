@@ -78,5 +78,25 @@ class User extends AppModel {
         return true;
     }
 
+    public function getAllUsers() {
+        return $this->find('all', array(
+            'fields' => array('id','first_name','middle_name','last_name','email','identification','birth_date','username','role')
+        ));
+    }
+
+    public function getSingleUser($id = null) {
+        return $this->find('first', array(
+            'conditions' => array('id' => $id)
+        ));
+    }
+
+    public function addUser($userData) {
+        return $this->save($userData);
+    }
+
+    public function editUser($userData) {
+        return $this->save($userData);
+    }
+
 
 }

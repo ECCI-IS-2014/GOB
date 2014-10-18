@@ -7,12 +7,21 @@
  */
 App::uses('AppController','Controller','File','Utility');
 
+
+
 class ProductsController extends AppController {
 
+    public $components = array(
+        'Search.Prg'
+    );
 
-    function index() {
-        $this->set('products', $this->Product->find('all'));
 
+
+    public function index() {
+        $this->Prg->commonProcess();
+        $this->paginate = array(
+            'conditions' => $this->Product->parseCriteria($this->passedArgs));
+        $this->set('products', $this->paginate());
     }//fin de index
 
     function delete(){

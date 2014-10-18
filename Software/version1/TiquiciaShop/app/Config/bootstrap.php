@@ -92,7 +92,7 @@ Configure::write('Dispatcher.filters', array(
 	'CacheDispatcher'
 ));
 CakePlugin::load('DebugKit'); //Loads a single plugin named DebugKit
-
+CakePlugin::load('Search');
 /**
  * Configures default file logging options
  */

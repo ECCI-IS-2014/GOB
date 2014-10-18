@@ -27,7 +27,7 @@ $cakeDescription = __d('cake_dev', 'Tiquicia Shop');
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('Formato');
+		echo $this->Html->css('formato');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
