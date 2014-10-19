@@ -98,5 +98,7 @@ class User extends AppModel {
         return $this->save($userData);
     }
 
-
+	public function deleteUser($userData) {
+    return $this->delete($userData);
+  }
 }
