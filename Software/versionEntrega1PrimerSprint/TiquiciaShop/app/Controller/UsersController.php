@@ -166,12 +166,7 @@ class UsersController extends AppController {
 
     public function logout() {
 
-        if ($this->request->is('post')) {
-            if ($this->Auth->logout()) {
-                return $this->redirect($this->Auth->redirect());
+                return $this->redirect($this->Auth->logout());
             }
-        }
-    }
-
 
 }

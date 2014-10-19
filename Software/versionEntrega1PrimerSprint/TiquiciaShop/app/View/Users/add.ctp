@@ -9,7 +9,7 @@
          echo $this->Form->input('middle_name');
          echo $this->Form->input('last_name');
          echo $this->Form->input('identification');
-         echo $this->Form->input('birth_date');
+         echo $this->Form->input('birth_date', array('empty' => array('month' => 'Month','day'   => 'Day','year'  => 'Year'),'minYear' => date('Y')-130,'maxYear' => date('Y')));
 		 echo $this->Form->input('email');
 		
         echo $this->Form->input('role', array(
