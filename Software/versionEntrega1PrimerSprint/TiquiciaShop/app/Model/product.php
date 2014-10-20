@@ -75,13 +75,23 @@ class Product extends AppModel {
     );
 
 
-    //Funciones para pruebas unitarias
+  //Funciones para pruebas unitarias
+
+    //Probando:Obtener todo de la base de datos.
     public function getAllProducts() {
         return $this->find('all', array(
             'fields' => array('id', 'name',
              'category','type','price',
               'weight','filename','dir',
             'created','keywords','volumen')
+        ));
+    }
+
+
+    //Probando:Obtener todo de la base de datos según Id.
+    public function getProductsFiltrados($id = null) {
+        return $this->find('first', array(
+            'conditions' => array('id' => $id)
         ));
     }
 }

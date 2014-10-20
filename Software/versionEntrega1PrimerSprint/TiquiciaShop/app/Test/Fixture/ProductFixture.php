@@ -28,9 +28,18 @@ class ProductFixture extends CakeTestFixture {
 		  'dir' =>'img\uploads\product\filename',
 		  'created' => '2014-10-16 15:56:23',
 		  'keywords' => 'futbol',
-		  'volumen' => 'NULL')
-		  //array('id' => 4, 'name' => 'Balon Champions','category' => 'Futbol', 'type' => 'Champions League','price' =>12000,'weight' => '2','filename' => 'balon_champions.jpg','dir' =>'img\uploads\product\filename','created' => '2014-10-16 15:57:40','keywords' => 'champions futbol', 'volumen' => 'NULL'),
-		  //array('id' => 5, 'name' => 'Balon Baloncesto','category' => 'Baloncesto', 'type' => 'Baloncesto','price' =>10000,'weight' => '2','filename' => 'balon_basket2.jpg','dir' =>'img\uploads\product\filename','created' => '2014-10-16 15:59:03','keywords' => 'baloncesto', 'volumen' => 'NULL')
-          
+		  'volumen' => 'NULL'),
+          array(
+              'id' => 4,
+              'name' => 'Balon Nike',
+              'category' => 'Futbol',
+              'type' => 'Balon del FCNike',
+              'price' =>13.500,
+              'weight' => '15',
+              'filename' => 'bolaNike.jpg',
+              'dir' =>'img\uploads\product\filename',
+              'created' => '2014-10-16 15:56:23',
+              'keywords' => 'nike',
+              'volumen' => 'NULL')
       );
  }

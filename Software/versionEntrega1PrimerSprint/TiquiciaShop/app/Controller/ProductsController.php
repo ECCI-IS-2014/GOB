@@ -24,6 +24,14 @@ class ProductsController extends AppController {
         $this->set('products', $this->paginate());
     }//fin de index
 
+
+    public function busqueda() {
+        $this->Prg->commonProcess();
+        $this->paginate = array(
+            'conditions' => $this->Product->parseCriteria($this->passedArgs));
+        $this->set('products', $this->paginate());
+    }//fin de index
+
     function delete(){
 
 
@@ -173,10 +181,7 @@ class ProductsController extends AppController {
     function add() {
 
         if (!empty($this->data)) {
-
-            $this->Product->create();
-
-            if ($this->Product->save($this->data)) {
+            if ($this->Product->save($this->request->data)) {
 
                 $this->flash('Producto añadido','/products');
             }
