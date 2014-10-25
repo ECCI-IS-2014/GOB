@@ -27,7 +27,7 @@ $cakeDescription = __d('cake_dev', 'Tiquicia Shop');
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('formato');
+		echo $this->Html->css('Formato');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -36,8 +36,8 @@ $cakeDescription = __d('cake_dev', 'Tiquicia Shop');
 </head>
 <body>
 	<div id="container">
-		<div id="header">
-			<h1><?php echo $cakeDescription; ?></h1>
+		<div id="header"">
+			<h1></h1>
 		</div>
 		<div id="content">
 

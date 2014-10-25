@@ -2,7 +2,7 @@
 			padding-left: 11em;
 			font-family: Georgia, "Times New Roman",
 			Times, serif;
-			color: black;
+			color: #19A3A3;
 			background-color: #ffffff}
         table {
             border-right:0;
@@ -54,84 +54,80 @@
 			top: 2em;
 			left: 1em;
 			width: 9em }
-		h1 {
-			font-family: Helvetica, Geneva, Arial,
-			SunSans-Regular, sans-serif;
-			border-width:5px;	
-			border-style:outset;
-			border-color:white;
-			height: 170px;
-			width: 1072px;
-			background: #000000;
-			position: relative;
-			-webkit-animation: mymove 5s; /* Chrome, Safari, Opera */
-			animation: mymove 10s;
-			background-image: url('headerBack.gif')}
-		 
-		 ul.navbar{
-			top: 1.5em;
-			left: 0em;
-		 }
-		 
-		 ul.navbar li{
-			border-style: solid;
-			border-color: #33ADAD;
-			border-right: 0.5em solid #33ADAD;
-			margin: 0.5em;
-			padding: 0.3em}
-		ul.navbar a {
-			text-decoration: none }
-		a:link {
-			color: blue }
-		a:visited {
-			color: purple }
-		address {
-			margin-top: 1em;
-			padding-top: 1em;
-			border-top: thin dotted }
-			
-		#menu {
-			width: 1000px;
-			height: 35px;
-			font-size: 16px;
-			font-family: Tahoma, Geneva, sans-serif;
-			font-weight: bold;
-			text-align: center;
-			text-shadow: 3px 2px 3px #333333;
-			background-color: #33ADAD;
-			border-radius: 8px;
-		}
-		#menu ul {
-			height: auto;
-			padding: 8px 0px;
-			margin: 0px;
-		}
-		#menu li { 
-			display: inline; 
-			padding: 20px; 
-		}
-		#menu a {
-			text-decoration: none;
-			color: #003366;
-			padding: 8px 8px 8px 8px;
-		}
-		#menu a:hover {
-			color: #4D7094;
-			background-color: #005C5C;
-		}
-			
-			
-		@-webkit-keyframes mymove {
-			from {right: 40px;}
-			to {right: 0px;}
-		}
 
-		@keyframes mymove {
-			from {right: 40px;}
-			to {right: 0px;}
-		}
 
-        /** Forms  Cake**/
+		h1{
+            padding: 90px ;
+            overflow: hidden;
+            background-image: url("headerBack.jpg");
+            background-repeat: no-repeat;
+            height: 0px ;
+            background-size: contain;
+        }
+
+     ul.navbar{
+        top: 1.5em;
+        left: 0em;
+     }
+
+     ul.navbar li{
+        border-style: solid;
+        border-color: #33ADAD;
+        border-right: 0.5em solid #33ADAD;
+        margin: 0.5em;
+        padding: 0.3em}
+    ul.navbar a {
+        text-decoration: none }
+    a:link {
+        color: blue }
+    a:visited {
+        color: purple }
+    address {
+        margin-top: 1em;
+        padding-top: 1em;
+        border-top: thin dotted }
+
+    #menu {
+
+        font-size: 16px;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 3px 2px 3px #333333;
+        background-color: #33ADAD;
+        border-radius: 8px;
+    }
+    #menu ul {
+        height: auto;
+        padding: 8px 0px;
+        margin: 0px;
+    }
+    #menu li {
+        display: inline;
+        padding: 20px;
+    }
+    #menu a {
+        text-decoration: none;
+        color: #003366;
+        padding: 8px 8px 8px 8px;
+    }
+    #menu a:hover {
+        color: #4D7094;
+        background-color: #005C5C;
+    }
+
+
+    @-webkit-keyframes mymove {
+        from {right: 40px;}
+        to {right: 0px;}
+    }
+
+    @keyframes mymove {
+        from {right: 40px;}
+        to {right: 0px;}
+    }
+
+    /** Forms  Cake**/
         form {
             clear: both;
             margin-right: 20px;
