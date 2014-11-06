@@ -66,15 +66,26 @@ class ProductsController extends AppController {
     }//fin de delete
 	function searchInfo($products){
 
+       $this->loadModel('User');
+        $this->loadModel('Wish');
+
         if (!empty($products)) {
 
             $result = $this->Product->find('first', array(
                 'conditions'=>array('Product.id'=>$products)));
 
+            $result2 = $this->User->find('first', array(
+                'conditions'=>array('User.id'=>$this->Auth->user('id'))));
+
+            $result3 = $this->Wish->find('first', array(
+                'conditions'=>array('Wish.product_id'=>$products, 'Wish.user_id'=>$this->Auth->user('id'))));
+
 
             if(sizeof($result) >= 1){
 
                 $this->set('products', $result);
+                $this->set('users', $result2);
+                $this->set('wishes', $result3);
 
             }
             else{

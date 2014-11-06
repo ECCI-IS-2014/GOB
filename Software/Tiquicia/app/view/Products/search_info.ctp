@@ -31,9 +31,7 @@ echo $products['Product']['name']."<br/><br/>";?>
     </tr>
 
 <tr>
-<td><?php echo $products['Category']['name']; ?>
-<br>&nbsp;&nbsp;•<?php echo $products['Subcategory']['name']; ?>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;•<?php echo $products['Subsubcategory']['name']; ?></td>
+<td><?php echo $products['Product']['category']; ?></td>
 <td><?php echo $products['Product']['name']; ?></td>
 <td><?php echo $this->Html->image('uploads/product/filename/'.$products['Product']['filename'],array('alt'=>$products['Product']['name'],'width'=>'200')); ?></td>
 <td><?php echo $products['Product']['price']; ?></td>
@@ -64,22 +62,24 @@ echo $products['Product']['name']."<br/><br/>";?>
 <?php echo $this->Form->button('Volver',
       array('onclick' => "location.href='".$this->Html->url('/products/')."'",'class'=>'btn-success btn btn-lg'));
 ?>
-<?php echo $this->Form->create('Cart',array('id'=>'add-form','url'=>array('controller'=>'carts','action'=>'add')));?>
-<?php echo $this->Form->hidden('product_id',array('value'=>$products['Product']['id']))?>
-<?php echo $this->Form->button('Añadir al carrito',array('class'=>'btn-success btn btn-lg'));?>
-<?php echo $this->Form->end();?>
-
-			
 
 <?php
-    if ($authUser){
-          /*echo $this->Html->link('Añadir al wishlist ',array("controller" => "Wishes",
-                                              "action" => "searchAdd",
-                                              $product['Product']['id']),array(
-                                              'title' => 'Dar clic para añadir el producto '.$products['Product']['name']
-                                              ));*/
-           echo $this->Form->button('Añadir al Wishlist',
-                array('onclick' => "location.href='".$this->Html->url('/Wishes/searchAdd/').$products[Product][id]."'",'class'=>'btn-success btn btn-lg'));
+    if ($this->Session->read('Auth.User.role')!='admin'){?>
+<?php echo $this->Form->create('Cart',array('id'=>'add-form','url'=>array('controller'=>'carts','action'=>'add')));?>
+            <?php echo $this->Form->hidden('product_id',array('value'=>$products['Product']['id']))?>
+            <?php echo $this->Form->button('Añadir al carrito',array('class'=>'btn-success btn btn-lg'));?>
+            <?php echo $this->Form->end();
+
+            }?>
+
+
+<?php
+    if (($this->Session->read('Auth.User.role')==='customer')&& empty($wishes)){?>
+         <?php echo $this->Form->create('Wish',array('id'=>'addd-form','url'=>array('controller'=>'wishes','action'=>'add')));
+           echo $this->Form->hidden('product_id',array('value'=>$products['Product']['id']));
+           echo $this->Form->hidden('user_id', array('value' => $users['User']['id']));
+           echo $this->Form->button('Añadir al WishList',array('class'=>'btn-success btn btn-lg'));
+           echo $this->Form->end();
     }
 ?>
 

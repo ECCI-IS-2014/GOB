@@ -42,7 +42,8 @@ $cakeDescription = __d('cake_dev', 'Tiquicia Shop');
             }
 
             ?>
-		
+
+		<?php if ($this->Session->read('Auth.User.role') != 'admin'){?>
 				<!--shopping cart -->
 			<nav class="navbar navbar-default" role="navigation">
 			  <div class="navbar-header">
@@ -64,6 +65,8 @@ $cakeDescription = __d('cake_dev', 'Tiquicia Shop');
 			  </div><!-- /.navbar-collapse -->
 			</nav>
 			<!--termina carrito-->
+<?php }?>
+
 		<div id="content">
 <div class="bs-example">
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -75,88 +78,14 @@ $cakeDescription = __d('cake_dev', 'Tiquicia Shop');
                 <div class="navbar-header">
                    <button data-target=".bs-example-js-navbar-collapse" data-toggle="collapse" type="button" class="navbar-toggle"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                      <a href="/Tiquicia/Products" class="navbar-brand">Productos</a> </div>
-                  <div class="navbar-header">
-                  <button data-target=".bs-example-js-navbar-collapse" data-toggle="collapse" type="button" class="navbar-toggle"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                     <a href="/Tiquicia/Wishes" class="navbar-brand">Wishlist</a> </div>
-              <div class="collapse navbar-collapse bs-example-js-navbar-collapse">
-                <ul class="nav navbar-nav">
-                  <li class="dropdown"> <a href="#" data-toggle="dropdown">Fútbol <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                      <li class="dropdown-submenu"><a href="#" tabindex="-1" data-toggle="dropdown">Tacos</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/Tiquicia/Products?category=Futbol&subcategory=Tacos&subsubcategory=Adidas" tabindex="-1">Adidas</a></li>
-                          <li><a href="/Tiquicia/Products?category=Futbol&subcategory=Tacos&subsubcategory=Nike" tabindex="-1">Nike</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown-submenu"><a href="#" tabindex="-1" data-toggle="dropdown">Balones</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/Tiquicia/Products?category=Futbol&subcategory=Balones&subsubcategory=Nike" tabindex="-1">Nike</a></li>
-                          <li><a href="/Tiquicia/Products?category=Futbol&subcategory=Balones&subsubcategory=Barcelona" tabindex="-1">Barcelona</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown-submenu"><a href="#" tabindex="-1" data-toggle="dropdown">Vestimenta</a>
-                          <ul class="dropdown-menu">
-                                <li><a href="/Tiquicia/Products?category=Futbol&subcategory=Vestimenta&subsubcategory=Nike" tabindex="-1">Nike</a></li>
-                                <li><a href="/Tiquicia/Products?category=futbol&subcategory=Vestimenta&subsubcategory=Umbro" tabindex="-1">Umbro</a></li>
-                                <li><a href="/Tiquicia/Products?category=Futbol&subcategory=Vestimenta&subsubcategory=Adidas" tabindex="-1">Adidas</a></li>
-                           </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"> <a href="#" data-toggle="dropdown">Baloncesto<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                      <li class="dropdown-submenu"><a href="#" tabindex="-1" data-toggle="dropdown">Balones</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/Tiquicia/Products?category=Baloncesto&subcategory=Balones&subsubcategory=Spalding" tabindex="-1">Spalding</a></li>
-                          <li><a href="/Tiquicia/Products?category=Baloncesto&subcategory=Balones&subsubcategory=Nike" tabindex="-1">Nike</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown-submenu"><a href="#" tabindex="-1" data-toggle="dropdown">Tenis</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/Tiquicia/Products?category=Baloncesto&subcategory=Tenis&subsubcategory=Jordan Air" tabindex="-1">Jordan Air</a></li>
-                          <li><a href="/Tiquicia/Products?category=Baloncesto&subcategory=Tenis&subsubcategory=New balance" tabindex="-1">New balance</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"> <a href="#" data-toggle="dropdown">Tenis de Mesa<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-submenu"><a href="#" tabindex="-1" data-toggle="dropdown">Raquetas</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/Tiquicia/Products?category=Tenis de Mesa&subcategory=Raquetas&subsubcategory=Butterfly" tabindex="-1">Butterfly</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-submenu"><a href="#" tabindex="-1" data-toggle="dropdown">Mesas</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/Tiquicia/Products?category=Tenis de Mesa&subcategory=Mesas&subsubcategory=Tibhar" tabindex="-1">Tibhar</a></li>
-                                <li><a href="/Tiquicia/Products?category=Tenis de Mesa&subcategory=Mesas&subsubcategory=Donic" tabindex="-1">Donic</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                  </li>
+                   <?php
+                            if ($this->Session->read('Auth.User.role')==='customer'){?>
+                                <div class="navbar-header">
+                                                  <button data-target=".bs-example-js-navbar-collapse" data-toggle="collapse" type="button" class="navbar-toggle"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                                <a href="/Tiquicia/Wishes" class="navbar-brand">Wishlist</a> </div>
+                          <?php   }?>
 
-                  <li class="dropdown"> <a href="#" data-toggle="dropdown">Volleyball<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                            <li class="dropdown-submenu"><a href="#" tabindex="-1" data-toggle="dropdown">Balones</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="/Tiquicia/Products?category=Volleyball&subcategory=Balones&subsubcategory=Mikasa" tabindex="-1">Mikasa</a></li>
-                                    <li><a href="/Tiquicia/Products?category=Volleyball&subcategory=Balones&subsubcategory=Nike" tabindex="-1">Nike</a></li>
-                                    <li><a href="/Tiquicia/Products?category=Volleyball&subcategory=Balones&subsubcategory=Pioner" tabindex="-1">Pioner</a></li>
-                                </ul>
-                            </li>
-                        <li class="dropdown-submenu"><a href="#" tabindex="-1" data-toggle="dropdown">Tenis</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/Tiquicia/Products?category=Volleyball&subcategory=Tenis&subsubcategory=New Balance" tabindex="-1">New Balance</a></li>
-                                <li><a href="/Tiquicia/Products?category=Volleyball&subcategory=Tenis&subsubcategory=Nike" tabindex="-1">Nike</a></li>
-                                <li><a href="/Tiquicia/Products?category=Volleyball&subcategory=Tenis&subsubcategory=Adidas" tabindex="-1">Adidas</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                  </li>
 
-                </ul>
-
-              </div>
               <!-- /.nav-collapse -->
             </div>
             <!-- /.container-fluid -->

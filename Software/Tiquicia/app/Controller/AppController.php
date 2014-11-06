@@ -35,7 +35,7 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
     //...
 	public function beforeFilter() {
-        $this->Auth->allow('index', 'view', 'home','searchInfo','add','update','searchAdd','clear');
+        $this->Auth->allow('index', 'view', 'home','searchInfo','add','update','searchAdd','clear','delete','default');
         $this->set('authUser', $this->Auth->user());
 		$this->loadModel('Cart');
 		$this->set('count',$this->Cart->getCount());

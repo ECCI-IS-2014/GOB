@@ -19,8 +19,7 @@
   <li><?php echo $this->Html->link('Productos', '/products/');?>
   <?php
         if ($this->Session->read('Auth.User.role')==='admin'){?>
-            <li><?php echo $this->Html->link('Usuarios', '/Users/');?>
-            <li><?php echo $this->Html->link('Wishlist', '/Wishes/');
+            <li><?php echo $this->Html->link('Usuarios', '/Users/');
         }?>
 
    <?php

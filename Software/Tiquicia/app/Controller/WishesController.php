@@ -63,6 +63,11 @@ class WishesController extends AppController {
         $this->set('Wish',$wiii1);
     }
 
+    function prueba(){
+        $wiii1 = $this->Wish->find('all', array('conditions'=>array('Wish.user_id'=> 1),'fields' => array('id','user_id','product_id')));
+        $this->set('Wishes',$wiii1);
+    }
+
     function delete($idwish){
         pr($idwish);
         $this->Wish->delete($idwish);
