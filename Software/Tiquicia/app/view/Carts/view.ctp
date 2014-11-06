@@ -31,11 +31,11 @@
                             <?php echo $this->Form->input('count.',array('type'=>'number', 'label'=>false,
                                     'class'=>'form-control input-sm', 'value'=>$product['Product']['count']));?>
                     </div></td>
-                    <td>$<?php echo $count*$product['Product']['price']; ?></td>
+                    <td>$<?php echo $product['Product']['count']*$product['Product']['price']; ?></td>
                 </tr>
-                <?php $total = $total + ($count*$product['Product']['price']);?>
+                <?php $total = $total + ($product['Product']['count']*$product['Product']['price']);?>
                 <?php endforeach;?>
- 
+
                 <tr class="success">
                     <td colspan=3></td>
                     <td>$<?php echo $total;?>
