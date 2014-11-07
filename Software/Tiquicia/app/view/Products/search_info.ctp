@@ -33,7 +33,9 @@ echo $products['Product']['name']."<br/><br/>";?>
     </tr>
 
 <tr>
-<td><?php echo $products['Product']['category']; ?></td>
+<td><?php echo $products['Category']['name']; ?>
+<br>&nbsp;&nbsp;•<?php echo $products['Subcategory']['name']; ?>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;•<?php echo $products['Subsubcategory']['name']; ?></td>
 <td><?php echo $products['Product']['name']; ?></td>
 <td><?php echo $this->Html->image('uploads/product/filename/'.$products['Product']['filename'],array('alt'=>$products['Product']['name'],'width'=>'200')); ?></td>
 <td><?php echo $products['Product']['price']; ?></td>

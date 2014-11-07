@@ -23,24 +23,25 @@ class Cart extends AppModel {
 		
 		$this->saveProduct($allProducts);
 	}
-	
-	/*
-	 * get total count of products
-	 */
-	public function getCount() {
-		$allProducts = $this->readProduct();
-		
-		if (count($allProducts)<1) {
-			return 0;
-		}
-		
-		$count = 0;
-		foreach ($allProducts as $product) {
-			$count=$count+$product;
-		}
-		
-		return $count;
-	}
+
+    /*
+     * get total count of products
+     */
+    public function getCount() {
+        $allProducts = $this->readProduct();
+        if (count($allProducts)<1) {
+            return 0;
+        }
+
+        $count = 0;
+        foreach ($allProducts as $product) {
+            $count=$count+$product;
+        }
+
+        return $count;
+    }
+
+
 
 	/*
 	 * save data to session

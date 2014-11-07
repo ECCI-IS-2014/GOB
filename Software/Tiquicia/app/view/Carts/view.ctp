@@ -14,14 +14,15 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th>Product Name</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
                     <th>Total</th>
                 </tr>
             </thead>
             <tbody>
                 <?php $total=0;?>
+                <?php $ProductCount=0;?>
                 <?php foreach ($products as $product):?>
                 <tr>
                     <td><?php echo $product['Product']['name'];?></td>
@@ -30,13 +31,15 @@
                             <?php echo $this->Form->hidden('product_id.',array('value'=>$product['Product']['id']));?>
                             <?php
                                 if($product['Product']['count'] > $product['Product']['stock']){
+                                    $ProductCount= $ProductCount+$product['Product']['stock'];
                                     echo "Solo hay: ";
                                     echo $product['Product']['stock'];
                                     echo " productos en stock";
                                      echo $this->Form->input('count.',array('type'=>'number', 'label'=>false,
                                                                                             'class'=>'form-control input-sm', 'value'=>$product['Product']['stock']));
                                 }else{
-                                echo $this->Form->input('count.',array('type'=>'number', 'label'=>false,
+                                    $ProductCount= $ProductCount+$product['Product']['count'];
+                                    echo $this->Form->input('count.',array('type'=>'number', 'label'=>false,
                                                         'class'=>'form-control input-sm', 'value'=>$product['Product']['count']));
                                 }
                             ?>
@@ -72,9 +75,8 @@
  
         <p class="text-right">
 			<?php echo $this->Html->link('Vaciar Carrito', array('controller' => 'Carts', 'action' => 'clear'), array('class' => 'btn btn-danger'));?>
-            <?php echo $this->Form->submit('Update',array('class'=>'btn btn-warning','div'=>false));?>
-            <a class="btn btn-success"
-                onclick="alert('Implemene vista de compra de productos.');">CheckOut</a>
+            <?php echo $this->Form->submit('Actualizar',array('class'=>'btn btn-warning','div'=>false));?>
+           <?php echo $this->Html->link('Checkout', array('controller' => 'Bills', 'action' => 'index'), array('class' => 'btn btn-success'));?>
         </p>
  
     </div>
