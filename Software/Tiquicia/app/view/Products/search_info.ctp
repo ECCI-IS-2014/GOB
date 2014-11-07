@@ -23,10 +23,12 @@ echo $products['Product']['name']."<br/><br/>";?>
                             echo Editar;
                         }
                     ?></th>
-               <th><?php if ($this->Session->read('Auth.User.role')==='admin'){
+               <th>
+                    <?php if ($this->Session->read('Auth.User.role')==='admin'){
                                            echo Eliminar;
-                                       }
-                                   ?></th>
+                          }
+                    ?>
+               </th>
 
     </tr>
 
@@ -65,9 +67,19 @@ echo $products['Product']['name']."<br/><br/>";?>
 
 <?php
     if ($this->Session->read('Auth.User.role')!='admin'){?>
-<?php echo $this->Form->create('Cart',array('id'=>'add-form','url'=>array('controller'=>'carts','action'=>'add')));?>
-            <?php echo $this->Form->hidden('product_id',array('value'=>$products['Product']['id']))?>
-            <?php echo $this->Form->button('Añadir al carrito',array('class'=>'btn-success btn btn-lg'));?>
+                 <?php echo $this->Form->create('Cart',array('id'=>'add-form','url'=>array('controller'=>'carts','action'=>'add')));?>
+                 <?php echo $this->Form->hidden('product_id',array('value'=>$products['Product']['id']));?>
+                 <?php
+                     if(($products['Product']['stock'])>0){
+
+                         echo $this->Form->button('Añadir al carrito',array('class'=>'btn-success btn btn-lg'));
+                     }else{
+                         echo "No hay en stock";
+                     }
+                 ?>
+
+
+
             <?php echo $this->Form->end();
 
             }?>
@@ -100,3 +112,5 @@ $(document).ready(function(){
 	});
 });
 </script>
+
+

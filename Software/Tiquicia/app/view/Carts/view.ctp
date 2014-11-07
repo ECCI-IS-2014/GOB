@@ -28,12 +28,38 @@
                     <td>$<?php echo $product['Product']['price'];?></td>
                     <td><div class="col-xs-4">
                             <?php echo $this->Form->hidden('product_id.',array('value'=>$product['Product']['id']));?>
-                            <?php echo $this->Form->input('count.',array('type'=>'number', 'label'=>false,
-                                    'class'=>'form-control input-sm', 'value'=>$product['Product']['count']));?>
+                            <?php
+                                if($product['Product']['count'] > $product['Product']['stock']){
+                                    echo "Solo hay: ";
+                                    echo $product['Product']['stock'];
+                                    echo " productos en stock";
+                                     echo $this->Form->input('count.',array('type'=>'number', 'label'=>false,
+                                                                                            'class'=>'form-control input-sm', 'value'=>$product['Product']['stock']));
+                                }else{
+                                echo $this->Form->input('count.',array('type'=>'number', 'label'=>false,
+                                                        'class'=>'form-control input-sm', 'value'=>$product['Product']['count']));
+                                }
+                            ?>
                     </div></td>
-                    <td>$<?php echo $product['Product']['count']*$product['Product']['price']; ?></td>
+                    <td>$
+                            <?php
+                                 if($product['Product']['count'] <= $product['Product']['stock']){
+                                    echo $product['Product']['count']*$product['Product']['price'];
+                                 }else{
+                                     echo $product['Product']['stock']*$product['Product']['price'];
+                                 }
+                             ?>
+                    </td>
                 </tr>
-                <?php $total = $total + ($product['Product']['count']*$product['Product']['price']);?>
+                <?php
+
+                    if($product['Product']['count'] <= $product['Product']['stock']){
+                         $total = $total + ($product['Product']['count']*$product['Product']['price']);
+                    }else{
+                         $total = $total + ($product['Product']['stock']*$product['Product']['price']);
+                    }
+
+                ?>
                 <?php endforeach;?>
 
                 <tr class="success">
@@ -45,10 +71,10 @@
         </table>
  
         <p class="text-right">
-			<?php echo $this->Html->link('Vaciar Carrito', array('controller' => 'Carts', 'action' => 'clear'), array('class' => 'btn btn-danger')); ?>
+			<?php echo $this->Html->link('Vaciar Carrito', array('controller' => 'Carts', 'action' => 'clear'), array('class' => 'btn btn-danger'));?>
             <?php echo $this->Form->submit('Update',array('class'=>'btn btn-warning','div'=>false));?>
             <a class="btn btn-success"
-                onclick="alert('Implement a payment module for buyer to make a payment.');">CheckOut</a>
+                onclick="alert('Implemene vista de compra de productos.');">CheckOut</a>
         </p>
  
     </div>
