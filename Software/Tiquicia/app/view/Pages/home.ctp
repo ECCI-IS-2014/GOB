@@ -2,39 +2,6 @@
 <html>
 
 <body>
-
-<!-- Menú de navegación del sitio -->
-<ul class="navbar">
-  <li><?php echo $this->Html->link('Registrarse', '/Users/add');?>
-    <li><?php
-     if (!$authUser)
-     {
-           echo $this->Html->link('Iniciar sesion', '/Users/login');
-     }else{
-            echo $this->Html->link('Cerrar sesion', '/Users/logout');
-     }
-     ?>
-  <li><a href="Informacion.html">Informacion</a>
-  <li><a href="Ayuda.html">Ayuda</a>
-  <li><?php echo $this->Html->link('Productos', '/products/');?>
-  <?php
-        if ($this->Session->read('Auth.User.role')==='admin'){?>
-            <li><?php echo $this->Html->link('Usuarios', '/Users/');
-        }?>
-
-   <?php
-         if ($this->Session->read('Auth.User.role')==='customer'){?>
-             <li><?php echo $this->Html->link('Wishlist', '/Wishes/');
-         }?>
-
-
-
-
-
-</ul>
-
-
-
 <!--Combos y ofertas-->
 <div>
 	<h2>Combos y ofertas especiales
