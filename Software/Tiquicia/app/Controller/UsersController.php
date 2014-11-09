@@ -16,13 +16,21 @@ class UsersController extends AppController {
     public function add() {
         if ($this->request->is('post')) {
             $this->User->create();
-            if ($this->User->save($this->request->data)) {
-                $this->Session->setFlash(__('The user has been saved'));
-                return $this->redirect(array('action' => 'index'));
-            }
-            $this->Session->setFlash(
-                __('The user could not be saved. Please, try again.')
-            );
+			if (isset($this->request->data['submit1'])) {
+				if ($this->User->save($this->request->data)) {
+					$this->Session->setFlash(__('The user has been saved'));
+					return $this->redirect(array('action' => 'index'));
+				}
+				$this->Session->setFlash(
+					__('The user could not be saved. Please, try again.')
+				);
+			}else{
+				if ($this->User->save($this->request->data)) {
+					$this->flash('Usuario registrado','/Cards/add_card');
+				}else{
+					$this->flash('No se pudo registrar el usuario','/Users/add');
+				}
+			}	
         }
     }
 

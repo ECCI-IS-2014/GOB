@@ -33924,3 +33924,2160 @@ Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
+2014-11-08 01:45:20 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:45:34 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:46:51 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:46:54 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:46:54 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:46:54 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:46:54 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:46:57 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:35 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:52 Debug: Notice (8): Use of undefined constant Editar - assumed 'Editar' in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_info.ctp, line 23]
+Trace:
+include - APP\view\Products\search_info.ctp, line 23
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:52 Debug: Notice (8): Use of undefined constant Eliminar - assumed 'Eliminar' in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_info.ctp, line 28]
+Trace:
+include - APP\view\Products\search_info.ctp, line 28
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 7]
+Trace:
+include - APP\view\Products\search_update.ctp, line 7
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 8]
+Trace:
+include - APP\view\Products\search_update.ctp, line 8
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 9]
+Trace:
+include - APP\view\Products\search_update.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 9]
+Trace:
+include - APP\view\Products\search_update.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 10]
+Trace:
+include - APP\view\Products\search_update.ctp, line 10
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 11]
+Trace:
+include - APP\view\Products\search_update.ctp, line 11
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 13]
+Trace:
+include - APP\view\Products\search_update.ctp, line 13
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 14]
+Trace:
+include - APP\view\Products\search_update.ctp, line 14
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 15]
+Trace:
+include - APP\view\Products\search_update.ctp, line 15
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 16]
+Trace:
+include - APP\view\Products\search_update.ctp, line 16
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 17]
+Trace:
+include - APP\view\Products\search_update.ctp, line 17
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 19]
+Trace:
+include - APP\view\Products\search_update.ctp, line 19
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 25]
+Trace:
+include - APP\view\Products\search_update.ctp, line 25
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 26]
+Trace:
+include - APP\view\Products\search_update.ctp, line 26
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:47:56 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_update.ctp, line 27]
+Trace:
+include - APP\view\Products\search_update.ctp, line 27
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:48:13 Debug: Notice (8): Undefined index: category in [C:\xampp\htdocs\Tiquicia\app\Controller\ProductsController.php, line 140]
+Trace:
+ProductsController::update() - APP\Controller\ProductsController.php, line 140
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:48:13 Debug: Notice (8): Undefined index: subcategory in [C:\xampp\htdocs\Tiquicia\app\Controller\ProductsController.php, line 142]
+Trace:
+ProductsController::update() - APP\Controller\ProductsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:48:13 Debug: Notice (8): Undefined index: subsubcategory in [C:\xampp\htdocs\Tiquicia\app\Controller\ProductsController.php, line 144]
+Trace:
+ProductsController::update() - APP\Controller\ProductsController.php, line 144
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:48:13 Debug: Notice (8): Undefined index: created in [C:\xampp\htdocs\Tiquicia\app\Controller\ProductsController.php, line 154]
+Trace:
+ProductsController::update() - APP\Controller\ProductsController.php, line 154
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:48:13 Debug: Notice (8): Undefined index: update in [C:\xampp\htdocs\Tiquicia\app\Controller\ProductsController.php, line 156]
+Trace:
+ProductsController::update() - APP\Controller\ProductsController.php, line 156
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:48:14 Debug: Notice (8): Undefined index: volumen in [C:\xampp\htdocs\Tiquicia\app\Controller\ProductsController.php, line 164]
+Trace:
+ProductsController::update() - APP\Controller\ProductsController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:48:24 Debug: Notice (8): Use of undefined constant Editar - assumed 'Editar' in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_info.ctp, line 23]
+Trace:
+include - APP\view\Products\search_info.ctp, line 23
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:48:24 Debug: Notice (8): Use of undefined constant Eliminar - assumed 'Eliminar' in [C:\xampp\htdocs\Tiquicia\app\view\Products\search_info.ctp, line 28]
+Trace:
+include - APP\view\Products\search_info.ctp, line 28
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:48:41 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:48:49 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 01:50:26 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:09:43 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:10:50 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:11:11 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:15:51 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:16:22 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:16:22 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:16:22 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:16:22 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:17:02 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:17:30 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:20:09 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:23:45 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:24:23 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:24:23 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:24:23 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:24:23 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:25:01 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:50:25 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:50:45 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:51:34 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:54:38 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 73]
+Trace:
+include - APP\view\layouts\default.ctp, line 73
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:55:17 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 73]
+Trace:
+include - APP\view\layouts\default.ctp, line 73
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:55:42 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-08 02:55:53 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:03:20 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:14:27 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:14:38 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:14:38 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:14:38 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:15:30 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:15:30 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:15:30 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:16:01 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:16:01 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:16:01 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:17:05 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:17:24 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:17:27 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:17:27 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:17:27 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:17:27 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:17:49 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:17:49 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:17:49 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:17:49 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:18:48 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:18:48 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:18:48 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:18:48 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:20:05 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:20:05 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:20:05 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:20:05 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:20:13 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:20:13 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:20:13 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:20:13 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:21:25 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:22:33 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:22:33 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:22:33 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:26:19 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:26:19 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:26:19 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:27:15 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:27:15 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:27:15 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:48:06 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:48:06 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:48:06 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:48:37 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:48:37 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:48:37 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:48:37 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:48:37 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:48:37 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:48:41 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:48:41 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:48:41 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:50:01 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:50:01 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:50:01 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:50:11 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:50:57 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:50:57 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:50:57 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:50:57 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:51:28 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:51:28 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:51:28 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:51:28 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:51:50 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:51:50 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:51:50 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:51:50 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:53:35 Debug: Notice (8): Undefined variable: user in [C:\xampp\htdocs\Tiquicia\app\view\Cards\index.ctp, line 21]
+Trace:
+include - APP\view\Cards\index.ctp, line 21
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:53:35 Debug: Notice (8): Undefined variable: user in [C:\xampp\htdocs\Tiquicia\app\view\Cards\index.ctp, line 22]
+Trace:
+include - APP\view\Cards\index.ctp, line 22
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:53:35 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:53:35 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:53:35 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:53:35 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:53:42 Debug: Notice (8): Undefined variable: user in [C:\xampp\htdocs\Tiquicia\app\view\Cards\index.ctp, line 21]
+Trace:
+include - APP\view\Cards\index.ctp, line 21
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:53:42 Debug: Notice (8): Undefined variable: user in [C:\xampp\htdocs\Tiquicia\app\view\Cards\index.ctp, line 22]
+Trace:
+include - APP\view\Cards\index.ctp, line 22
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:53:42 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:53:42 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:53:42 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:53:42 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:53:52 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:55:22 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:55:26 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:55:26 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:55:26 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:55:26 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:56:26 Debug: Notice (8): Undefined variable: user in [C:\xampp\htdocs\Tiquicia\app\view\Cards\index.ctp, line 21]
+Trace:
+include - APP\view\Cards\index.ctp, line 21
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:56:26 Debug: Notice (8): Undefined variable: user in [C:\xampp\htdocs\Tiquicia\app\view\Cards\index.ctp, line 22]
+Trace:
+include - APP\view\Cards\index.ctp, line 22
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:56:26 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 33]
+Trace:
+include - APP\view\layouts\default.ctp, line 33
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:56:26 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 55]
+Trace:
+include - APP\view\layouts\default.ctp, line 55
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:56:26 Debug: Notice (8): Undefined variable: authUser in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 61]
+Trace:
+include - APP\view\layouts\default.ctp, line 61
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:56:26 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:56:55 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:58:47 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:59:20 Debug: Notice (8): Undefined variable: user in [C:\xampp\htdocs\Tiquicia\app\view\Cards\index.ctp, line 21]
+Trace:
+include - APP\view\Cards\index.ctp, line 21
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:59:20 Debug: Notice (8): Undefined variable: user in [C:\xampp\htdocs\Tiquicia\app\view\Cards\index.ctp, line 22]
+Trace:
+include - APP\view\Cards\index.ctp, line 22
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 21:59:55 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 22:00:03 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 22:00:23 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 22:01:45 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 22:02:05 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 22:02:22 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 22:03:15 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 22:03:23 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 22:03:34 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 22:04:01 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 22:04:08 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-09 22:04:17 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 71]
+Trace:
+include - APP\view\layouts\default.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+

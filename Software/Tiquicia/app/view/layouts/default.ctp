@@ -63,8 +63,9 @@ $cakeDescription = __d('cake_dev', 'Tiquicia Shop');
 				<?php }else{?>
 					<li><a href="/Tiquicia/Users/logout" class="navbar-brand">Cerrar sesion</a></li>
 				<?php }?>
-					<li><a href="/Tiquicia/#" class="navbar-brand">Informacion</a></li>
-					<li><a href="/Tiquicia/#" class="navbar-brand">Ayuda</a></li>
+				<?php if ($this->Session->read('Auth.User.role')==='customer'){?>
+					<li><a href="/Tiquicia/Cards/add_card" class="navbar-brand">Registrar tarjeta</a></li>
+				<?php }?>
 				<?php if ($this->Session->read('Auth.User.role') != 'admin'){?>
 					<li><?php echo $this->Html->link('Carrito de Compras','/carts/view',array('class'=>'navbar-brand'));?></li>	
 					<li><?php echo $this->Html->link('<span class="glyphicon glyphicon-shopping-cart"></span> Carrito <span class="badge" id="cart-counter">'.$count.'</span>',array('controller'=>'carts','action'=>'view'),array('escape'=>false));?></li>
@@ -77,6 +78,16 @@ $cakeDescription = __d('cake_dev', 'Tiquicia Shop');
 <?php echo $this->Session->flash(); ?>
 <?php echo $this->fetch('content'); ?>
 <div id="footer">
+<!--barraFooter -->
+<?php if ($this->Session->read('Auth.User.role') != 'admin'){?>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="navbar-footer">
+			<a href="/Tiquicia/#" class="navbar-brand">Informacion</a>
+			<a href="/Tiquicia/#" class="navbar-brand">Ayuda</a>
+		</div>
+	</nav>
+<?php }?>
+<!--termina barraFooter-->
 </div>
 <?php echo $this->element('sql_dump'); ?>
 <?php echo $this->Html->script('bootstrap.min'); ?>

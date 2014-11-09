@@ -2,11 +2,7 @@
 App::uses('AppModel', 'Model');
 class Card extends AppModel {
 
-	public $hasMany = array(
-        'MyCategory' => array(
-            'className' => 'Category',
-        )
-    );
+	
     var $name = 'Card';
     var $validate = array(
 		'number' => array(

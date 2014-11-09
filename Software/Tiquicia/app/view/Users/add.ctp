@@ -25,6 +25,8 @@
 		
     ?>
     </fieldset>
-<?php echo $this->Form->end(__('Registrarse')); ?>
+<?php	echo $this->Form->submit('Registrar tarjeta', array('name' => 'submit2'));
+		echo $this->Form->submit('Registrarse', array('name' => 'submit1'));
+		echo $this->Form->end(); ?>
 </div>
 
