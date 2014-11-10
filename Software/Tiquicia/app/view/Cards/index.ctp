@@ -18,8 +18,8 @@
     <td><?php echo $card['Card']['number']; ?></td>
     <td><?php echo $card['Card']['expire_date']; ?></td>
     <td><?php echo $card['Card']['sec_code']; ?></td>
-	<td><?php echo $this->Html->link('Eliminar tarjeta', '/Cards/#/' . $user['User']['id']);?></td>
-    <td><?php echo $this->Html->link('Editar tarjeta', '/Cards/#/' . $user['User']['id']);?></td>
+	<td><?php echo $this->Html->link('Eliminar tarjeta', '/Cards/delete_card/' . $card['Card']['id']);?></td>
+    <td><?php echo $this->Html->link('Editar tarjeta', '/Cards/update_card/' . $card['Card']['id']);?></td>
 
 	</tr>
 

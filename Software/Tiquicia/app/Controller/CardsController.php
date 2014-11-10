@@ -3,7 +3,7 @@ App::uses('AppController','Controller','File','Utility');
 class CardsController extends AppController {
 	public function beforeFilter(){
 		parent::beforeFilter();
-		$this->Auth->allow('add_card','index');
+		$this->Auth->allow('add_card','index','update_card');
 	}
 	
 	public function index() {
@@ -11,13 +11,23 @@ class CardsController extends AppController {
         $this->set('cards',$c);
     }
 	
-    function delete_category(){
-		$categories = $this->Category->find('list');
-		$this->set(compact('categories'));
-		if (isset($this->request->data['submit1'])) {
-			$this->Category->delete($this->data['Category']['category_id']);
-			$this->flash('Categoria eliminado con exito','/Products/index');
-		}
+    function delete_card($cards){
+		if (!empty($cards)) {
+            $result = $this->Card->find('first', array(
+				'conditions'=>array('Card.id'=>$users)));
+            if(sizeof($result) >= 1){
+				$this->set('cards', $result);
+            }
+            else{
+                $this->flash('id tarjeta incorrecto','/cards/index');
+            }
+        }
+		if (!empty($this->data)) {
+            $pd = $this->Card->read(null,$this->data['Card']['id']);
+            $this->set('card',$pd);
+            $this->Card->delete($this->request->data('card.id'));
+            $this->flash('Tarjeta eliminada con exito','/cards/index');
+        }
     }//fin de delete
 
     function add_card() {
@@ -32,5 +42,41 @@ class CardsController extends AppController {
         }
 
     }//fin de add
+	
+	function update_card($cards){
+	    if (!empty($cards)) {
+            $result = $this->Card->find('first', array(
+				'conditions'=>array('Card.id'=>$cards)));
+            if( sizeof($result) >= 1 ){
+                $this->set('cards', $result);
+            }
+        }//fin de if
+		if($this->request->is('post') || $this->request->is('put')) {
+
+            $this->Card->create();
+
+            $result1 = $this->Card->find('first', array(
+                'conditions'=>array('Card.id'=>$this->data['Card']['id'])));
+
+            $result1['Card']['id'] = $this->data['Card']['id'];
+			$result1['Card']['number'] = $this->data['Card']['number'];
+            //$result1['Card']['user_id'] = $this->data['Card']['user_id'];
+            $result1['Card']['sec_code'] = $this->data['Card']['sec_code'];
+            $result1['Card']['expire_date'] = $this->data['Card']['expire_date'];
+            $result1['Card']['type'] = $this->data['Card']['type'];
+            $this->Card->save($result1);
+
+            $ret = $this->data;
+            $result = $this->Card->find('first', array(
+                'conditions'=>array('Card.id'=>$this->data['Card']['id'])));
+
+            if ( $ret ) {
+                $this->flash('Tarjeta actualizada con exito','/cards/index');
+            }
+            else{
+                $this->flash('Tarjeta NO actualizada','/cards/index');
+            }
+        }
+	}
 
 }

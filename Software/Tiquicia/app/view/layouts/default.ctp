@@ -58,6 +58,9 @@ $cakeDescription = __d('cake_dev', 'Tiquicia Shop');
 				<?php if ($this->Session->read('Auth.User.role')==='customer'){?>
 					<li><a href="/Tiquicia/Wishes" class="navbar-brand">Wishlist</a></li>
 				<?php }?>
+				<?php if ($this->Session->read('Auth.User.role') === 'admin'){?>
+					<li><a href="/Tiquicia/Users/index" class="navbar-brand">Usuarios</a></li>
+				<?php }?>
 				<?php if (!$authUser){?>
 					<li><a href="/Tiquicia/Users/login" class="navbar-brand">Iniciar sesion</a></li>
 				<?php }else{?>
@@ -66,8 +69,7 @@ $cakeDescription = __d('cake_dev', 'Tiquicia Shop');
 				<?php if ($this->Session->read('Auth.User.role')==='customer'){?>
 					<li><a href="/Tiquicia/Cards/add_card" class="navbar-brand">Registrar tarjeta</a></li>
 				<?php }?>
-				<?php if ($this->Session->read('Auth.User.role') != 'admin'){?>
-					<li><?php echo $this->Html->link('Carrito de Compras','/carts/view',array('class'=>'navbar-brand'));?></li>	
+				<?php if ($this->Session->read('Auth.User.role') != 'admin'){?>	
 					<li><?php echo $this->Html->link('<span class="glyphicon glyphicon-shopping-cart"></span> Carrito <span class="badge" id="cart-counter">'.$count.'</span>',array('controller'=>'carts','action'=>'view'),array('escape'=>false));?></li>
 				<?php }?>
 			</ul>
