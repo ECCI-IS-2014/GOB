@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Dayner Umaña
+ * User: Alejandro Córdoba
  * Date: 29/10/14
  * Time: 07:36 AM
  */
@@ -18,8 +18,8 @@ class BillsController extends AppController {
 
     public function index() {
         //echo "Entro";
-
         $this->loadModel('Cart');
+        $this->loadModel('Bill');
 
         if ($this->request->is('post')) {
 
@@ -34,12 +34,6 @@ class BillsController extends AppController {
                 $this->Cart->saveProduct($cart);
             }
         }
-
-
-
-
-
-
         $result = $this->Cart->readProduct();
         $products = array();
         if (null!=$result) {
@@ -50,5 +44,21 @@ class BillsController extends AppController {
             }
         }
         $this->set(compact('products'));
+
+       pr($products[0]['Product']['name']);
+        if(isset($this->request->data['submit1'])){
+            $result = $this->Cart->readProduct();
+            $products = array();
+            if (null!=$result) {
+                foreach ($result as $productId => $count) {
+                    $product = $this->Product->read(null,$productId);
+                    $product['Product']['count'] = $count;
+                    $products[]=$product;
+                }
+            }
+            $this->Bill->savefield('name',$products[0]['Product']['name']);
+            //$this->flash('mensajito','/');
+        }
+
     }
 }

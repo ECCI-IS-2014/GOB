@@ -1,9 +1,10 @@
- <?php echo $this->Form->create('Cart',array('url'=>array('action'=>'update')));?>
+ <?php echo $this->Form->create('Bill',array('action'=> 'index') );?>
  <div class="row">
      <div class="col-lg-15">
          <table class="table">
              <thead>
                  <tr>
+                     <th>Fecha de Compra</th>
                      <th>Producto</th>
                      <th>Cantidad</th>
                      <th>Precio Unitario</th>
@@ -14,6 +15,12 @@
                  <?php $total=0;?>
                  <?php foreach ($products as $product):?>
                  <tr>
+                     <td>
+                         <?php
+                            $fecha = date('Y-m-d');
+                            echo $fecha;
+                         ?>
+                     </td>
                      <td><?php echo $product['Product']['name'];?></td>
                      <td>
                         <?php
@@ -49,7 +56,7 @@
                  <?php endforeach;?>
 
                  <tr class="success">
-                     <td colspan=3></td>
+                     <td colspan=4></td>
                      <td>$ <?php echo $total;  /*imprime el $ en el total*/?>
                      </td>
                  </tr>
@@ -57,7 +64,9 @@
          </table>
 
          <p class="text-right">
- 			<?php echo $this->Form->button('Imprimir Factura', array('controller' => 'Carts', 'action' => 'clear'), array('class' => 'btn btn-success'));?>
+ 			<?php echo $this->Form->submit('Imprimir Factura', array('name' =>'submit1'));
+ 			      echo $this->Form->end();
+ 			?>
          </p>
 
      </div>
