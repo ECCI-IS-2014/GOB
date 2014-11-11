@@ -39298,3 +39298,268 @@ Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
+2014-11-11 02:15:41 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+Trace:
+include - APP\view\layouts\default.ctp, line 74
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:15:48 Debug: Notice (8): Undefined index: rol in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 20]
+Trace:
+include - APP\view\Users\search_update.ctp, line 20
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:15:49 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 5]
+Trace:
+include - APP\view\Users\search_update.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:15:49 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 6]
+Trace:
+include - APP\view\Users\search_update.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:15:49 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 7]
+Trace:
+include - APP\view\Users\search_update.ctp, line 7
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:15:49 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 8]
+Trace:
+include - APP\view\Users\search_update.ctp, line 8
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:15:49 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 9]
+Trace:
+include - APP\view\Users\search_update.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:15:49 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 10]
+Trace:
+include - APP\view\Users\search_update.ctp, line 10
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:15:49 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 11]
+Trace:
+include - APP\view\Users\search_update.ctp, line 11
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:15:49 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 14]
+Trace:
+include - APP\view\Users\search_update.ctp, line 14
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:15:49 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 20]
+Trace:
+include - APP\view\Users\search_update.ctp, line 20
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:15:56 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+Trace:
+include - APP\view\layouts\default.ctp, line 74
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:16:03 Debug: Notice (8): Undefined index: rol in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 20]
+Trace:
+include - APP\view\Users\search_update.ctp, line 20
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:16:04 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 5]
+Trace:
+include - APP\view\Users\search_update.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:16:04 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 6]
+Trace:
+include - APP\view\Users\search_update.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:16:04 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 7]
+Trace:
+include - APP\view\Users\search_update.ctp, line 7
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:16:04 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 8]
+Trace:
+include - APP\view\Users\search_update.ctp, line 8
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:16:04 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 9]
+Trace:
+include - APP\view\Users\search_update.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:16:04 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 10]
+Trace:
+include - APP\view\Users\search_update.ctp, line 10
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:16:04 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 11]
+Trace:
+include - APP\view\Users\search_update.ctp, line 11
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:16:04 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 14]
+Trace:
+include - APP\view\Users\search_update.ctp, line 14
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:16:04 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 20]
+Trace:
+include - APP\view\Users\search_update.ctp, line 20
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-11 02:16:12 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+Trace:
+include - APP\view\layouts\default.ctp, line 74
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+

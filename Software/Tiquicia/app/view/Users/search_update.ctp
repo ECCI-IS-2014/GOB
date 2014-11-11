@@ -12,7 +12,15 @@ echo $this->Form->input('identification',array('cedula'=>'last_name ','value'=>$
 echo $this->Form->input('birth_date', array('$users[User][birth_date]' => array('month' => 'Month','day'   => 'Day','year'  => 'Year'),'minYear' => date('Y')-130,'maxYear' => date('Y')));
 //echo $this->Form->input('birth_date',array('label'=>'fecha nacimiento ','value'=>$users['User']['birth_date']));
 echo $this->Form->input('username',array('label'=>'username ','value'=>$users['User']['username']));
-echo $this->Form->input('role',array('label'=>'role ','value'=>$users['User']['role']));
+if ($this->Session->read('Auth.User.role')==='admin'){
+    echo $this->Form->input('role', array('label'=>'Rol','value'=>$users['User']['rol'],
+		'options' => array('admin' => 'Admin', 'customer' => 'Usuario')
+    ));
+    }else{
+        echo $this->Form->input('role', array('label'=>'Rol','value'=>$users['User']['rol'],
+			'options' => array('customer' => 'Usuario')
+    ));
+}
 echo $this->Form->end('Modificar usuario');
 
 ?>
