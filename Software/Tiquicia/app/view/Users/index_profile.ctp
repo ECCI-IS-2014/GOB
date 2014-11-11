@@ -1,8 +1,6 @@
-<!-- File: /app/View/Users/index.ctp -->
-<?php echo $this->Form->create('User',array('action' => 'index'));?>
+<?php echo $this->Form->create('User',array('action' => 'index_profile'));?>
 <table>
     <tr>
-        <th>Id</th>
         <th>Nombre</th>
         <th>Apellido 1</th>
         <th>Apellido 2</th>
@@ -17,8 +15,6 @@
     <?php foreach ($users as $user): ?>
 
     <tr>
-
-    <td><?php echo $user['User']['id']; ?></td>
     <td><?php echo $user['User']['first_name']; ?></td>
     <td><?php echo $user['User']['middle_name']; ?></td>
     <td><?php echo $user['User']['last_name']; ?></td>
@@ -29,12 +25,10 @@
     <td><?php echo $user['User']['role']; ?></td>
     <td><?php echo $this->Html->link('Eliminar Usuario', '/Users/search_delete/' . $user['User']['id']);?></td>
     <td><?php echo $this->Html->link('Editar Info Usuario', '/Users/search_update/' . $user['User']['id']);?></td>
-
-
-    </tr>
+	</tr>
 
     <?php endforeach; ?>
     </table>
-	<?php echo $this->Form->submit('Agregar admin', array('name' => 'submit1'));?>
+	<?php echo $this->Form->submit('Mis tarjetas', array('name' => 'submit1'));?>
 	<?php echo $this->Form->end();?>
     <?php echo $this->Html->link('Inicio', '/');?>

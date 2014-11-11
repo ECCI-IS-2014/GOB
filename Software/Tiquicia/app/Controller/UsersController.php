@@ -2,28 +2,39 @@
 class UsersController extends AppController {
     public function beforeFilter() {
         parent::beforeFilter();
-		$this->Auth->allow('add','logout','login','view','home','delete');
+		$this->Auth->allow('add','logout','login','view','home','delete','index_profile','search_update','search_delete');
     }
 
     public function index() {
 
         $this->User->recursive = 0;
         $this->set('users', $this->User->find('all'));
+		if (isset($this->request->data['submit1'])) {
+			$this->flash('Espere un momento...','/Users/add');
+		}
     }
 
-   
+	public function index_profile() {
+        $c = $this->User->find('all', array('conditions'=>array('User.id'=> $this->Auth->user('id'))));
+        $this->set('users',$c);
+		if (isset($this->request->data['submit1'])) {
+			$this->flash('Espere un momento...','/Cards/index');
+		}
+    }   
 
     public function add() {
         if ($this->request->is('post')) {
             $this->User->create();
 			if (isset($this->request->data['submit1'])) {
 				if ($this->User->save($this->request->data)) {
-					$this->Session->setFlash(__('The user has been saved'));
-					return $this->redirect(array('action' => 'index'));
+					if(Auth.User.role === 'admin'){
+						$this->flash('Usuario registrado','/Users/index');
+					}else{
+						$this->flash('Usuario registrado','/');
+					}
+				}else{
+					$this->flash('No se pudo registrar el usuario','/');
 				}
-				$this->Session->setFlash(
-					__('The user could not be saved. Please, try again.')
-				);
 			}else{
 				if ($this->User->save($this->request->data)) {
 					$this->flash('Usuario registrado','/Cards/add_card');
@@ -63,8 +74,12 @@ class UsersController extends AppController {
             $this->set('user',$pd);
 
             $this->User->delete($this->request->data('user.id'));
-
-            $this->flash('Usuario eliminado con exito','/users/index');
+			if(Auth.User.role === 'admin'){
+				$this->flash('Usuario eliminado con exito','/users/index');
+			}else{
+				$this->Session->destroy();
+				$this->flash('Usuario eliminado con exito','/');
+			}
 
         }
 
@@ -127,13 +142,18 @@ class UsersController extends AppController {
 
             if ( $ret ) {
 
-
-                $this->flash('Usuario actualizado con exito','/users/index');
+				if(Auth.User.role === 'admin'){
+					$this->flash('Usuario actualizado con exito','/users/index');
+				}else{
+					$this->flash('Usuario actualizado con exito','/users/index_profile');
+				}
             }
             else{
-
-                $this->flash('Usuario NO actualizado','/users/index');
-
+				if(Auth.User.role === 'admin'){
+					$this->flash('Usuario NO actualizado','/users/index');
+				}else{
+					$this->flash('Usuario NO actualizado','/users/index_profile');
+				}
             }
         }
 

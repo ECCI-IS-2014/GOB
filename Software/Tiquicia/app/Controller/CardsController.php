@@ -3,7 +3,7 @@ App::uses('AppController','Controller','File','Utility');
 class CardsController extends AppController {
 	public function beforeFilter(){
 		parent::beforeFilter();
-		$this->Auth->allow('add_card','index','update_card');
+		$this->Auth->allow('add_card','index','update_card','delete_card');
 	}
 	
 	public function index() {
@@ -12,16 +12,13 @@ class CardsController extends AppController {
     }
 	
     function delete_card($cards){
-		if (!empty($cards)) {
+	    if (!empty($cards)) {
             $result = $this->Card->find('first', array(
-				'conditions'=>array('Card.id'=>$users)));
-            if(sizeof($result) >= 1){
-				$this->set('cards', $result);
+				'conditions'=>array('Card.id'=>$cards)));
+            if( sizeof($result) >= 1 ){
+                $this->set('cards', $result);
             }
-            else{
-                $this->flash('id tarjeta incorrecto','/cards/index');
-            }
-        }
+        }//fin de if
 		if (!empty($this->data)) {
             $pd = $this->Card->read(null,$this->data['Card']['id']);
             $this->set('card',$pd);

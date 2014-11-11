@@ -1,11 +1,9 @@
- <?php echo $this->Form->create('Bill');?>
+ <?php echo $this->Form->create('Cart',array('url'=>array('action'=>'update')));?>
  <div class="row">
      <div class="col-lg-15">
          <table class="table">
              <thead>
                  <tr>
-
-                     <th>Fecha de compra</th>
                      <th>Producto</th>
                      <th>Cantidad</th>
                      <th>Precio Unitario</th>
@@ -16,12 +14,6 @@
                  <?php $total=0;?>
                  <?php foreach ($products as $product):?>
                  <tr>
-                     <td>
-                     <?php
-                        $fecha = date('Y-m-d');
-                        echo $fecha;
-                     ?>
-                     </td>
                      <td><?php echo $product['Product']['name'];?></td>
                      <td>
                         <?php
@@ -44,12 +36,6 @@
 
                        ?>
                      </td>
-
-                     <td>
-                        <?php echo $this->Form->submit('Borrar', array('name' => 'submit2'));?>
-                     </td>
-
-
                  </tr>
                     <?php
                      if($product['Product']['count']>$product['Product']['stock']){
@@ -63,7 +49,7 @@
                  <?php endforeach;?>
 
                  <tr class="success">
-                     <td colspan=4></td>
+                     <td colspan=3></td>
                      <td>$ <?php echo $total;  /*imprime el $ en el total*/?>
                      </td>
                  </tr>
@@ -71,7 +57,7 @@
          </table>
 
          <p class="text-right">
- 			<?php echo $this->Form->submit('Comprar', array('controller' => 'Bills', 'action' => 'add'), array('class' => 'btn btn-success', 'name'=>'submit1'));?>
+ 			<?php echo $this->Form->button('Imprimir Factura', array('controller' => 'Carts', 'action' => 'clear'), array('class' => 'btn btn-success'));?>
          </p>
 
      </div>

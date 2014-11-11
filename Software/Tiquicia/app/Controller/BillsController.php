@@ -16,7 +16,8 @@ class BillsController extends AppController {
     public $uses = array('Product','Cart');
     var $name = 'Bills';
 
-    public function index(){
+    public function index() {
+        //echo "Entro";
 
         $this->loadModel('Cart');
 
@@ -34,6 +35,11 @@ class BillsController extends AppController {
             }
         }
 
+
+
+
+
+
         $result = $this->Cart->readProduct();
         $products = array();
         if (null!=$result) {
@@ -44,13 +50,5 @@ class BillsController extends AppController {
             }
         }
         $this->set(compact('products'));
-    }
-
-    public function add(){
-        if (!empty($this->data)) {
-            if ($this->Product->save($this->request->data)) {
-                $this->flash('Factura guardada','/Bills');
-            }
-        }
     }
 }

@@ -56,6 +56,7 @@ $cakeDescription = __d('cake_dev', 'Tiquicia Shop');
 					<li><a href="/Tiquicia/Users/add" class="navbar-brand">Registrarse</a></li>
 				<?php }?>
 				<?php if ($this->Session->read('Auth.User.role')==='customer'){?>
+					<li><a href="/Tiquicia/Users/index_profile" class="navbar-brand">Perfil</a></li>
 					<li><a href="/Tiquicia/Wishes" class="navbar-brand">Wishlist</a></li>
 				<?php }?>
 				<?php if ($this->Session->read('Auth.User.role') === 'admin'){?>

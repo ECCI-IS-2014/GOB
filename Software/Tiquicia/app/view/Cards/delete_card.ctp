@@ -1,7 +1,7 @@
 <h3>Datos de la tarjeta</h3>
 
 <?php
-echo $this->Form->create('Card',array('action' => 'update_card'));
+echo $this->Form->create('Card',array('action' => 'delete_card'));
 echo $this->Form->input('type', array('empty'=>'Seleccionar','label'=>'Tipo','value'=>$cards['Card']['type'],
             'options' => array('Visa'=> 'Visa',
             'MasterCard' => 'MasterCard',
