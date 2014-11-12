@@ -39563,7 +39563,7 @@ Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
-2014-11-11 18:37:32 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+2014-11-11 03:19:39 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
 Trace:
 include - APP\view\layouts\default.ctp, line 74
 View::_evaluate() - CORE\cake\View\View.php, line 948
@@ -39578,7 +39578,7 @@ Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
-2014-11-11 18:39:17 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+2014-11-11 18:32:18 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
 Trace:
 include - APP\view\layouts\default.ctp, line 74
 View::_evaluate() - CORE\cake\View\View.php, line 948
@@ -39593,7 +39593,7 @@ Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
-2014-11-11 18:39:20 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+2014-11-11 19:06:52 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
 Trace:
 include - APP\view\layouts\default.ctp, line 74
 View::_evaluate() - CORE\cake\View\View.php, line 948
@@ -39608,7 +39608,7 @@ Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
-2014-11-11 18:39:39 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+2014-11-11 19:07:12 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
 Trace:
 include - APP\view\layouts\default.ctp, line 74
 View::_evaluate() - CORE\cake\View\View.php, line 948
@@ -39623,7 +39623,7 @@ Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
-2014-11-11 18:39:40 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+2014-11-12 01:10:24 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
 Trace:
 include - APP\view\layouts\default.ctp, line 74
 View::_evaluate() - CORE\cake\View\View.php, line 948
@@ -39638,7 +39638,7 @@ Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
-2014-11-11 18:39:47 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+2014-11-12 01:33:08 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
 Trace:
 include - APP\view\layouts\default.ctp, line 74
 View::_evaluate() - CORE\cake\View\View.php, line 948
@@ -39653,7 +39653,7 @@ Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
-2014-11-11 18:42:00 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+2014-11-12 01:33:20 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
 Trace:
 include - APP\view\layouts\default.ctp, line 74
 View::_evaluate() - CORE\cake\View\View.php, line 948
@@ -39668,45 +39668,18 @@ Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
-2014-11-11 18:44:00 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+2014-11-12 01:35:55 Debug: Notice (8): Undefined index: Cart in [C:\xampp\htdocs\Tiquicia\app\Controller\BillsController.php, line 28]
 Trace:
-include - APP\view\layouts\default.ctp, line 74
-View::_evaluate() - CORE\cake\View\View.php, line 948
-View::_render() - CORE\cake\View\View.php, line 910
-View::renderLayout() - CORE\cake\View\View.php, line 542
-View::render() - CORE\cake\View\View.php, line 479
-Controller::render() - CORE\cake\controller\Controller.php, line 954
-PagesController::display() - APP\Controller\PagesController.php, line 75
+BillsController::index() - APP\Controller\BillsController.php, line 28
 ReflectionMethod::invokeArgs() - [internal], line ??
 Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
 Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
-2014-11-11 18:44:07 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+2014-11-12 01:35:55 Debug: Notice (8): Undefined offset: 0 in [C:\xampp\htdocs\Tiquicia\app\Controller\BillsController.php, line 49]
 Trace:
-include - APP\view\layouts\default.ctp, line 74
-View::_evaluate() - CORE\cake\View\View.php, line 948
-View::_render() - CORE\cake\View\View.php, line 910
-View::renderLayout() - CORE\cake\View\View.php, line 542
-View::render() - CORE\cake\View\View.php, line 479
-Controller::render() - CORE\cake\controller\Controller.php, line 954
-PagesController::display() - APP\Controller\PagesController.php, line 75
-ReflectionMethod::invokeArgs() - [internal], line ??
-Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
-Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
-Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
-[main] - APP\webroot\index.php, line 108
-
-2014-11-11 19:53:45 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
-Trace:
-include - APP\view\layouts\default.ctp, line 74
-View::_evaluate() - CORE\cake\View\View.php, line 948
-View::_render() - CORE\cake\View\View.php, line 910
-View::renderLayout() - CORE\cake\View\View.php, line 542
-View::render() - CORE\cake\View\View.php, line 479
-Controller::render() - CORE\cake\controller\Controller.php, line 954
-PagesController::display() - APP\Controller\PagesController.php, line 75
+BillsController::index() - APP\Controller\BillsController.php, line 49
 ReflectionMethod::invokeArgs() - [internal], line ??
 Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
 Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191

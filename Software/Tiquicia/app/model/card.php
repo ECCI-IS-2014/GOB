@@ -30,32 +30,4 @@ class Card extends AppModel {
         )
     );
 
-//Funciones para pruebas Unitarias
-
-
-    public function getAllCards() {
-        return $this->find('all', array(
-            'fields' => array('id','number','type','expire_date','sec_code','user_id')
-        ));
-    }
-
-    public function getSingleCard($id = null) {
-        return $this->find('first', array(
-            'conditions' => array('id' => $id)
-        ));
-    }
-
-    public function addCard($cardData) {
-        return $this->save($cardData);
-    }
-
-    public function editCard($cardData) {
-        return $this->save($cardData);
-    }
-
-    public function deleteCard($cardData) {
-        return $this->delete($cardData);
-    }
-
-
 }

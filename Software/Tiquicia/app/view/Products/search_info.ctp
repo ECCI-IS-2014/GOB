@@ -74,11 +74,13 @@ echo $products['Product']['name']."<br/><br/>";?>
                  <?php
                      if(($products['Product']['stock'])>0){?>
 
-                         &nbsp <?php echo $this->Form->button('Añadir al carrito',array('class'=>'btn-success btn btn-lg'));?> &nbsp <?php
+                         &nbsp <?php echo $this->Form->button('Añadir al carrito',array('class'=>'btn-success btn btn-lg')); ?> &nbsp <?php
                      }else{ ?>
-                          &nbsp <?php echo $this->Form->button('Añadir al carrito',array('class'=>'btn-danger btn btn-lg','disabled'=> 'disabled')); ?> &nbsp <?php
+                         &nbsp <?php echo $this->Form->button('Añadir al carrito',array('class'=>'btn-danger btn btn-lg','disabled'=>'disabled')); ?> &nbsp <?php
                      }
                  ?>
+
+
 
             <?php echo $this->Form->end();
 

@@ -22,7 +22,7 @@ class CartsController extends AppController {
 				$product['Product']['count'] = $count;
 				$products[]=$product;
 			}
-		}
+		} 
 		$this->set(compact('products'));
 	}
 		

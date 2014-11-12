@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Alejandro Córdoba
+ * User: Dayner Umaña
  * Date: 29/10/14
  * Time: 07:36 AM
  */
@@ -18,9 +18,9 @@ class BillsController extends AppController {
 
     public function index() {
         //echo "Entro";
-        $this->loadModel('Cart');
-        $this->loadModel('Bill');
 
+        $this->loadModel('Cart');
+		$this->loadModel('Bill');
         if ($this->request->is('post')) {
 
             if (!empty($this->request->data)) {
@@ -34,31 +34,24 @@ class BillsController extends AppController {
                 $this->Cart->saveProduct($cart);
             }
         }
-        $result = $this->Cart->readProduct();
+		$result = $this->Cart->readProduct();
         $products = array();
         if (null!=$result) {
             foreach ($result as $productId => $count) {
                 $product = $this->Product->read(null,$productId);
                 $product['Product']['count'] = $count;
                 $products[]=$product;
-            }
+			}
+			foreach($products as $p){
+				$this->Bill->savefield('user_id',$this->Session->read('Auth.User.id'));
+				$this->Bill->savefield('product_id',$p['Product']['id']);
+				$this->Bill->savefield('product_name',$p['Product']['name']);
+				$this->Bill->savefield('quantity',$p['Product']['count']);
+				$this->Bill->savefield('date',date('Y-m-d H:i:s')); 
+				$this->Bill->clear();
+			}
         }
         $this->set(compact('products'));
-
-       pr($products[0]['Product']['name']);
-        if(isset($this->request->data['submit1'])){
-            $result = $this->Cart->readProduct();
-            $products = array();
-            if (null!=$result) {
-                foreach ($result as $productId => $count) {
-                    $product = $this->Product->read(null,$productId);
-                    $product['Product']['count'] = $count;
-                    $products[]=$product;
-                }
-            }
-            $this->Bill->savefield('name',$products[0]['Product']['name']);
-            //$this->flash('mensajito','/');
-        }
-
+		$this->Cart->clear();
     }
 }
