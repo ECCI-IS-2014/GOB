@@ -17,10 +17,16 @@ class Card extends AppModel {
                 'allowEmpty' => false
             )
         ),
-        'expire_date' => array(
+        'expire_year' => array(
             'required' => array(
                 'rule' => array('notEmpty'),
-                'message' => 'A expire date is required'
+                'message' => 'A expire year is required'
+            )
+        ),
+		'expire_month' => array(
+            'required' => array(
+                'rule' => array('notEmpty'),
+                'message' => 'A expire month is required'
             )
         ),
 		'sec_code' => array(
@@ -29,33 +35,5 @@ class Card extends AppModel {
             'message' => 'Digite codigo de seguridad valido'
         )
     );
-
-//Funciones para pruebas Unitarias
-
-
-    public function getAllCards() {
-        return $this->find('all', array(
-            'fields' => array('id','number','type','expire_date','sec_code','user_id')
-        ));
-    }
-
-    public function getSingleCard($id = null) {
-        return $this->find('first', array(
-            'conditions' => array('id' => $id)
-        ));
-    }
-
-    public function addCard($cardData) {
-        return $this->save($cardData);
-    }
-
-    public function editCard($cardData) {
-        return $this->save($cardData);
-    }
-
-    public function deleteCard($cardData) {
-        return $this->delete($cardData);
-    }
-
 
 }

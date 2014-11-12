@@ -4,7 +4,8 @@
     <tr>
         <th>Tipo</th>
         <th>N&uacutemero tarjeta</th>
-        <th>Fecha Vencimiento</th>
+        <th>Mes Vencimiento</th>
+		<th>A&ntildeo Vencimiento</th>
         <th>C&oacutedigo de seguridad</th>
 		<th>Eliminar</th>
         <th>Editar</th>
@@ -16,7 +17,8 @@
 
     <td><?php echo $card['Card']['type']; ?></td>
     <td><?php echo $card['Card']['number']; ?></td>
-    <td><?php echo $card['Card']['expire_date']; ?></td>
+    <td><?php echo $card['Card']['expire_month']; ?></td>
+	<td><?php echo $card['Card']['expire_year']; ?></td>
     <td><?php echo $card['Card']['sec_code']; ?></td>
 	<td><?php echo $this->Html->link('Eliminar tarjeta', '/Cards/delete_card/' . $card['Card']['id']);?></td>
     <td><?php echo $this->Html->link('Editar tarjeta', '/Cards/update_card/' . $card['Card']['id']);?></td>
