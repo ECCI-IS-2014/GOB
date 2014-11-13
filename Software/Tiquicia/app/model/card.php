@@ -17,16 +17,10 @@ class Card extends AppModel {
                 'allowEmpty' => false
             )
         ),
-        'expire_year' => array(
+        'expire_date' => array(
             'required' => array(
                 'rule' => array('notEmpty'),
-                'message' => 'A expire year is required'
-            )
-        ),
-		'expire_month' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'A expire month is required'
+                'message' => 'A expire date is required'
             )
         ),
 		'sec_code' => array(

@@ -39686,3 +39686,552 @@ Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
+2014-11-13 00:03:24 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+Trace:
+include - APP\view\layouts\default.ctp, line 74
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:03:31 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::payment() - APP\Controller\BillsController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:03:34 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::index() - APP\Controller\SellsController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:03:34 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+Controller::__isset() - CORE\cake\controller\Controller.php, line 367
+Controller::__get() - CORE\cake\controller\Controller.php, line 405
+SellsController::index() - APP\Controller\SellsController.php, line 37
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:03:35 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::index() - APP\Controller\SellsController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:03:35 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Sells\index.ctp, line 27]
+Trace:
+include - APP\view\Sells\index.ctp, line 27
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:03:43 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+Trace:
+include - APP\view\layouts\default.ctp, line 74
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:03:49 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+Trace:
+include - APP\view\layouts\default.ctp, line 74
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:05:09 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 74]
+Trace:
+include - APP\view\layouts\default.ctp, line 74
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:14:42 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::payment() - APP\Controller\BillsController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:15:07 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::payment() - APP\Controller\BillsController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:15:16 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::payment() - APP\Controller\BillsController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:15:23 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::index() - APP\Controller\SellsController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:15:23 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+Controller::__isset() - CORE\cake\controller\Controller.php, line 367
+Controller::__get() - CORE\cake\controller\Controller.php, line 405
+SellsController::index() - APP\Controller\SellsController.php, line 37
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:15:24 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::index() - APP\Controller\SellsController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:15:24 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Sells\index.ctp, line 27]
+Trace:
+include - APP\view\Sells\index.ctp, line 27
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:22:48 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::payment() - APP\Controller\BillsController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:24:15 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::index() - APP\Controller\SellsController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:24:15 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+Controller::__isset() - CORE\cake\controller\Controller.php, line 367
+Controller::__get() - CORE\cake\controller\Controller.php, line 405
+SellsController::index() - APP\Controller\SellsController.php, line 37
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:24:16 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::index() - APP\Controller\SellsController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:24:16 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Sells\index.ctp, line 27]
+Trace:
+include - APP\view\Sells\index.ctp, line 27
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:34:56 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::payment() - APP\Controller\BillsController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:34:59 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::index() - APP\Controller\SellsController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:34:59 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+Controller::__isset() - CORE\cake\controller\Controller.php, line 367
+Controller::__get() - CORE\cake\controller\Controller.php, line 405
+SellsController::index() - APP\Controller\SellsController.php, line 37
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:34:59 Debug: Notice (8): Undefined index: Sell in [C:\xampp\htdocs\Tiquicia\app\Controller\SellsController.php, line 37]
+Trace:
+SellsController::index() - APP\Controller\SellsController.php, line 37
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:34:59 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::index() - APP\Controller\SellsController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:34:59 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+Controller::__isset() - CORE\cake\controller\Controller.php, line 367
+Controller::__get() - CORE\cake\controller\Controller.php, line 405
+SellsController::index() - APP\Controller\SellsController.php, line 37
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 00:34:59 Debug: Notice (8): Undefined index: Sell in [C:\xampp\htdocs\Tiquicia\app\Controller\SellsController.php, line 37]
+Trace:
+SellsController::index() - APP\Controller\SellsController.php, line 37
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:08:44 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::index() - APP\Controller\SellsController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:08:44 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Model::_constructLinkedModel() - CORE\cake\Model\Model.php, line 1058
+Model::__isset() - CORE\cake\Model\Model.php, line 867
+Model::__get() - CORE\cake\Model\Model.php, line 900
+DboSource::read() - CORE\cake\Model\datasource\DboSource.php, line 1130
+Model::_readDataSource() - CORE\cake\Model\Model.php, line 2921
+Model::find() - CORE\cake\Model\Model.php, line 2893
+DboSource::query() - CORE\cake\Model\datasource\DboSource.php, line 592
+Model::__call() - CORE\cake\Model\Model.php, line 808
+Bill::findAllByUserId() - APP\Controller\SellsController.php, line 30
+SellsController::index() - APP\Controller\SellsController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:08:44 Debug: Notice (8): Undefined offset: 1 in [C:\xampp\htdocs\Tiquicia\app\Controller\SellsController.php, line 32]
+Trace:
+SellsController::index() - APP\Controller\SellsController.php, line 32
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:08:44 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Sells\index.ctp, line 27]
+Trace:
+include - APP\view\Sells\index.ctp, line 27
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:08:44 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::index() - APP\Controller\SellsController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:08:44 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Model::_constructLinkedModel() - CORE\cake\Model\Model.php, line 1058
+Model::__isset() - CORE\cake\Model\Model.php, line 867
+Model::__get() - CORE\cake\Model\Model.php, line 900
+DboSource::read() - CORE\cake\Model\datasource\DboSource.php, line 1130
+Model::_readDataSource() - CORE\cake\Model\Model.php, line 2921
+Model::find() - CORE\cake\Model\Model.php, line 2893
+DboSource::query() - CORE\cake\Model\datasource\DboSource.php, line 592
+Model::__call() - CORE\cake\Model\Model.php, line 808
+Bill::findAllByUserId() - APP\Controller\SellsController.php, line 30
+SellsController::index() - APP\Controller\SellsController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:08:44 Debug: Notice (8): Undefined offset: 1 in [C:\xampp\htdocs\Tiquicia\app\Controller\SellsController.php, line 32]
+Trace:
+SellsController::index() - APP\Controller\SellsController.php, line 32
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:08:44 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Sells\index.ctp, line 27]
+Trace:
+include - APP\view\Sells\index.ctp, line 27
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:09:08 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::payment() - APP\Controller\BillsController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:09:11 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::index() - APP\Controller\SellsController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:09:11 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Model::_constructLinkedModel() - CORE\cake\Model\Model.php, line 1058
+Model::__isset() - CORE\cake\Model\Model.php, line 867
+Model::__get() - CORE\cake\Model\Model.php, line 900
+DboSource::read() - CORE\cake\Model\datasource\DboSource.php, line 1130
+Model::_readDataSource() - CORE\cake\Model\Model.php, line 2921
+Model::find() - CORE\cake\Model\Model.php, line 2893
+DboSource::query() - CORE\cake\Model\datasource\DboSource.php, line 592
+Model::__call() - CORE\cake\Model\Model.php, line 808
+Bill::findAllByUserId() - APP\Controller\SellsController.php, line 30
+SellsController::index() - APP\Controller\SellsController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:09:11 Debug: Notice (8): Undefined index: Product in [C:\xampp\htdocs\Tiquicia\app\Controller\SellsController.php, line 48]
+Trace:
+SellsController::index() - APP\Controller\SellsController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:09:12 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::index() - APP\Controller\SellsController.php, line 26
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:09:12 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Model::_constructLinkedModel() - CORE\cake\Model\Model.php, line 1058
+Model::__isset() - CORE\cake\Model\Model.php, line 867
+Model::__get() - CORE\cake\Model\Model.php, line 900
+DboSource::read() - CORE\cake\Model\datasource\DboSource.php, line 1130
+Model::_readDataSource() - CORE\cake\Model\Model.php, line 2921
+Model::find() - CORE\cake\Model\Model.php, line 2893
+DboSource::query() - CORE\cake\Model\datasource\DboSource.php, line 592
+Model::__call() - CORE\cake\Model\Model.php, line 808
+Bill::findAllByUserId() - APP\Controller\SellsController.php, line 30
+SellsController::index() - APP\Controller\SellsController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-13 02:09:12 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Sells\index.ctp, line 27]
+Trace:
+include - APP\view\Sells\index.ctp, line 27
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+

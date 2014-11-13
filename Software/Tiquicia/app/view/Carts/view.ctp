@@ -76,7 +76,7 @@
         <p class="text-right">
 			<?php echo $this->Html->link('Vaciar Carrito', array('controller' => 'Carts', 'action' => 'clear'), array('class' => 'btn btn-danger'));?>
             <?php echo $this->Form->submit('Actualizar',array('class'=>'btn btn-warning','div'=>false));?>
-           <?php echo $this->Html->link('Checkout', array('controller' => 'Bills', 'action' => 'index'), array('class' => 'btn btn-success'));?>
+           <?php echo $this->Html->link('Checkout', array('controller' => 'Bills', 'action' => 'payment'), array('class' => 'btn btn-success'));?>
         </p>
  
     </div>
