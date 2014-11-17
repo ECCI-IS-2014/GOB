@@ -16,4 +16,16 @@ class Category extends AppModel {
         ) 
     );
 
+
+//Pruebas Unitarias
+
+    public function addCategory($categoryData) {
+        return $this->save($categoryData);
+    }
+
+
+    public function deleteCategory($categoryData) {
+        return $this->delete($categoryData);
+    }
+
 }

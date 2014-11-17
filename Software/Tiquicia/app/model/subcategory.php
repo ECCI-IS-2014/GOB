@@ -16,4 +16,14 @@ class Subcategory extends AppModel {
         ) 
     );
 
+    //Pruebas Unitarias
+
+    public function addSubcategory($subcategoryData) {
+        return $this->save($subcategoryData);
+    }
+
+
+    public function deleteSubcategory($subcategoryData) {
+        return $this->delete($subcategoryData);
+    }
 }
