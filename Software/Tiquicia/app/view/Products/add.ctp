@@ -12,7 +12,8 @@ echo $this->Form->input('unit', array('label'=>'Unidad',
             'options' => array('gramos'=> 'gramos',
             'Kilogramos' => 'Kilogramos',
             'Otros' => 'Otros')));
-echo $this->Form->input('volumen');
+echo $this->Form->input('volumen',array('label' =>'Volumen'));
+echo $this->Form->input('stock',array('label' =>'Stock'));
 echo $this->Form->input('keywords',array('label' =>'Palabras claves'));
 echo $this->Form->input('state',array('value'=>'1','type'=>'hidden'));
 echo $this->Form->input('category_id',array('empty' => 'Seleccionar'));

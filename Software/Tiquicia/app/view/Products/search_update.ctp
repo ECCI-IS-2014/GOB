@@ -11,6 +11,7 @@ echo $this->Form->input('filename',array('type'=>'file','value'=>$products['Prod
 echo $this->Form->input('dir',array('type'=>'hidden','value'=>$products['Product']['dir']));
 
 echo $this->Form->input('type',array('label'=>'Descripción del producto ','value'=>$products['Product']['type']));
+echo $this->Form->input('price',array('label'=>'Volumen ','value'=>$products['Product']['volumen']));
 echo $this->Form->input('price',array('label'=>'Precio ','value'=>$products['Product']['price']));
 echo $this->Form->input('stock',array('label'=>'Stock ','value'=>$products['Product']['stock']));
 echo $this->Form->input('weight',array('label'=>'Peso ','value'=>$products['Product']['weight']));
