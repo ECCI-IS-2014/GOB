@@ -24,97 +24,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ClientControllerTest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/test/case/controller/ClientControllerTest.php">
+      <file leaf-file-name="payment.ctp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/view/Bills/payment.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="27" selection-start="1402" selection-end="1402" vertical-scroll-proportion="-30.73077" vertical-offset="51" max-vertical-offset="1071">
-              <folding>
-                <element signature="e#6#95#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardTest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/test/case/Model/CardTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="36" selection-start="763" selection-end="763" vertical-scroll-proportion="-13.730769" vertical-offset="34" max-vertical-offset="2329">
+            <state line="44" column="42" selection-start="2344" selection-end="2344" vertical-scroll-proportion="1.0080862" vertical-offset="0" max-vertical-offset="1598">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardFixture.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/test/Fixture/CardFixture.php">
+      <file leaf-file-name="search_info.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/Products/search_info.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="30" selection-start="965" selection-end="965" vertical-scroll-proportion="-15.269231" vertical-offset="45" max-vertical-offset="799">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryFixture.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/test/Fixture/CategoryFixture.php">
+      <file leaf-file-name="search_update.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/Products/search_update.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="561">
+            <state line="13" column="32" selection-start="789" selection-end="789" vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductFixture.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/test/Fixture/ProductFixture.php">
+      <file leaf-file-name="Cart.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/Cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="26" selection-start="2982" selection-end="2982" vertical-scroll-proportion="-14.884615" vertical-offset="752" max-vertical-offset="1343">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Sell.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/test/Fixture/Sell.php">
+        <entry file="file://$PROJECT_DIR$/app/model/Sell.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="26" selection-start="949" selection-end="949" vertical-scroll-proportion="-16.192308" vertical-offset="157" max-vertical-offset="748">
-              <folding>
-                <element signature="e#6#95#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubcategoryFixture.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/test/Fixture/SubcategoryFixture.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="24" selection-start="730" selection-end="730" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="561">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubsubcategoryFixture.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/test/Fixture/SubsubcategoryFixture.php">
+      <file leaf-file-name="SellsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/SellsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="24" selection-start="742" selection-end="742" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="561">
+            <state line="57" column="12" selection-start="1418" selection-end="1440" vertical-scroll-proportion="-5.8076925" vertical-offset="818" max-vertical-offset="3196">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserFixture.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/test/Fixture/UserFixture.php">
+      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/Sells/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="41" selection-start="2124" selection-end="2124" vertical-scroll-proportion="-14.384615" vertical-offset="561" max-vertical-offset="1173">
+            <state line="26" column="40" selection-start="803" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WishFixture.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/test/Fixture/WishFixture.php">
+      <file leaf-file-name="view.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/Carts/view.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="1" selection-start="757" selection-end="757" vertical-scroll-proportion="0.8123894" vertical-offset="0" max-vertical-offset="565">
+            <state line="57" column="0" selection-start="2816" selection-end="2816" vertical-scroll-proportion="-28.0" vertical-offset="269" max-vertical-offset="1513">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -153,7 +137,6 @@
         <option value="$PROJECT_DIR$/app/model/Product.php" />
         <option value="$PROJECT_DIR$/app/Config/database.php" />
         <option value="$PROJECT_DIR$/app/Controller/ProductsController.php" />
-        <option value="$PROJECT_DIR$/app/view/Products/search_update.ctp" />
         <option value="$PROJECT_DIR$/app/view/layouts/default.ctp" />
         <option value="$PROJECT_DIR$/app/view/Bills/index.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/SellsController - Copy.php" />
@@ -161,9 +144,7 @@
         <option value="$PROJECT_DIR$/app/view/Carts/view.ctp" />
         <option value="$PROJECT_DIR$/app/model/Bill.php" />
         <option value="$PROJECT_DIR$/app/model/Sell.php" />
-        <option value="$PROJECT_DIR$/app/view/Bills/payment.ctp" />
         <option value="$PROJECT_DIR$/app/view/Sells/index.ctp" />
-        <option value="$PROJECT_DIR$/app/Controller/BillsController.php" />
         <option value="$PROJECT_DIR$/app/Config/core.php" />
         <option value="$PROJECT_DIR$/app/Controller/SellsController.php" />
         <option value="$PROJECT_DIR$/app/Controller/CardsController.php" />
@@ -173,6 +154,10 @@
         <option value="$PROJECT_DIR$/app/Controller/ClientController.php" />
         <option value="$PROJECT_DIR$/app/test/case/controller/ClientControllerTest.php" />
         <option value="$PROJECT_DIR$/app/test/Fixture/CardFixture.php" />
+        <option value="$PROJECT_DIR$/app/view/Products/add.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/BillsController.php" />
+        <option value="$PROJECT_DIR$/app/view/Products/search_update.ctp" />
+        <option value="$PROJECT_DIR$/app/view/Bills/payment.ctp" />
       </list>
     </option>
   </component>
@@ -180,8 +165,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1376" />
-    <option name="height" value="744" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -209,6 +194,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,28 +224,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cakephp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tiquicia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Wishes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,133 +285,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tiquicia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Carts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tiquicia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Bills" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cakephp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tiquicia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fixture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cakephp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tiquicia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="case" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cakephp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tiquicia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="case" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cakephp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tiquicia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="case" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cakephp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tiquicia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="case" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Component" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -507,7 +389,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -549,7 +430,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -557,7 +438,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18161765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987013" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -565,12 +446,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -637,120 +518,29 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Carts/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Products/search_update.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Products/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Cards/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Products/search_info.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Sells/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Config/core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1240" selection-end="1240" vertical-scroll-proportion="5.8846154" vertical-offset="459" max-vertical-offset="6409">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Bill.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="35" column="0" selection-start="1240" selection-end="1240" vertical-scroll-proportion="5.8846154" vertical-offset="459" max-vertical-offset="6409" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2023">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2023" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/Wish.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/card.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="27.076923" vertical-offset="704" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Bills/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Bills/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="43" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Bills/payment.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/ProductsController.php">
@@ -762,167 +552,150 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/SubcategoriesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/WishesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="264" selection-end="264" vertical-scroll-proportion="5.230769" vertical-offset="391" max-vertical-offset="1377">
+        <state line="15" column="19" selection-start="264" selection-end="264" vertical-scroll-proportion="5.230769" vertical-offset="391" max-vertical-offset="1377" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3502" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Products/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="54" selection-start="723" selection-end="723" vertical-scroll-proportion="0.35564855" vertical-offset="0" max-vertical-offset="717">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Sell.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="10" selection-start="361" selection-end="361" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/Fixture/Bill.php">
+    <entry file="file://$PROJECT_DIR$/app/Config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="405" selection-end="405" vertical-scroll-proportion="-10.692307" vertical-offset="45" max-vertical-offset="595">
-          <folding>
-            <element signature="e#6#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/case/Model/CategoryTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/case/Model/WishTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/BillsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="5" selection-start="1221" selection-end="1221" vertical-scroll-proportion="-28.76923" vertical-offset="0" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/SellsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="8" selection-start="3648" selection-end="3725" vertical-scroll-proportion="-10.346154" vertical-offset="2111" max-vertical-offset="3196">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="22.461538" vertical-offset="584" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/CardsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="234" selection-end="234" vertical-scroll-proportion="-0.65384614" vertical-offset="136" max-vertical-offset="3111">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/CategoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="742">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="9" selection-start="2065" selection-end="2065" vertical-scroll-proportion="-7.3461537" vertical-offset="455" max-vertical-offset="1020">
+        <state line="40" column="8" selection-start="1400" selection-end="1425" vertical-scroll-proportion="-7.6153846" vertical-offset="176" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/case/controller/WishesControllerTest.php">
+    <entry file="file://$PROJECT_DIR$/app/model/card.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="52" selection-start="1383" selection-end="1427" vertical-scroll-proportion="-13.730769" vertical-offset="459" max-vertical-offset="1343">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.8461537" vertical-offset="204" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/UsersController.php">
+    <entry file="file://$PROJECT_DIR$/app/view/Sells/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3502">
+        <state line="26" column="40" selection-start="803" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/ClientController.php">
+    <entry file="file://$PROJECT_DIR$/app/model/Bill.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="7" selection-start="2036" selection-end="2186" vertical-scroll-proportion="-14.038462" vertical-offset="825" max-vertical-offset="1479">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="721">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/case/controller/ClientControllerTest.php">
+    <entry file="file://$PROJECT_DIR$/app/Controller/SellsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="27" selection-start="1402" selection-end="1402" vertical-scroll-proportion="-30.73077" vertical-offset="51" max-vertical-offset="1071">
-          <folding>
-            <element signature="e#6#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/case/Model/CardTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="36" selection-start="763" selection-end="763" vertical-scroll-proportion="-13.730769" vertical-offset="34" max-vertical-offset="2329">
+        <state line="57" column="12" selection-start="1418" selection-end="1440" vertical-scroll-proportion="-5.8076925" vertical-offset="818" max-vertical-offset="3196">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/Fixture/CardFixture.php">
+    <entry file="file://$PROJECT_DIR$/app/Controller/BillsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="30" selection-start="965" selection-end="965" vertical-scroll-proportion="-15.269231" vertical-offset="45" max-vertical-offset="799">
+        <state line="64" column="40" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.78072625" vertical-offset="529" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/Fixture/CategoryFixture.php">
+    <entry file="file://$PROJECT_DIR$/app/Controller/CartsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+        <state line="25" column="40" selection-start="369" selection-end="664" vertical-scroll-proportion="0.5223464" vertical-offset="51" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/Fixture/ProductFixture.php">
+    <entry file="file://$PROJECT_DIR$/app/view/Bills/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="26" selection-start="2982" selection-end="2982" vertical-scroll-proportion="-14.884615" vertical-offset="752" max-vertical-offset="1343">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="721">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/Fixture/Sell.php">
+    <entry file="file://$PROJECT_DIR$/app/view/Products/search_update.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="26" selection-start="949" selection-end="949" vertical-scroll-proportion="-16.192308" vertical-offset="157" max-vertical-offset="748">
-          <folding>
-            <element signature="e#6#95#0" expanded="true" />
-          </folding>
+        <state line="13" column="32" selection-start="789" selection-end="789" vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="646">
+          <folding />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/Fixture/SubcategoryFixture.php">
+    <entry file="file://$PROJECT_DIR$/app/model/Cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="730" selection-end="730" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="561">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/Fixture/SubsubcategoryFixture.php">
+    <entry file="file://$PROJECT_DIR$/app/model/Sell.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="742" selection-end="742" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="561">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="721">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/Fixture/UserFixture.php">
+    <entry file="file://$PROJECT_DIR$/app/view/Carts/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="41" selection-start="2124" selection-end="2124" vertical-scroll-proportion="-14.384615" vertical-offset="561" max-vertical-offset="1173">
+        <state line="57" column="0" selection-start="2816" selection-end="2816" vertical-scroll-proportion="-28.0" vertical-offset="269" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Products/search_info.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/Fixture/WishFixture.php">
+    <entry file="file://$PROJECT_DIR$/app/view/Bills/payment.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="1" selection-start="757" selection-end="757" vertical-scroll-proportion="0.8123894" vertical-offset="0" max-vertical-offset="565">
+        <state line="44" column="42" selection-start="2344" selection-end="2344" vertical-scroll-proportion="1.0080862" vertical-offset="0" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>

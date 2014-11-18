@@ -16,6 +16,7 @@ class BillsController extends AppController {
 
     public function beforeFilter() {
         parent::beforeFilter();
+        $this->loadModel('Cart');
         $this->Auth->allow('payment','index');
     }
 
@@ -28,6 +29,7 @@ class BillsController extends AppController {
 
         $this->loadModel('Cart');
 		$this->loadModel('Bill');
+
         if ($this->request->is('post')) {
             if (!empty($this->request->data)) {
                 $cart = array();
@@ -39,14 +41,28 @@ class BillsController extends AppController {
                 }
                 $this->Cart->saveProduct($cart);
             }
+
         }
         $this->Cart->clear();
 
     }
 
     public function payment(){
+        $this->loadModel('Cart');
         $this->loadModel('Bill');
         $this->loadModel('Card');
+
+        $this->Cart->create();
+        $carts = $this->Cart->readProduct();
+        $products = array();
+        if (null!=$carts) {
+            foreach ($carts as $productId => $count) {
+                $product = $this->Product->read(null,$productId);
+                $product['Product']['count'] = $count;
+                $products[]=$product;
+            }
+        }
+        $this->set(compact('products'));
         $this->Bill->savefield('user_id', $this->Session->read('Auth.User.id'));
         $this->Bill->savefield('date', date('Y-m-d H:m:s'));
         $c = $this->Card->find('all', array('conditions'=>array('Card.user_id'=> $this->Auth->user('id'))));
