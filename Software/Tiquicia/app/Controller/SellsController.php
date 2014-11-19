@@ -24,9 +24,8 @@ class SellsController extends AppController {
     public function request_view($id){
 
         // remotely post the information to the server
-        $link =  "http://" . $_SERVER['HTTP_HOST'] .'/EF/'.'rest_users/'.$id.'.json';
-        pr("$_SERVER");
-        pr($_SERVER['HTTP_HOST']);
+        $link =  "http://" . $_SERVER['HTTP_HOST'] . '/EF/'.'rest_users/'.$id.'.json';
+
         $data = null;
         $httpSocket = new HttpSocket();
 
@@ -90,7 +89,9 @@ class SellsController extends AppController {
 
             //$total = $product['Product']['count']*$product['Product']['price'];
 
-            //pr('TOTAL '.$total);
+            pr('TOTAL '.$total);
+
+            pr($numero);
 
             if($numero > $total){
 
@@ -132,17 +133,20 @@ class SellsController extends AppController {
 
             }
 
-
     }//fin de agregar_compra()
 
-    public function request_edit($id,$debito){
+
+    public function request_edit($id,$resto){
 
         // remotely post the information to the server
-        $link =  "http://" . $_SERVER['HTTP_HOST'] .'/EF/'.'rest_users/'.$id.'.json';
+        $link =  "http://" . $_SERVER['HTTP_HOST'] . '/EF/'.'rest_users/'.$id.'.json';
+
         $data = null;
         $httpSocket = new HttpSocket();
-        $data['User']['saldo'] = $debito;
-        pr('esta es la Tarjeta '.$id.' y este es saldo '.$data['User']['saldo']);
+
+        $data['User']['saldo'] = $resto;
+
+        //pr('esta es la Tarjeta '.$id.' y este es saldo '.$data['User']['saldo']);
 
 
         $response = $httpSocket->put($link, $data);

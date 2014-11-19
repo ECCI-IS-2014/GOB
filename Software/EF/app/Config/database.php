@@ -67,7 +67,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'banco_test',
+		'database' => 'entidadfinanciera',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
@@ -77,8 +77,8 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '',
-		'database' => 'test',
+		'password' => 'root',
+		'database' => 'rest_tutorial',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
