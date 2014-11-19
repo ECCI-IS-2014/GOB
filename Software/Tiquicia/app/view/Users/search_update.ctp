@@ -8,7 +8,7 @@ echo $this->Form->input('middle_name',array('label'=>'Apellido 1 ','value'=>$use
 echo $this->Form->input('last_name',array('label'=>'Apellido 2 ','value'=>$users['User']['last_name']));
 echo $this->Form->input('email',array('label'=>'correo ','value'=>$users['User']['email']));
 echo $this->Form->input('fact_address',array('label'=>'Direccion de Facturacion ','value'=>$users['User']['fact_address']));
-echo $this->Form->input('password',array('label'=>'clave','value'=>$users['User']['password']));
+echo $this->Form->input('password',array('label'=>'clave'));
 echo $this->Form->input('identification',array('cedula'=>'last_name ','value'=>$users['User']['identification']));
 echo $this->Form->input('birth_date', array('$users[User][birth_date]' => array('month' => 'Month','day'   => 'Day','year'  => 'Year'),'minYear' => date('Y')-130,'maxYear' => date('Y')));
 //echo $this->Form->input('birth_date',array('label'=>'fecha nacimiento ','value'=>$users['User']['birth_date']));
