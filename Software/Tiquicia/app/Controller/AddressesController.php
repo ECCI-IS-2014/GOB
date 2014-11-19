@@ -26,25 +26,25 @@ class AddressesController extends AppController {
 
 	
 	public function index() {
-        $this->loadModel('Address');
+		$this->loadModel('Address');
 
         $c = $this->Address->find('all', array('conditions'=>array('Address.user_id'=> $this->Auth->user('id'))));
         $this->set('addresses',$c);
     }
 	
-    function delete_address($cards){
-	    if (!empty($cards)) {
-            $result = $this->Card->find('first', array(
-				'conditions'=>array('Card.id'=>$cards)));
+    function delete_address($adresses){
+	    if (!empty($adresses)) {
+            $result = $this->Address->find('first', array(
+				'conditions'=>array('Address.id'=>$adresses)));
             if( sizeof($result) >= 1 ){
-                $this->set('cards', $result);
+                $this->set('addresses', $result);
             }
         }//fin de if
 		if (!empty($this->data)) {
-            $pd = $this->Card->read(null,$this->data['Card']['id']);
-            $this->set('card',$pd);
-            $this->Card->delete($this->request->data('card.id'));
-            $this->flash('Tarjeta eliminada con exito','/cards/index');
+            $pd = $this->Address->read(null,$this->data['Address']['id']);
+            $this->set('address',$pd);
+            $this->Address->delete($this->request->data('address.id'));
+            $this->flash('Dirección eliminada con exito','/addresses/index');
         }
     }//fin de delete
 	
