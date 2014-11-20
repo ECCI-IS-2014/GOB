@@ -37,8 +37,16 @@ class RestUsersController extends AppController {
 
 	
 	public function edit($id) {
-        $this->User->id = $id;
-        if ($this->User->save($this->request->data)) {
+
+
+        pr($this->data);
+        $tupla = $this->User->find('first', array(
+                'conditions'=>array('User.numTarjeta'=>$id)));
+        
+        
+        $this->User->id = $tupla['User']['id'];
+        
+        if ( $this->User->saveField('saldo',$this->data['User']['saldo']) ) {
             $message = 'Guardado';
         } else {
             $message = 'Error';

@@ -12,6 +12,7 @@
          echo $this->Form->input('identification',array('label' =>'Cedula'));
          echo $this->Form->input('birth_date',array('label' =>'Fecha nacimiento'), array('empty' => array('month' => 'Month','day'   => 'Day','year'  => 'Year'),'minYear' => date('Y')-130,'maxYear' => date('Y')));
 		 echo $this->Form->input('email',array('label' =>'Correo'));
+		 echo $this->Form->input('fact_address',array('label' =>'Direccion de Facturaci&oacuten'));
 		 if ($this->Session->read('Auth.User.role')==='admin'){
             echo $this->Form->input('role', array('label'=>'Rol',
                 'options' => array('admin' => 'Admin', 'customer' => 'Usuario')

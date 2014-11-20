@@ -121,6 +121,7 @@ class UsersController extends AppController {
             $result1['User']['first_name'] = $this->data['User']['first_name'];
             $result1['User']['middle_name'] = $this->data['User']['middle_name'];
             $result1['User']['email'] = $this->data['User']['email'];
+            $result1['User']['fact_address'] = $this->data['User']['fact_address'];
             $result1['User']['password'] = $this->data['User']['password'];
             $result1['User']['identification'] = $this->data['User']['identification'];
             $result1['User']['birth_date'] = $this->data['User']['birth_date'];

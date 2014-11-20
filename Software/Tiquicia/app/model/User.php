@@ -68,7 +68,12 @@ class User extends AppModel {
             )
         ),
 
-
+        'fact_address' => array(
+            'required' => array(
+                'rule' => array('notEmpty'),
+                'message' => 'An Fact_address is required'
+            )
+        ),
 
         'birth_date' => array(
             'required' => array(
