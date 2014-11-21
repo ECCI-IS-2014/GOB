@@ -76,9 +76,31 @@
         <p class="text-right">
 			<?php echo $this->Html->link('Vaciar Carrito', array('controller' => 'Carts', 'action' => 'clear'), array('class' => 'btn btn-danger'));?>
             <?php echo $this->Form->submit('Actualizar',array('class'=>'btn btn-warning','div'=>false));?>
-           <?php echo $this->Html->link('Checkout', array('controller' => 'Bills', 'action' => 'payment'), array('class' => 'btn btn-success'));?>
+            <!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Checkout</button>
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+							<h4 class="modal-title" id="myModalLabel">Seleccione direcci&oacuten de env&iacuteo</h4>
+						</div>
+						<div class="modal-body">
+							<select>
+								<?php foreach ($options as $option): ?>
+									<option value="<?php echo $option['Address']['id']; ?>"><?php echo $option['Address']['address']; ?></option>
+								<?php endforeach; ?>
+							</select>
+						</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<?php echo $this->Html->link('Checkout', array('controller' => 'Bills', 'action' => 'payment', $option['Address']['id']), array('class' => 'btn btn-success'));?>
+					</div>
+				</div>
+			</div>
+		</div>
         </p>
- 
     </div>
 </div>
 <?php echo $this->Form->end();?>
