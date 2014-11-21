@@ -77,7 +77,7 @@
 			<?php echo $this->Html->link('Vaciar Carrito', array('controller' => 'Carts', 'action' => 'clear'), array('class' => 'btn btn-danger'));?>
             <?php echo $this->Form->submit('Actualizar',array('class'=>'btn btn-warning','div'=>false));?>
             <!-- Button trigger modal -->
-			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Checkout</button>
+			<button type="button" class="btn btn-succes" data-toggle="modal" data-target="#myModal">Comprar</button>
 			<!-- Modal -->
 			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
@@ -94,8 +94,8 @@
 							</select>
 						</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							<?php echo $this->Html->link('Checkout', array('controller' => 'Bills', 'action' => 'payment', $option['Address']['id']), array('class' => 'btn btn-success'));?>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							<?php echo $this->Html->link('Comprar', array('controller' => 'Bills', 'action' => 'payment', $option['Address']['id']), array('class' => 'btn btn-success'));?>
 					</div>
 				</div>
 			</div>
