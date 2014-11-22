@@ -47,11 +47,13 @@ class BillsController extends AppController {
 
     }
 
-    public function payment(){
+    public function payment($id){
         $this->loadModel('Cart');
         $this->loadModel('Bill');
         $this->loadModel('Card');
-
+		$this->loadModel('Address');
+		$result = $this->Address->find('first',array('conditions'=>array('Address.id'=>$id)));
+		$this->set('country',$result);
         $this->Cart->create();
         $carts = $this->Cart->readProduct();
         $products = array();
@@ -67,7 +69,5 @@ class BillsController extends AppController {
         $this->Bill->savefield('date', date('Y-m-d H:m:s'));
         $c = $this->Card->find('all', array('conditions'=>array('Card.user_id'=> $this->Auth->user('id'))));
         $this->set('cards',$c);
-
-
     }
 }

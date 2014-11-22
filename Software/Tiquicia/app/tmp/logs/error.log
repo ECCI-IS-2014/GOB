@@ -38332,3 +38332,851 @@ Stack Trace:
 #1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
 #2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2014-11-22 06:37:47 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 06:40:26 Error: [MissingActionException] Action UsersController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/Users/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 06:40:33 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 06:40:36 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 06:40:43 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 06:40:56 Error: [MissingActionException] Action AddressesController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AddressesController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/Addresses/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AddressesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 06:41:18 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 06:41:25 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 06:43:38 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 06:44:12 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 06:52:58 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 06:53:00 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:07:07 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 07:07:10 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:09:29 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 07:09:31 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:09:36 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:12:20 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 07:12:22 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:12:30 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:13:26 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:13:33 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:14:36 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:15:09 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:15:13 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 07:15:22 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:15:28 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:15:32 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:15:55 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:16:03 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:16:42 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:27:18 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\Tiquicia\app\view\Carts\view.ctp, line 95]
+2014-11-22 07:27:18 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /Tiquicia/carts/view
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95, Array)
+#2 C:\xampp\htdocs\Tiquicia\lib\cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95, Array)
+#3 C:\xampp\htdocs\Tiquicia\lib\cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-22 07:27:19 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:27:44 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\Tiquicia\app\view\Carts\view.ctp, line 95]
+2014-11-22 07:27:44 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Tiquicia/carts/view
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95, Array)
+#2 C:\xampp\htdocs\Tiquicia\lib\cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95, Array)
+#3 C:\xampp\htdocs\Tiquicia\lib\cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-22 07:27:44 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:28:31 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\Tiquicia\app\view\Carts\view.ctp, line 95]
+2014-11-22 07:28:31 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Tiquicia/carts/view
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95, Array)
+#2 C:\xampp\htdocs\Tiquicia\lib\cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95, Array)
+#3 C:\xampp\htdocs\Tiquicia\lib\cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-22 07:28:31 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:28:35 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\Tiquicia\app\view\Carts\view.ctp, line 95]
+2014-11-22 07:28:35 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Tiquicia/carts/view
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95, Array)
+#2 C:\xampp\htdocs\Tiquicia\lib\cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95, Array)
+#3 C:\xampp\htdocs\Tiquicia\lib\cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-22 07:28:35 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:29:48 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:30:00 Error: [MissingActionException] Action CardsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CardsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/Cards/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CardsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:30:14 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 07:30:22 Error: [MissingActionException] Action CardsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CardsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/Cards/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CardsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:31:49 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:33:44 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:36:00 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:41:18 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 07:41:20 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:41:57 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:43:18 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:43:23 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 07:43:25 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:45:14 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 07:45:16 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:45:43 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:46:09 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 07:46:14 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:49:30 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\Tiquicia\app\Controller\BillsController.php, line 55]
+2014-11-22 07:49:30 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Tiquicia/Bills/payment/13
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55, Array)
+#2 C:\xampp\htdocs\Tiquicia\lib\cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55, Array)
+#3 C:\xampp\htdocs\Tiquicia\lib\cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-22 07:49:31 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\Tiquicia\app\Controller\BillsController.php, line 55]
+2014-11-22 07:49:31 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Tiquicia/Bills/payment/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55, Array)
+#2 C:\xampp\htdocs\Tiquicia\lib\cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55, Array)
+#3 C:\xampp\htdocs\Tiquicia\lib\cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-22 07:50:34 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:52:12 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 07:52:59 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 08:00:46 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 08:00:58 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 08:03:55 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:04:09 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:04:13 Error: [MissingActionException] Action UsersController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/Users/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 08:04:20 Error: [MissingActionException] Action UsersController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/Users/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 08:04:29 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:04:32 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:04:38 Error: [MissingActionException] Action ProductsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/Products/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 08:04:55 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:05:54 Error: [MissingActionException] Action ProductsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/products/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 08:05:58 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:06:01 Error: [MissingActionException] Action UsersController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/Users/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 08:06:10 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:06:12 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 08:06:16 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:06:26 Error: [MissingActionException] Action CartsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'CartsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/carts/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 08:06:50 Error: [MissingActionException] Action ProductsController::dropdown-enhancement.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'dropdown-enhancement.min.js',
+)
+Request URL: /Tiquicia/products/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Tiquicia\lib\cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 08:07:12 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:07:52 Error: [MissingControllerException] Controller class Dropdown-enhancement.min.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Dropdown-enhancement.min.jsController',
+  'plugin' => NULL,
+)
+Request URL: /Tiquicia/dropdown-enhancement.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Tiquicia\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

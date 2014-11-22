@@ -33,7 +33,8 @@
                             </thead>
                             <tbody>
                                 <?php $total=0;?>
-                                <?php $envio=10;?>
+                                <?php $envioNacional=10;?>
+								 <?php $envioInter=30;?>
                                 <?php $totalEnvio;?>
                                 <?php foreach ($products as $product):?>
                                 <tr>
@@ -41,28 +42,26 @@
                                     <td><?php echo $product['Product']['count'];?></td>
                                     <td><?php echo $product['Product']['volumen'];?></td>
                                     <td><?php echo $product['Product']['weight'];?></td>
-                                    <?php $totalEnvio=$envio+$product['Product']['weight']+$product['Product']['volumen'];?>
+                                    <?php if($country['Address']['country'] == "Costa Rica"){
+												$totalEnvio=$envioNacional+$product['Product']['weight']+$product['Product']['volumen'];
+										  }else{
+											$totalEnvio=$envioInter+$product['Product']['weight']+$product['Product']['volumen'];
+										  }
+												
+									?>
+												
+												
                                     <td>$ <?php echo $totalEnvio;?></td>
 
                                     <td>$
                                             <?php
-                                                 if($product['Product']['count'] <= $product['Product']['stock']){
                                                     echo $product['Product']['count']*$product['Product']['price']+$totalEnvio;
-                                                 }else{
-                                                     echo $product['Product']['stock']*$product['Product']['price'];
-                                                 }
                                              ?>
                                     </td>
                                 </tr>
                                 <?php
-
-                                    if($product['Product']['count'] <= $product['Product']['stock']){
                                          $total = $total + ($product['Product']['count']*$product['Product']['price']);
                                          $total+=$totalEnvio;
-                                    }else{
-                                         $total = $total + ($product['Product']['stock']*$product['Product']['price']);
-                                    }
-
                                 ?>
                                 <?php endforeach;?>
 

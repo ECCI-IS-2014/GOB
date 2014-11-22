@@ -92,16 +92,24 @@
 										<h4 class="modal-title" id="myModalLabel">Seleccione direcci&oacuten de env&iacuteo</h4>
 									</div>
 									<div class="modal-body">
-										<select>
+										<table>
+											<tr>
+												<th>Pa&iacutes</th>
+												<th>Direcci&oacuten</th>
+												<th>Seleccionar</th>
+											</tr>
 											<?php foreach ($options as $option): ?>
-												<option value="<?php echo $option['Address']['id']; ?>"><?php echo $option['Address']['address']; ?></option>
+												<tr>
+													<td><?php echo $option['Address']['country']; ?></td>
+													<td><?php echo $option['Address']['address']; ?></td>
+													<td><?php echo $this->Html->link('Enviar', '/Bills/payment/' . $option['Address']['id']);?></td>
+												</tr>
 											<?php endforeach; ?>
-										</select>
+										</table>
 									</div>
 								    <div class="modal-footer">
 									    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-										<?php echo $this->Html->link('Comprar', array('controller' => 'Bills', 'action' => 'payment', $option['Address']['id']), array('class' => 'btn btn-success'));?>
-								    </div>
+									</div>
 							    </div>
 						    </div>
 					    </div>
