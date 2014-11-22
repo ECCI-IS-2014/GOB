@@ -24,8 +24,8 @@ class CartsController extends AppController {
 			}
 		} 
 		$this->set(compact('products'));
-		$this->loadModel('Address'); //if it's not already loaded
-		$options = $this->Address->find('all', array('conditions'=>array('Address.user_id'=> $this->Auth->user('id')))); //or whatever conditions you want
+		$this->loadModel('Address'); 
+		$options = $this->Address->find('all', array('conditions'=>array('Address.user_id'=> $this->Auth->user('id'))));
 		$this->set('options',$options);
 	}
 		
