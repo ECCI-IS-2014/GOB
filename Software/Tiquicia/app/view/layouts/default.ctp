@@ -69,6 +69,7 @@ $cakeDescription = __d('cake_dev', 'Tiquicia Shop');
 				<?php }?>
 				<?php if ($this->Session->read('Auth.User.role')==='customer'){?>
 					<li><a href="/Tiquicia/Cards/add_card" class="navbar-brand">Registrar tarjeta</a></li>
+					<li><a href="/Tiquicia/Bills/mybill" class="navbar-brand">Mis compras</a></li>
 				<?php }?>
 				<?php if ($this->Session->read('Auth.User.role') != 'admin'){?>	
 					<li><?php echo $this->Html->link('<span class="glyphicon glyphicon-shopping-cart"></span> Carrito <span class="badge" id="cart-counter">'.$count.'</span>',array('controller'=>'carts','action'=>'view'),array('escape'=>false));?></li>

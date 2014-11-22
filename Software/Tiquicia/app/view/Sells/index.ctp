@@ -19,6 +19,7 @@
                     <th>Precio</th>
                     <th>Cantidad</th>
                     <th>Total</th>
+					<th>Estado de envio</th>
                 </tr>
             </thead>
             <tbody>
@@ -31,7 +32,8 @@
                     <td>$<?php echo $product['Product']['price'];?></td>
                     <td><?php echo $product['Product']['count'];?></td>
                     <td>$<?php echo $product['Product']['price']*$product['Product']['count']; ?></td>
-                    <td><?php $total = $total + ($product['Product']['count']*$product['Product']['price']);?></td>
+                    <?php $total = $total + ($product['Product']['count']*$product['Product']['price']);?>
+					<td><?php echo "No despachado"; ?> </td>
                 </tr>
                 <?php
 
