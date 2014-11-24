@@ -1,13 +1,3 @@
-<div class="row">
-    <div class="col-lg-12">
-        <ol class="breadcrumb">
-            <li><?php echo $this->Html->link('Products','/Products');?>
-            </li>
-            <li class="active">Cart</li>
-        </ol>
-    </div>
-</div>
- 
 <?php echo $this->Form->create('Cart',array('url'=>array('action'=>'update')));?>
 <div class="row">
     <div class="col-lg-15">
