@@ -10,7 +10,7 @@
                          <tr>
                              <td><?php echo $this->Html->link('Pagar con ',array("controller" => "Sells",
                                                                                    "action" => "index",
-                                                                                   $card['Card']['number']));?></td>
+                                                                                   $card['Card']['number'],$country['Address']['country']));?></td>
                              <td><?php echo $card['Card']['type']; ?></td>
                              <td><?php echo $card['Card']['number']; ?></td>
                          </tr>

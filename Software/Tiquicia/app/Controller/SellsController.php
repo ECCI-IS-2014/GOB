@@ -21,7 +21,7 @@ class SellsController extends AppController {
     public $tarjeta = 0;
 
 
-    public function request_view($id){
+    public function request_view($id,$pais){
 
         // remotely post the information to the server
         $link =  "http://" . $_SERVER['HTTP_HOST'] . '/EF/'.'rest_users/'.$id.'.json';
@@ -36,7 +36,7 @@ class SellsController extends AppController {
 
         if( !strpos($response->body, 'null') ){
 
-            $this->agregar_compra(ereg_replace("[^0-9]", "", $response ),$id);
+            $this->agregar_compra(ereg_replace("[^0-9]", "", $response ),$id,$pais);
             //$this->flash('Bien!!','/');
 
         }else{
@@ -46,19 +46,23 @@ class SellsController extends AppController {
 
     }//fin de request_view
 
-    public function agregar_compra($numero,$tarjeta){
+    public function agregar_compra($numero,$tarjeta,$pais){
 
         $this->loadModel('Cart');
         $this->loadModel('Bill');
         $this->loadModel('Product');
         $this->loadModel('Sell');
-
-
+		$this->set('country',$pais);
         $this->Cart->create();
 
         pr($numero);
-
-
+		$totalEnvio=0;
+		if($pais== "Costa Rica"){
+						$totalEnvio=10;
+		}else{
+						$totalEnvio=30;
+		}
+		
         $result = $this->Cart->readProduct();
         $this->Sell->create();
 
@@ -79,15 +83,13 @@ class SellsController extends AppController {
         $total = 0;
 
         if (null!=$result) {
-            foreach ($result as $productId => $count) {
+          foreach ($result as $productId => $count) {
                 $product = $this->Product->read(null,$productId);
                 $product['Product']['count'] = $count;
                 $products[]=$product;
 
-                $total = $product['Product']['price']*$product['Product']['count'];
+                $total = $total+$product['Product']['price']*$product['Product']['count']+$product['Product']['volumen']+$product['Product']['weight']+$totalEnvio;
             }
-
-            //$total = $product['Product']['count']*$product['Product']['price'];
 
             pr('TOTAL '.$total);
 
@@ -174,13 +176,12 @@ class SellsController extends AppController {
         $this->Auth->allow('index');
     }
 
-    public function index($data) {
-
+    public function index($data,$pais) {
         $GLOBALS['tarjeta'] = $data;
 
         //$tarjeta = $data;
 
-        $this->request_view($data);
+        $this->request_view($data,$pais);
 
 
     }
