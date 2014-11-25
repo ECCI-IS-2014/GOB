@@ -73,9 +73,39 @@ class BillsController extends AppController {
     }
 	
 	 public function mybill(){
-
+        $this->loadModel('Sell');
         $this->loadModel('Bill');
         $idBill = $this->Bill->find('all', array('conditions'=>array( 'Bill.user_id'=>$this->Auth->user('id'))));
         $this->set('bills',$idBill);
+
+
+//cambio automatico de estados de envio
+        foreach ($idBill as $bill):
+            $mytime = $bill['Bill']['date'];
+           $segundos= time() - strtotime($mytime); // me da segundos que han pasado desde compra
+
+            if(25250<$segundos && $segundos<25350){
+                $this->Bill->create();
+                $result1 = $this->Bill->find('first', array(
+                    'conditions'=>array('Bill.id'=>$bill['Bill']['id'])));
+
+                $result1['Bill']['status'] = "En translado a casillero";
+                $result1['Bill']['date']=$mytime;
+                $result1['Bill']['id'] = $bill['Bill']['id'];
+                $this->Bill->save($result1);
+            }
+            pr($segundos);
+        if($segundos>25350){
+
+            $this->Bill->create();
+            $result1 = $this->Bill->find('first', array(
+                'conditions'=>array('Bill.id'=>$bill['Bill']['id'])));
+            $result1['Bill']['date']=$mytime;
+            $result1['Bill']['status'] = "Entregado a casillero";
+            $result1['Bill']['id'] = $bill['Bill']['id'];
+            $this->Bill->save($result1);
+
+        }
+        endforeach;
     }
 }
