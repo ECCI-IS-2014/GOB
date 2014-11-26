@@ -3,8 +3,8 @@ App::uses('AppModel', 'Model');
 class Category extends AppModel {
 
 	public $hasMany = array(
-        'MyCategory' => array(
-            'className' => 'Category',
+        'MyProduct' => array(
+            'className' => 'Product',
         )
     );
     var $name = 'Category';
@@ -14,6 +14,10 @@ class Category extends AppModel {
             'allowEmpty' => false,
             'message' => 'Nombre no válido'
         ) 
+    );
+	var $actsAs = array(
+        'MeioUpload' => array('filename'),
+        'Search.Searchable'
     );
 
 

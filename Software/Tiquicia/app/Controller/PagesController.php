@@ -52,6 +52,15 @@ class PagesController extends AppController {
  *	or MissingViewException in debug mode.
  */
 	public function display() {
+		$this->loadModel('Category');
+		$this->loadModel('Subcategory');
+		$this->loadModel('Subsubcategory');
+        $cat = $this->Category->find('all');
+        $this->set('categories',$cat);
+		$subcat = $this->Subcategory->find('all');
+        $this->set('subcategories',$subcat);
+		$subsubcat = $this->Subsubcategory->find('all');
+        $this->set('subsubcategories',$subsubcat);
 		$path = func_get_args();
 
 		$count = count($path);
