@@ -48,42 +48,33 @@ class AddressesController extends AppController {
         }
     }//fin de delete
 	
-	function update_address($cards){
+	function update_address($addresses){
 
-        $this->loadModel('Card');
-        $this->Card->create();
+        $this->loadModel('Address');
+        $this->Address->create();
 
-	    if (!empty($cards)) {
-            $result = $this->Card->find('first', array(
-				'conditions'=>array('Card.id'=>$cards)));
+	    if (!empty($addresses)) {
+            $result = $this->Address->find('first', array(
+				'conditions'=>array('Address.id'=>$addresses)));
             if( sizeof($result) >= 1 ){
-                $this->set('cards', $result);
+                $this->set('addresses', $result);
             }
         }//fin de if
 		if($this->request->is('post') || $this->request->is('put')) {
-
-            $this->Card->create();
-
-            $result1 = $this->Card->find('first', array(
-                'conditions'=>array('Card.id'=>$this->data['Card']['id'])));
-
-            $result1['Card']['id'] = $this->data['Card']['id'];
-			$result1['Card']['number'] = $this->data['Card']['number'];
-            //$result1['Card']['user_id'] = $this->data['Card']['user_id'];
-            $result1['Card']['sec_code'] = $this->data['Card']['sec_code'];
-            $result1['Card']['expire_date'] = $this->data['Card']['expire_date'];
-            $result1['Card']['type'] = $this->data['Card']['type'];
-            $this->Card->save($result1);
+			$this->Address->create();
+			$this->Address->id = $this->data['Address']['id'];
+            $this->Address->savefield ('country',$this->data['Address']['country']);
+            $this->Address->savefield ('address',$this->data['Address']['address']);
 
             $ret = $this->data;
-            $result = $this->Card->find('first', array(
-                'conditions'=>array('Card.id'=>$this->data['Card']['id'])));
+            $result = $this->Address->find('first', array(
+                'conditions'=>array('Address.id'=>$this->data['Address']['id'])));
 
             if ( $ret ) {
-                $this->flash('Tarjeta actualizada con exito','/cards/index');
+                $this->flash('Direccion actualizada con exito','/addresses/index');
             }
             else{
-                $this->flash('Tarjeta NO actualizada','/cards/index');
+                $this->flash('Direccion NO actualizada','/addresses/index');
             }
         }
 	}
