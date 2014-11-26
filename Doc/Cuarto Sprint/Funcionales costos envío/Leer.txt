@@ -1,0 +1,12 @@
+Hay que verificar la base de datos actualizada al momento de entrega 
+de direcciones para poner las direcciones correctas a donde se va a hacer el envío y 
+los precios de los productos para agregar en los resultados de las pruebas
+
+
+Fórmula de cálculo de costos de envío:
+Nacional (a algún lado de Costa Rica): Costo del producto por la cantidad, más el volumen, más el peso, mas 10 (por ser nacional)
+Internacional (fuera de CR):Costo del producto por la cantidad, más el volumen, más el peso, mas 30 (por ser internacional)
+
+
+
+Faltan las q se debite el saldo correcto de la tarjeta y que no se vacíe la factura si hay fondos insuficientes.
