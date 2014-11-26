@@ -31,6 +31,8 @@
 
     <?php endforeach; ?>
     </table>
-	<?php echo $this->Form->submit('Mis tarjetas', array('name' => 'submit1'));?>
+
+	<?php echo $this->Html->link('Mis Tarjetas', array('controller' => 'Cards', 'action' => 'index'), array('class' => 'btn btn-primary'));?> &nbsp
+    <?php echo $this->Html->link('Mis Direcciones', array('controller' => 'Addresses', 'action' => 'index'), array('class' => 'btn btn-primary')); ?>
 	<?php echo $this->Form->end();?>
     <?php echo $this->Html->link('Inicio', '/');?>
