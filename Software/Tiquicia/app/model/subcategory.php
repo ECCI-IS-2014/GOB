@@ -3,8 +3,8 @@ App::uses('AppModel', 'Model');
 class Subcategory extends AppModel {
 
 	public $hasMany = array(
-        'MySubcategory' => array(
-            'className' => 'Subcategory',
+        'MyProduct' => array(
+            'className' => 'Product',
         )
     );
     var $name = 'Subcategory';
