@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-11-2014 a las 17:23:58
+-- Tiempo de generación: 27-11-2014 a las 17:47:08
 -- Versión del servidor: 5.6.20
 -- Versión de PHP: 5.5.15
 
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `addresses` (
   `country` varchar(40) NOT NULL,
   `address` varchar(200) NOT NULL,
   `city` varchar(40) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
 
 --
 -- Volcado de datos para la tabla `addresses`
@@ -139,9 +139,6 @@ DELIMITER ;
 CREATE TABLE IF NOT EXISTS `products` (
 `id` int(11) NOT NULL,
   `name` varchar(40) COLLATE utf8_spanish_ci DEFAULT NULL,
-  `category` varchar(40) COLLATE utf8_spanish_ci DEFAULT NULL,
-  `subcategory` varchar(40) COLLATE utf8_spanish_ci DEFAULT NULL,
-  `subsubcategory` varchar(40) COLLATE utf8_spanish_ci DEFAULT NULL,
   `type` varchar(2000) COLLATE utf8_spanish_ci NOT NULL,
   `price` double NOT NULL,
   `weight` double NOT NULL,
@@ -163,11 +160,11 @@ CREATE TABLE IF NOT EXISTS `products` (
 -- Volcado de datos para la tabla `products`
 --
 
-INSERT INTO `products` (`id`, `name`, `category`, `subcategory`, `subsubcategory`, `type`, `price`, `weight`, `unit`, `filename`, `dir`, `keywords`, `volumen`, `created`, `updated`, `stock`, `state`, `category_id`, `subcategory_id`, `subsubcategory_id`) VALUES
-(41, 'Battle Adidas', NULL, NULL, NULL, 'Tacos Battle, azul blanco y negro', 24000, 2, NULL, 'adizero.jpg', 'img\\uploads\\product\\filename', 'battle', NULL, '2014-10-30 11:50:48', '2014-11-05 21:46:09', 0, 0, 1, 2, 2),
-(42, 'Tacos Nike', NULL, NULL, NULL, 'tacos nike, altos naranja', 32000, 2, 'Kilogramos', 'nike.jpg', 'img\\uploads\\product\\filename', 'nike tacos', NULL, '2014-10-30 11:51:58', '2014-11-07 18:02:44', 10, 1, 1, 2, 3),
-(43, 'Balon de Volleyball MVA300', NULL, NULL, NULL, 'balon de volleyball mikasa', 20000, 2, 'Kilogramos', 'mikasa.jpg', 'img\\uploads\\product\\filename', 'volleyball mikasa', NULL, '2014-10-30 11:55:48', '2014-11-07 18:02:03', 12, 1, 6, 1, 1),
-(51, 'Mercurial ', NULL, NULL, NULL, 'Tacos mercurial oscuros, negro con azul', 100, 30, 'gramos', 'mercurial-0.jpg', 'img\\uploads\\product\\filename', 'nike mercurial', NULL, '2014-11-02 23:01:39', '2014-11-05 23:09:27', 0, 1, 1, 2, 3);
+INSERT INTO `products` (`id`, `name`, `type`, `price`, `weight`, `unit`, `filename`, `dir`, `keywords`, `volumen`, `created`, `updated`, `stock`, `state`, `category_id`, `subcategory_id`, `subsubcategory_id`) VALUES
+(41, 'Battle Adidas', 'Tacos Battle, azul blanco y negro', 48, 12, 'Kilogramos', 'adizero.jpg', 'img\\uploads\\product\\filename', 'battle', '25', '2014-10-30 11:50:48', '2014-11-05 21:46:09', 0, 0, 1, 2, 2),
+(42, 'Tacos Nike', 'tacos nike, altos naranja', 64, 8, 'Kilogramos', 'nike.jpg', 'img\\uploads\\product\\filename', 'nike tacos', '15', '2014-10-30 11:51:58', '2014-11-07 18:02:44', 10, 1, 1, 2, 3),
+(43, 'Balon de Volleyball MVA300', 'balon de volleyball mikasa', 35, 9, 'Kilogramos', 'mikasa.jpg', 'img\\uploads\\product\\filename', 'volleyball mikasa', '20', '2014-10-30 11:55:48', '2014-11-07 18:02:03', 12, 1, 6, 1, 1),
+(51, 'Mercurial ', 'Tacos mercurial oscuros, negro con azul', 100, 30, 'gramos', 'mercurial-0.jpg', 'img\\uploads\\product\\filename', 'nike mercurial', '23', '2014-11-02 23:01:39', '2014-11-05 23:09:27', 0, 1, 1, 2, 3);
 
 -- --------------------------------------------------------
 
@@ -394,7 +391,7 @@ ALTER TABLE `wishes`
 -- AUTO_INCREMENT de la tabla `addresses`
 --
 ALTER TABLE `addresses`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT de la tabla `bills`
 --
