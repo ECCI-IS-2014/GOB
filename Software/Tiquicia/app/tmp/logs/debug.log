@@ -40848,3 +40848,1220 @@ Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
 Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
 [main] - APP\webroot\index.php, line 108
 
+2014-11-27 16:04:32 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 75]
+Trace:
+include - APP\view\layouts\default.ctp, line 75
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:05:51 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 75]
+Trace:
+include - APP\view\layouts\default.ctp, line 75
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:06:00 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 5]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:06:00 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 6]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:06:00 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 9]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:36:03 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 75]
+Trace:
+include - APP\view\layouts\default.ctp, line 75
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:36:42 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 75]
+Trace:
+include - APP\view\layouts\default.ctp, line 75
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:37:47 Debug: Notice (8): Undefined index: rol in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 21]
+Trace:
+include - APP\view\Users\search_update.ctp, line 21
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:37:47 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 5]
+Trace:
+include - APP\view\Users\search_update.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:37:47 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 6]
+Trace:
+include - APP\view\Users\search_update.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:37:47 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 7]
+Trace:
+include - APP\view\Users\search_update.ctp, line 7
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:37:47 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 8]
+Trace:
+include - APP\view\Users\search_update.ctp, line 8
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:37:47 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 9]
+Trace:
+include - APP\view\Users\search_update.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:37:47 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 10]
+Trace:
+include - APP\view\Users\search_update.ctp, line 10
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:37:47 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 12]
+Trace:
+include - APP\view\Users\search_update.ctp, line 12
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:37:47 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 15]
+Trace:
+include - APP\view\Users\search_update.ctp, line 15
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:37:47 Debug: Notice (8): Undefined variable: users in [C:\xampp\htdocs\Tiquicia\app\view\Users\search_update.ctp, line 21]
+Trace:
+include - APP\view\Users\search_update.ctp, line 21
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:38:02 Debug: Notice (8): Use of undefined constant Auth - assumed 'Auth' in [C:\xampp\htdocs\Tiquicia\app\Controller\UsersController.php, line 146]
+Trace:
+UsersController::update() - APP\Controller\UsersController.php, line 146
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:38:02 Debug: Notice (8): Use of undefined constant User - assumed 'User' in [C:\xampp\htdocs\Tiquicia\app\Controller\UsersController.php, line 146]
+Trace:
+UsersController::update() - APP\Controller\UsersController.php, line 146
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:38:02 Debug: Notice (8): Use of undefined constant role - assumed 'role' in [C:\xampp\htdocs\Tiquicia\app\Controller\UsersController.php, line 146]
+Trace:
+UsersController::update() - APP\Controller\UsersController.php, line 146
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:38:32 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 5]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:38:32 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 6]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:38:32 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 9]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:38:32 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 69]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 69
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:38:45 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\delete_address.ctp, line 5]
+Trace:
+include - APP\view\Addresses\delete_address.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:38:45 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\delete_address.ctp, line 6]
+Trace:
+include - APP\view\Addresses\delete_address.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:38:45 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\delete_address.ctp, line 7]
+Trace:
+include - APP\view\Addresses\delete_address.ctp, line 7
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:39:42 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::payment() - APP\Controller\BillsController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:39:42 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::payment() - APP\Controller\BillsController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:39:42 Debug: Notice (8): Undefined index: Address in [C:\xampp\htdocs\Tiquicia\app\view\Bills\payment.ctp, line 13]
+Trace:
+include - APP\view\Bills\payment.ctp, line 13
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:39:42 Debug: Notice (8): Undefined index: Address in [C:\xampp\htdocs\Tiquicia\app\view\Bills\payment.ctp, line 45]
+Trace:
+include - APP\view\Bills\payment.ctp, line 45
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:40:18 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::payment() - APP\Controller\BillsController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:40:18 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::payment() - APP\Controller\BillsController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:40:19 Debug: Notice (8): Undefined index: Address in [C:\xampp\htdocs\Tiquicia\app\view\Bills\payment.ctp, line 13]
+Trace:
+include - APP\view\Bills\payment.ctp, line 13
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:40:19 Debug: Notice (8): Undefined index: Address in [C:\xampp\htdocs\Tiquicia\app\view\Bills\payment.ctp, line 45]
+Trace:
+include - APP\view\Bills\payment.ctp, line 45
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:40:38 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::agregar_compra() - APP\Controller\SellsController.php, line 52
+SellsController::request_view() - APP\Controller\SellsController.php, line 39
+SellsController::index() - APP\Controller\SellsController.php, line 184
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:40:38 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::agregar_compra() - APP\Controller\SellsController.php, line 54
+SellsController::request_view() - APP\Controller\SellsController.php, line 39
+SellsController::index() - APP\Controller\SellsController.php, line 184
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:40:38 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::agregar_compra() - APP\Controller\SellsController.php, line 52
+SellsController::request_view() - APP\Controller\SellsController.php, line 39
+SellsController::index() - APP\Controller\SellsController.php, line 184
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:40:38 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+SellsController::agregar_compra() - APP\Controller\SellsController.php, line 54
+SellsController::request_view() - APP\Controller\SellsController.php, line 39
+SellsController::index() - APP\Controller\SellsController.php, line 184
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:40:39 Debug: Notice (8): Undefined variable: products in [C:\xampp\htdocs\Tiquicia\app\view\Sells\index.ctp, line 26]
+Trace:
+include - APP\view\Sells\index.ctp, line 26
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:40:47 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:40:47 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 77
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:41:12 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:41:12 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 77
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:41:22 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:41:22 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 77
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:04 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:04 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 77
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:14 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:14 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 77
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:22 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:22 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 77
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:26 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:26 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 77
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:30 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:30 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 77
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:33 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:33 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 77
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:42 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:42 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 77
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:45 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:45 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 77
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:49 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:49 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 77
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:53 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 76
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:42:53 Debug: Notice (8): Use of undefined constant int - assumed 'int' in [C:\xampp\htdocs\Tiquicia\lib\cake\Utility\ClassRegistry.php, line 169]
+Trace:
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\cake\Utility\ClassRegistry.php, line 169
+Controller::loadModel() - CORE\cake\controller\Controller.php, line 738
+BillsController::mybill() - APP\Controller\BillsController.php, line 77
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:49:59 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 75]
+Trace:
+include - APP\view\layouts\default.ctp, line 75
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:50:30 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 5]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:50:30 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 6]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:50:30 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 9]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:50:30 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 70]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 70
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:51:26 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 5]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:51:26 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 6]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:51:26 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 9]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:51:26 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 71]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:52:18 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 5]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:52:18 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 6]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:52:18 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 9]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:52:18 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 71]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:53:52 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 5]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:53:52 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 6]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:53:52 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 9]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:53:52 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 71]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:54:22 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 5]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:54:22 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 6]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:54:22 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 9]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:54:22 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 71]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:55:58 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 5]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:55:58 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 6]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:55:58 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 9]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:55:58 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 71]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:56:19 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 5]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:56:19 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 6]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:56:19 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 9]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:56:19 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 71]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:56:48 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 5]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 5
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:56:48 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 6]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 6
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:56:48 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 9]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 9
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 16:56:48 Debug: Notice (8): Undefined variable: addresses in [C:\xampp\htdocs\Tiquicia\app\view\Addresses\update_address.ctp, line 71]
+Trace:
+include - APP\view\Addresses\update_address.ctp, line 71
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::render() - CORE\cake\View\View.php, line 471
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 17:02:10 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 75]
+Trace:
+include - APP\view\layouts\default.ctp, line 75
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 17:05:47 Debug: Notice (8): Use of undefined constant Auth - assumed 'Auth' in [C:\xampp\htdocs\Tiquicia\app\Controller\UsersController.php, line 30]
+Trace:
+UsersController::add() - APP\Controller\UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 17:05:47 Debug: Notice (8): Use of undefined constant User - assumed 'User' in [C:\xampp\htdocs\Tiquicia\app\Controller\UsersController.php, line 30]
+Trace:
+UsersController::add() - APP\Controller\UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 17:05:47 Debug: Notice (8): Use of undefined constant role - assumed 'role' in [C:\xampp\htdocs\Tiquicia\app\Controller\UsersController.php, line 30]
+Trace:
+UsersController::add() - APP\Controller\UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 17:05:48 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 75]
+Trace:
+include - APP\view\layouts\default.ctp, line 75
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-27 17:05:55 Debug: Notice (8): Undefined variable: count in [C:\xampp\htdocs\Tiquicia\app\view\layouts\default.ctp, line 75]
+Trace:
+include - APP\view\layouts\default.ctp, line 75
+View::_evaluate() - CORE\cake\View\View.php, line 948
+View::_render() - CORE\cake\View\View.php, line 910
+View::renderLayout() - CORE\cake\View\View.php, line 542
+View::render() - CORE\cake\View\View.php, line 479
+Controller::render() - CORE\cake\controller\Controller.php, line 954
+PagesController::display() - APP\Controller\PagesController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\cake\controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+

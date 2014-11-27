@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-11-2014 a las 02:09:50
+-- Tiempo de generación: 27-11-2014 a las 17:23:58
 -- Versión del servidor: 5.6.20
 -- Versión de PHP: 5.5.15
 
@@ -23,14 +23,52 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `addresses`
+--
+
+CREATE TABLE IF NOT EXISTS `addresses` (
+`id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `country` varchar(40) NOT NULL,
+  `address` varchar(200) NOT NULL,
+  `city` varchar(40) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+
+--
+-- Volcado de datos para la tabla `addresses`
+--
+
+INSERT INTO `addresses` (`id`, `user_id`, `country`, `address`, `city`) VALUES
+(2, 21, 'Costa Rica', 'El Roble, Alajuela', 'AJ'),
+(4, 21, 'USA', 'Pennsylvannia street', 'PA');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `bills`
 --
 
 CREATE TABLE IF NOT EXISTS `bills` (
 `id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
-  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=156 ;
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `status` varchar(40) COLLATE utf8_spanish_ci NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=184 ;
+
+--
+-- Volcado de datos para la tabla `bills`
+--
+
+INSERT INTO `bills` (`id`, `user_id`, `date`, `status`) VALUES
+(175, 21, '2014-11-26 16:16:18', 'Entregado a casillero'),
+(176, 21, '2014-11-26 16:16:22', 'Entregado a casillero'),
+(177, 21, '2014-11-26 16:16:35', 'Entregado a casillero'),
+(178, 21, '2014-11-26 16:16:45', 'Entregado a casillero'),
+(179, 21, '2014-11-26 16:16:46', 'Entregado a casillero'),
+(180, 21, '2014-11-27 15:39:42', 'Entregado a casillero'),
+(181, 21, '2014-11-27 15:39:42', 'Entregado a casillero'),
+(182, 21, '2014-11-27 15:40:18', 'Entregado a casillero'),
+(183, 21, '2014-11-27 15:40:18', 'Entregado a casillero');
 
 -- --------------------------------------------------------
 
@@ -54,7 +92,8 @@ CREATE TABLE IF NOT EXISTS `cards` (
 INSERT INTO `cards` (`id`, `user_id`, `number`, `sec_code`, `expire_date`, `type`) VALUES
 (1, 17, 4380989804590046, 123, '2044-05-10', 'Visa'),
 (2, 17, 4018283728917198, 554, '2033-03-16', 'AmericanExpress'),
-(6, 18, 4018283728917197, 224, '2029-09-28', 'Visa');
+(6, 18, 4018283728917197, 224, '2029-09-28', 'Visa'),
+(7, 21, 4358478545879898, 123, '2014-05-26', 'Visa');
 
 -- --------------------------------------------------------
 
@@ -64,21 +103,21 @@ INSERT INTO `cards` (`id`, `user_id`, `number`, `sec_code`, `expire_date`, `type
 
 CREATE TABLE IF NOT EXISTS `categories` (
 `id` int(11) NOT NULL,
-  `name` varchar(40) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+  `name` varchar(40) NOT NULL,
+  `filename` varchar(255) NOT NULL,
+  `dir` varchar(255) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=22 ;
 
 --
 -- Volcado de datos para la tabla `categories`
 --
 
-INSERT INTO `categories` (`id`, `name`) VALUES
-(12, 'agregar'),
-(2, 'Baloncesto'),
-(1, 'Futbol'),
-(8, 'Otros'),
-(15, 'pba'),
-(3, 'Tenis de Mesa'),
-(6, 'Volleyball');
+INSERT INTO `categories` (`id`, `name`, `filename`, `dir`) VALUES
+(17, 'Baloncesto', 'Baloncesto-2.png', 'img\\uploads\\category\\filename'),
+(18, 'FÃºtbol', 'futbol.jpg', 'img\\uploads\\category\\filename'),
+(19, 'Tenis de Mesa', 'tenis_de_mesa-0.png', 'img\\uploads\\category\\filename'),
+(20, 'Volleyball', 'volleyball-0.png', 'img\\uploads\\category\\filename'),
+(21, 'Otros', 'Otros-0.jpg', 'img\\uploads\\category\\filename');
 
 --
 -- Disparadores `categories`
@@ -143,7 +182,22 @@ CREATE TABLE IF NOT EXISTS `sells` (
   `price` int(11) NOT NULL,
   `quantity` int(11) NOT NULL,
   `bill_id` int(11) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=48 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=57 ;
+
+--
+-- Volcado de datos para la tabla `sells`
+--
+
+INSERT INTO `sells` (`id`, `product_id`, `product_name`, `price`, `quantity`, `bill_id`) VALUES
+(48, 42, 'Tacos Nike', 32000, 1, 156),
+(49, 42, 'Tacos Nike', 32000, 1, 160),
+(50, 42, 'Tacos Nike', 32000, 1, 164),
+(51, 42, 'Tacos Nike', 32000, 1, 165),
+(52, 42, 'Tacos Nike', 32000, 1, 165),
+(53, 42, 'Tacos Nike', 32000, 1, 171),
+(54, 42, 'Tacos Nike', 32000, 1, 172),
+(55, 42, 'Tacos Nike', 32000, 1, 179),
+(56, 42, 'Tacos Nike', 32000, 1, 182);
 
 -- --------------------------------------------------------
 
@@ -226,22 +280,25 @@ CREATE TABLE IF NOT EXISTS `users` (
   `middle_name` varchar(40) COLLATE utf8_spanish_ci NOT NULL,
   `last_name` varchar(40) COLLATE utf8_spanish_ci NOT NULL,
   `email` varchar(40) COLLATE utf8_spanish_ci NOT NULL,
+  `country` varchar(40) COLLATE utf8_spanish_ci NOT NULL,
+  `city` varchar(40) COLLATE utf8_spanish_ci NOT NULL,
+  `fact_address` varchar(200) COLLATE utf8_spanish_ci NOT NULL,
   `password` varchar(255) COLLATE utf8_spanish_ci NOT NULL,
   `identification` varchar(40) COLLATE utf8_spanish_ci NOT NULL,
   `birth_date` date NOT NULL,
   `username` varchar(40) COLLATE utf8_spanish_ci NOT NULL,
   `role` varchar(12) COLLATE utf8_spanish_ci NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=19 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=24 ;
 
 --
 -- Volcado de datos para la tabla `users`
 --
 
-INSERT INTO `users` (`id`, `first_name`, `middle_name`, `last_name`, `email`, `password`, `identification`, `birth_date`, `username`, `role`) VALUES
-(12, 'Dayner', 'Rafael', 'UmaÃ±a', 'darafael.5959@gmail.com', '$2a$10$UbbzG2FJ4MG6nqqaOsi/7e/mXEcKYKLKhfuDUfnTii4L/IVGjGqIO', '1111111', '1992-02-07', 'rafael', 'admin'),
-(13, 'Douglas', 'Castillo', 'Chavarria', 'sdfsdf@zds', '$2a$10$pN/1Nylv84bgPbHDEC3hOuuec975frbY5m1nuQp2u/3LKQI0Wrqk6', '115430824', '1994-08-05', 'd', 'admin'),
-(17, 'Alejandro', 'Reyes', 'Granados', 'ale@gmail', '$2a$10$AcRcVbRWfos3363ueAyWsOH1actihLgAkpKAqhOxSccym.vDiPhpO', '115310700', '1994-01-17', 'aler', 'customer'),
-(18, 'alejandro', 'cordoba', 'Soto', 'lkajsd@xn--jaslkf-zwa', '$2a$10$YI/qo6yDjg0ABovORcM7x.8HoPU8gynCiMFfnxUGXJsVPd3RACWiK', '1151557451', '1994-08-06', 'coba3', 'customer');
+INSERT INTO `users` (`id`, `first_name`, `middle_name`, `last_name`, `email`, `country`, `city`, `fact_address`, `password`, `identification`, `birth_date`, `username`, `role`) VALUES
+(12, 'Dayner', 'Rafael', 'UmaÃ±a', 'darafael.5959@gmail.com', '', '', 'Acosta', '$2a$10$UbbzG2FJ4MG6nqqaOsi/7e/mXEcKYKLKhfuDUfnTii4L/IVGjGqIO', '1111111', '1992-02-07', 'rafael', 'admin'),
+(13, 'Douglas', 'Castillo', 'Chavarria', 'sdfsdf@zds', '', '', 'Piedades de Santa Ana', '$2a$10$pN/1Nylv84bgPbHDEC3hOuuec975frbY5m1nuQp2u/3LKQI0Wrqk6', '115430824', '1994-08-05', 'd', 'admin'),
+(21, 'Alejandro', 'Reyes', 'Granados', 'asdh@ajsf', '', '', 'San Jose', '$2a$10$nYpKNlnE9tbvHAvI6n/ZOuUgzu1jUN5/9SsT1lJZQcoKPVJ6Ooq.2', '115310700', '2014-11-27', 'aler', 'customer'),
+(23, 'Alejandro', 'Cordoba', 'Soto', 'alejandro06cs@hotmail.com', 'Costa Rica', 'AJ', 'Colorado', '$2a$10$5/VP2P6cUw51jLpDfjvo8eztFe9yU7JW569yMJ5ckRQdZuZ4A.yH2', '115080718', '2014-11-27', 'coba', 'customer');
 
 -- --------------------------------------------------------
 
@@ -268,6 +325,12 @@ INSERT INTO `wishes` (`id`, `product_id`, `user_id`, `created`) VALUES
 --
 -- Índices para tablas volcadas
 --
+
+--
+-- Indices de la tabla `addresses`
+--
+ALTER TABLE `addresses`
+ ADD PRIMARY KEY (`id`);
 
 --
 -- Indices de la tabla `bills`
@@ -328,10 +391,15 @@ ALTER TABLE `wishes`
 --
 
 --
+-- AUTO_INCREMENT de la tabla `addresses`
+--
+ALTER TABLE `addresses`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
+--
 -- AUTO_INCREMENT de la tabla `bills`
 --
 ALTER TABLE `bills`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=156;
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=184;
 --
 -- AUTO_INCREMENT de la tabla `cards`
 --
@@ -341,7 +409,7 @@ MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=8;
 -- AUTO_INCREMENT de la tabla `categories`
 --
 ALTER TABLE `categories`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=16;
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=22;
 --
 -- AUTO_INCREMENT de la tabla `products`
 --
@@ -351,7 +419,7 @@ MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=52;
 -- AUTO_INCREMENT de la tabla `sells`
 --
 ALTER TABLE `sells`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=48;
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=57;
 --
 -- AUTO_INCREMENT de la tabla `subcategories`
 --
@@ -366,7 +434,7 @@ MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=16;
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=19;
+MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=24;
 --
 -- AUTO_INCREMENT de la tabla `wishes`
 --

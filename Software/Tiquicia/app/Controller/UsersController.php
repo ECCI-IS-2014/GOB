@@ -116,7 +116,7 @@ class UsersController extends AppController {
 
             $result1 = $this->User->find('first', array(
                 'conditions'=>array('User.id'=>$this->data['User']['id'])));
-
+            pr($this->data);
             $result1['User']['id'] = $this->data['User']['id'];
             $result1['User']['first_name'] = $this->data['User']['first_name'];
             $result1['User']['middle_name'] = $this->data['User']['middle_name'];

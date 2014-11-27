@@ -64,6 +64,7 @@ class AddressesController extends AppController {
 			$this->Address->create();
 			$this->Address->id = $this->data['Address']['id'];
             $this->Address->savefield ('country',$this->data['Address']['country']);
+            $this->Address->savefield ('city',$this->data['Address']['city']);
             $this->Address->savefield ('address',$this->data['Address']['address']);
 
             $ret = $this->data;

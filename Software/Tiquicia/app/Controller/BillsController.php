@@ -89,7 +89,7 @@ class BillsController extends AppController {
                 $result1 = $this->Bill->find('first', array(
                     'conditions'=>array('Bill.id'=>$bill['Bill']['id'])));
 
-                $result1['Bill']['status'] = "En translado a casillero";
+                $result1['Bill']['status'] = "En transito a casillero";
                 $result1['Bill']['date']=$mytime;
                 $result1['Bill']['id'] = $bill['Bill']['id'];
                 $this->Bill->save($result1);
