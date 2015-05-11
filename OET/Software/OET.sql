@@ -8,6 +8,14 @@ password varchar2(255),
 primary key(id)
 );
 
+create table data_Types(
+id number not null,
+data_type_id numeric,
+description varchar2(2550),
+temporality VARCHAR2(255),
+primary key(id)
+);
+
 create table sensors(
 id number NOT NULL,
 serial VARCHAR2(255),
@@ -42,6 +50,7 @@ user_id numeric,
 table_name varchar2(255),
 newvalue numeric, 
 oldvalue numeric,
+sensor_id number,
 
 constraint PK_logbook primary key(id)
 );
@@ -55,25 +64,29 @@ INSERT INTO usuarios (name, role, email, password) VALUES ( 'rafa', 'admin', 'da
 --create sequence usuarios_seq START WITH 20 INCREMENT BY 1;
 create sequence sensors_seq START WITH 1 INCREMENT BY 1;
 create sequence features_seq START WITH 1 INCREMENT BY 1;
+create sequence logbooks_seq START WITH 1 INCREMENT BY 1;
+create sequence data_types_seq START WITH 1 INCREMENT BY 1;
 
-
-CREATE OR REPLACE TRIGGER siguiente_trigger
+CREATE OR REPLACE TRIGGER Data_Types_trigger
 BEFORE INSERT
-ON usuarios
+ON data_types
 REFERENCING NEW AS NEW
 FOR EACH ROW
 BEGIN
-SELECT USUARIOS_SEQ.nextval INTO :NEW.ID FROM dual;
+SELECT data_types_seq.nextval INTO :NEW.ID FROM dual;
 END;
 
-CREATE OR REPLACE TRIGGER USERS_trigger
+
+CREATE OR REPLACE TRIGGER Logbooks_trigger
 BEFORE INSERT
-ON users
+ON logbooks
 REFERENCING NEW AS NEW
 FOR EACH ROW
 BEGIN
-SELECT USERS_SEQ.nextval INTO :NEW.ID FROM dual;
+SELECT logbooks_seq.nextval INTO :NEW.ID FROM dual;
 END;
+
+
 
 CREATE OR REPLACE TRIGGER SENSORS_trigger
 BEFORE INSERT
