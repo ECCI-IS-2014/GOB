@@ -52,8 +52,8 @@ class Sensor extends AppModel {
 			),
 		),
 		'installation_date' => array(
-			'timestamp' => array(
-				'rule' => array('timestamp'),
+			'date' => array(
+				'rule' => array('date'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -70,8 +70,8 @@ class Sensor extends AppModel {
 			),
 		),
 		'removal_date' => array(
-			'timestamp' => array(
-				'rule' => array('timestamp'),
+			'date' => array(
+				'rule' => array('date'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -80,8 +80,8 @@ class Sensor extends AppModel {
 			),
 		),
 		'calibration_date' => array(
-			'timestamp' => array(
-				'rule' => array('timestamp'),
+			'date' => array(
+				'rule' => array('date'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -126,7 +126,7 @@ class Sensor extends AppModel {
 		'Feature' => array(
 			'className' => 'Feature',
 			'foreignKey' => 'sensor_id',
-			'dependent' => false,
+			'dependent' => true,
 			'conditions' => '',
 			'fields' => '',
 			'order' => '',
@@ -135,6 +135,16 @@ class Sensor extends AppModel {
 			'exclusive' => '',
 			'finderQuery' => '',
 			'counterQuery' => ''
+		)
+	);
+
+	var $belongsTo = array(
+		'Station' => array(
+			'className' => 'Station',
+			'foreignKey' => 'station_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
 		)
 	);
 

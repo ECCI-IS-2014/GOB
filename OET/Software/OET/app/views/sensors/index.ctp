@@ -7,6 +7,7 @@
 			<th><?php echo $this->Paginator->sort('price');?></th>
 			<th><?php echo $this->Paginator->sort('type_');?></th>
 			<th><?php echo $this->Paginator->sort('model_');?></th>
+			<th><?php echo $this->Paginator->sort('station_id');?></th>
 			<th><?php echo $this->Paginator->sort('installation_date');?></th>
 			<th><?php echo $this->Paginator->sort('removal_date');?></th>
 			<th><?php echo $this->Paginator->sort('calibration_date');?></th>
@@ -31,6 +32,7 @@
 		<td><?php echo $sensor['Sensor']['price']; ?>&nbsp;</td>
 		<td><?php echo $sensor['Sensor']['type_']; ?>&nbsp;</td>
 		<td><?php echo $sensor['Sensor']['model_']; ?>&nbsp;</td>
+		<td><?php echo $sensor['Sensor']['station_id']; ?>&nbsp;</td>
 		<td><?php echo $sensor['Sensor']['installation_date']; ?>&nbsp;</td>
 		<td><?php echo $sensor['Sensor']['removal_date']; ?>&nbsp;</td>
 		<td><?php echo $sensor['Sensor']['calibration_date']; ?>&nbsp;</td>
@@ -42,6 +44,8 @@
 		<td class="actions">
 			<?php echo $this->Html->link(__('View', true), array('action' => 'view', $sensor['Sensor']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit', true), array('action' => 'edit', $sensor['Sensor']['id'])); ?>
+                        <?php echo $this->Html->link(__('Remove', true), array('action' => 'removal', $sensor['Sensor']['id'])); ?>
+                        <?php echo $this->Html->link(__('Calibrate', true), array('action' => 'calibrate', $sensor['Sensor']['id'])); ?>
 			<?php echo $this->Html->link(__('Delete', true), array('action' => 'delete', $sensor['Sensor']['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $sensor['Sensor']['id'])); ?>
 		</td>
 	</tr>

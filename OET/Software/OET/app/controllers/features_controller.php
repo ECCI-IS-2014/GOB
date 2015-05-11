@@ -21,13 +21,13 @@ class FeaturesController extends AppController {
 			$this->Feature->create();
 			if ($this->Feature->save($this->data)) {
 				$this->Session->setFlash(__('The feature has been saved', true));
-				$this->redirect(array('action' => 'index'));
+				$this->redirect(array('controller' => 'sensors', 'action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The feature could not be saved. Please, try again.', true));
 			}
 		}
                 if(!empty($id)){
-		$sensors = $this->Feature->Sensor->find('list',array('conditions'=>array('Sensor.id'=>$id)));
+					$sensors = $this->Feature->Sensor->find('list',array('conditions'=>array('Sensor.id'=>$id)));
                 }
                 else{
                    $sensors = $this->Feature->Sensor->find('list');
@@ -39,12 +39,12 @@ class FeaturesController extends AppController {
 	function edit($id = null) {
 		if (!$id && empty($this->data)) {
 			$this->Session->setFlash(__('Invalid feature', true));
-			$this->redirect(array('action' => 'index'));
+			$this->redirect(array('controller' => 'sensors', 'action' => 'index'));
 		}
 		if (!empty($this->data)) {
 			if ($this->Feature->save($this->data)) {
 				$this->Session->setFlash(__('The feature has been saved', true));
-				$this->redirect(array('action' => 'index'));
+				$this->redirect(array('controller' => 'sensors', 'action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The feature could not be saved. Please, try again.', true));
 			}
