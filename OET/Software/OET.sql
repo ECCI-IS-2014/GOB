@@ -8,6 +8,13 @@ password varchar2(255),
 primary key(id)
 );
 
+CREATE TABLE STATIONS (	
+	ID NUMBER NOT NULL , 
+	STATION NUMBER NOT NULL , 
+	DESCRIPTION VARCHAR2(2550), 
+	PRIMARY KEY (ID)
+);
+
 create table data_Types(
 id number not null,
 data_type_id numeric,
@@ -30,7 +37,7 @@ description varchar2(2550),
 provider varchar2(255),
 coordinate_x float,
 coordinate_y float,
-
+station_id number,
 primary key(id)
 );
 
@@ -66,6 +73,16 @@ create sequence sensors_seq START WITH 1 INCREMENT BY 1;
 create sequence features_seq START WITH 1 INCREMENT BY 1;
 create sequence logbooks_seq START WITH 1 INCREMENT BY 1;
 create sequence data_types_seq START WITH 1 INCREMENT BY 1;
+create sequence stations_seq START WITH 1 INCREMENT BY 1;
+
+CREATE OR REPLACE TRIGGER Stations_trigger
+BEFORE INSERT
+ON stations
+REFERENCING NEW AS NEW
+FOR EACH ROW
+BEGIN
+SELECT stations_seq.nextval INTO :NEW.ID FROM dual;
+END;
 
 CREATE OR REPLACE TRIGGER Data_Types_trigger
 BEFORE INSERT
