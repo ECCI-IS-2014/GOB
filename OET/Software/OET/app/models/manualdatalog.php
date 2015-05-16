@@ -15,7 +15,7 @@ class Manualdatalog extends AppModel {
 		),
 		'recolection_date' => array(
 			'notempty' => array(
-				'rule' => array('notempty'),
+				//'rule' => array('notempty'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,

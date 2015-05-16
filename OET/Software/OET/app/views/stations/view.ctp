@@ -26,7 +26,6 @@
 		<li><?php echo $this->Html->link(__('List Stations', true), array('action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Station', true), array('action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Sensors', true), array('controller' => 'sensors', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Sensor', true), array('controller' => 'sensors', 'action' => 'add',$station['Station']['id'] )); ?> </li>
 	</ul>
 </div>
 <div class="related">
@@ -85,7 +84,7 @@
 
 	<div class="actions">
 		<ul>
-			<li><?php echo $this->Html->link(__('New Sensor', true), array('controller' => 'sensors', 'action' => 'add'));?> </li>
+			<li><?php echo $this->Html->link(__('New Sensor', true), array('controller' => 'sensors', 'action' => 'add',$station['Station']['id'] )); ?> </li>
 		</ul>
 	</div>
 </div>

@@ -17,7 +17,7 @@ class ManualdatalogsController extends AppController {
 	}
 
 	function add() {
-		/*if (!empty($this->data)) {
+		if (!empty($this->data)) {
 			$this->Manualdatalog->create();
 			if ($this->Manualdatalog->save($this->data)) {
 				$this->Session->setFlash(__('The manualdatalog has been saved', true));
@@ -25,9 +25,9 @@ class ManualdatalogsController extends AppController {
 			} else {
 				$this->Session->setFlash(__('The manualdatalog could not be saved. Please, try again.', true));
 			}
-		}*/
+		}
 
-		if (!empty($this->data)) {
+		/*if (!empty($this->data)) {
 			$this->Manualdatalog->create();
 			$this->Manualdatalog->savefield('data_type_id', $this->data['Manualdatalog']['data_type_id']);
 			$this->Manualdatalog->savefield('station_id', $this->data['Manualdatalog']['station_id']);
@@ -43,7 +43,7 @@ class ManualdatalogsController extends AppController {
 			if (!$this->Manualdatalog->save($this->data)) {
 				$this->Session->setFlash(__('The Manual datalog could not be saved. Please, try again.', true));
 			}
-		}
+		}*/
 
 		$dataTypes = $this->Manualdatalog->DataType->find('list');
 		$sensors = $this->Manualdatalog->Sensor->find('list');
