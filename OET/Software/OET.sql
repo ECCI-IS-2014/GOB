@@ -70,6 +70,7 @@ table_name varchar2(255),
 newvalue numeric, 
 oldvalue numeric,
 sensor_id number,
+log_date Date,
 
 constraint PK_logbook primary key(id)
 );
