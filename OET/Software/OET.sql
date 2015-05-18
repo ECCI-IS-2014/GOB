@@ -65,7 +65,7 @@ primary key(id)
 create table logbooks(
 id number NOT NULL,
 data varchar2(255),
-user_id numeric,
+oet_user_id numeric,
 table_name varchar2(255),
 newvalue numeric, 
 oldvalue numeric,
