@@ -5,7 +5,7 @@
 	<?php
 		echo $this->Form->input('id');
 		echo $this->Form->input('removal_date');
-                echo $form->input('Successor',array('type'=>'select','options'=>$sensors));
+		echo $form->input('Successor',array('type'=>'select','options'=>$sensors));
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit', true));?>
