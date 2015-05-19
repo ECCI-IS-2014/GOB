@@ -71,6 +71,7 @@ newvalue numeric,
 oldvalue numeric,
 sensor_id number,
 log_date Date,
+action varchar2(255),
 
 constraint PK_logbook primary key(id)
 );
