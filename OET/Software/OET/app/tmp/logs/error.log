@@ -124,3 +124,5 @@
 2015-05-14 18:37:39 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ORA-01400: cannot insert NULL into ("COBA"."MANUALDATALOGS"."DATALOG")</span> in [C:\xampp\htdocs\OET\cake\libs\model\datasources\dbo_source.php, line 685]
 2015-05-14 18:42:31 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ORA-01400: cannot insert NULL into ("COBA"."MANUALDATALOGS"."DATALOG")</span> in [C:\xampp\htdocs\OET\cake\libs\model\datasources\dbo_source.php, line 685]
 2015-05-14 18:43:40 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ORA-01400: cannot insert NULL into ("COBA"."MANUALDATALOGS"."DATALOG")</span> in [C:\xampp\htdocs\OET\cake\libs\model\datasources\dbo_source.php, line 685]
+2015-05-20 01:27:54 Warning: Warning (2): ociplogon(): ORA-01017: invalid username/password; logon denied in [C:\xampp\htdocs\OET\cake\libs\model\datasources\dbo\dbo_oracle.php, line 178]
+2015-05-20 01:28:29 Warning: Warning (2): ociplogon(): ORA-01017: invalid username/password; logon denied in [C:\xampp\htdocs\OET\cake\libs\model\datasources\dbo\dbo_oracle.php, line 178]
