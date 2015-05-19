@@ -2,7 +2,7 @@
 
 class SensorsController extends AppController
 {
-
+        public $uses = array('Sensor','Feature','Station');
 	var $name = 'Sensors';
 
 	function index()
@@ -25,7 +25,7 @@ class SensorsController extends AppController
 		if (!empty($this->data)) {
 			$this->Sensor->create();
 			$this->Sensor->savefield('serial', $this->data['Sensor']['serial']);
-			$this->Sensor->savefield('price', $this->data['Sensor']['price']);
+                        $this->Sensor->savefield('price', $this->data['Sensor']['price']);
 			$this->Sensor->savefield('type_', $this->data['Sensor']['type_']);
 			$this->Sensor->savefield('model_', $this->data['Sensor']['model_']);
 			$dd = date('Y/m/d', mktime(0, 0, 0, $this->data['Sensor']['installation_date']['month'], ($this->data['Sensor']['installation_date']['day']), ($this->data['Sensor']['installation_date']['year'])));
@@ -84,13 +84,20 @@ class SensorsController extends AppController
 
 	function removal($id = null)
 	{
+                $this->set('sensors',$this->Sensor->find('list',array('conditions' => array('Sensor.id !=' => $id))));
 		if (!$id && empty($this->data)) {
 			$this->Session->setFlash(__('Invalid sensor', true));
 			$this->redirect(array('action' => 'index'));
 		}
 		if (!empty($this->data)) {
+                        $associatedFetures = $this->Feature->find('all',array('conditions' => array('Feature.sensor_id' => $id)));
+                        foreach ($associatedFetures as $feature){
+                            $this->Feature->id = $feature['Feature']['id'];
+                            $this->Feature->saveField('sensor_id', $this->data['Sensor']['Successor']);
+                        }
 			$dd = date('Y/m/d', mktime(0, 0, 0, $this->data['Sensor']['removal_date']['month'], ($this->data['Sensor']['removal_date']['day']), ($this->data['Sensor']['removal_date']['year'])));
-			$this->Sensor->savefield('removal_date', $dd);
+			$this->Sensor->id = $id;
+                        $this->Sensor->savefield('removal_date', $dd);
 			$this->Session->setFlash(__('The sensor has been saved', true));
 			$this->redirect(array('action' => 'index'));
 		}
@@ -130,4 +137,9 @@ class SensorsController extends AppController
 		$this->Session->setFlash(__('Sensor was not deleted', true));
 		$this->redirect(array('action' => 'index'));
 	}
+        
+        function successor($id = null){
+            $this->set('sensors',$this->Sensor->find('list'));
+            
+        }
 }

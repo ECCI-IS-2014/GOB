@@ -1,7 +1,7 @@
 <?php
 class Sensor extends AppModel {
 	var $name = 'Sensor';
-	var $displayField = 'serial';
+	var $displayField = 'id';
 	var $validate = array(
 		'serial' => array(
 			'notempty' => array(

@@ -9,15 +9,7 @@
 		echo $this->Form->input('type_');
 		echo $this->Form->input('model_');
 		echo $this->Form->input('station_id');
-		//forma 1
-		echo $this->Form->input('installation_date',array('type'=>'date','empty' => true));
-		//forma 2 si se quieren poner mas años o menos en la fecha o modificar el formato
-		/*echo $this->Form->input('installation_date', array( 'label' => 'Installation Date',
-           'dateFormat' => 'MDY',
-           'minYear' => date('Y')-40,
-           'maxYear' => date('Y')+40,
-           'empty' => true
-         ));*/
+		echo $this->Form->input('installation_date');
 		//echo $this->Form->input('removal_date');
 		//echo $this->Form->input('calibration_date');
 		echo $this->Form->input('brand');
