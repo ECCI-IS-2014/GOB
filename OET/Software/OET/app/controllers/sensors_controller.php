@@ -29,8 +29,12 @@ class SensorsController extends AppController
 			$this->Sensor->savefield('price', $this->data['Sensor']['price']);
 			$this->Sensor->savefield('type_', $this->data['Sensor']['type_']);
 			$this->Sensor->savefield('model_', $this->data['Sensor']['model_']);
-			$dd = date('Y/m/d', mktime(0, 0, 0, $this->data['Sensor']['installation_date']['month'], ($this->data['Sensor']['installation_date']['day']), ($this->data['Sensor']['installation_date']['year'])));
-			$this->Sensor->savefield('installation_date', $dd);
+                        if($this->data['Sensor']['installation_date']['month'] == '' || $this->data['Sensor']['installation_date']['day'] == '' || $this->data['Sensor']['installation_date']['year'] == ''){
+                             $this->Sensor->savefield('installation_date', null);
+                        }else{
+                            $dd = date('Y/m/d', mktime(0, 0, 0, $this->data['Sensor']['installation_date']['month'], ($this->data['Sensor']['installation_date']['day']), ($this->data['Sensor']['installation_date']['year'])));
+                            $this->Sensor->savefield('installation_date', $dd);
+                        }
 			$this->Sensor->savefield('brand', $this->data['Sensor']['brand']);
 			$this->Sensor->savefield('description', $this->data['Sensor']['description']);
 			$this->Sensor->savefield('provider', $this->data['Sensor']['provider']);
@@ -68,13 +72,18 @@ class SensorsController extends AppController
 		}
 		if (!empty($this->data)) {
 			$this->saveLogbook($id);
+                        $this->Sensor->id = $id;
 			$this->Sensor->savefield('serial', $this->data['Sensor']['serial']);
 			$this->Sensor->savefield('price', $this->data['Sensor']['price']);
 			$this->Sensor->savefield('type_', $this->data['Sensor']['type_']);
 			$this->Sensor->savefield('model_', $this->data['Sensor']['model_']);
 			$this->Sensor->savefield('station_id', $this->data['Sensor']['station_id']);
-			$dd = date('Y/m/d', mktime(0, 0, 0, $this->data['Sensor']['installation_date']['month'], ($this->data['Sensor']['installation_date']['day']), ($this->data['Sensor']['installation_date']['year'])));
-			$this->Sensor->savefield('installation_date', $dd);
+			if($this->data['Sensor']['installation_date']['month'] == '' || $this->data['Sensor']['installation_date']['day'] == '' || $this->data['Sensor']['installation_date']['year'] == ''){
+                             $this->Sensor->savefield('installation_date', null);
+                        }else{
+                            $dd = date('Y/m/d', mktime(0, 0, 0, $this->data['Sensor']['installation_date']['month'], ($this->data['Sensor']['installation_date']['day']), ($this->data['Sensor']['installation_date']['year'])));
+                            $this->Sensor->savefield('installation_date', $dd);
+                        }
 			$this->Sensor->savefield('brand', $this->data['Sensor']['brand']);
 			$this->Sensor->savefield('description', $this->data['Sensor']['description']);
 			$this->Sensor->savefield('provider', $this->data['Sensor']['provider']);
