@@ -6,15 +6,15 @@ class DATABASE_CONFIG {
 		'persistent' => true,
 		'host' => 'localhost',
 		'port' => 1521,
-		'login' => 'reyes',
-		'password' => 'reyes',
+		'login' => 'oet',
+		'password' => 'oet',
 		'database' => 'localhost:1521/XE',
 	);
 
     var $dbo = array(
         'datasource' => 'dbo',
-		'login' => 'reyes',
-		'password' => 'reyes',
+		'login' => 'oet',
+		'password' => 'oet',
     );
 	}
 ?>
