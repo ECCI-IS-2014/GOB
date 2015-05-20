@@ -22,3 +22,6 @@
 2015-05-14 18:23:56 Debug: Notice (8): Undefined property: ManualdatalogsController::$Sensor in [C:\xampp\htdocs\OET\app\controllers\manualdatalogs_controller.php, line 36]
 2015-05-14 18:24:10 Debug: Notice (8): Undefined property: ManualdatalogsController::$Sensor in [C:\xampp\htdocs\OET\app\controllers\manualdatalogs_controller.php, line 36]
 2015-05-14 18:24:17 Debug: Notice (8): Undefined property: ManualdatalogsController::$Sensor in [C:\xampp\htdocs\OET\app\controllers\manualdatalogs_controller.php, line 36]
+2015-05-20 01:42:05 Debug: Notice (8): Undefined index: data_ in [C:\xampp\htdocs\GOB\OET\Software\OET\app\views\logbooks\index.ctp, line 25]
+2015-05-20 01:42:05 Debug: Notice (8): Undefined index: action in [C:\xampp\htdocs\GOB\OET\Software\OET\app\views\logbooks\index.ctp, line 32]
+2015-05-20 01:44:20 Debug: Notice (8): Undefined index: action in [C:\xampp\htdocs\GOB\OET\Software\OET\app\views\logbooks\index.ctp, line 32]

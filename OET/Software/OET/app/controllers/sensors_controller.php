@@ -41,7 +41,7 @@ class SensorsController extends AppController
 			$this->Logbook->savefield('data_', $this->data['Sensor']['serial']);
 			$this->Logbook->savefield('table_name', 'Sensors');
 			$this->Logbook->savefield('newvalue', $this->data['Sensor']['serial']);
-			$this->Logbook->savefield('oldvalue', 'VACIO');
+			$this->Logbook->savefield('oldvalue', 'EMPTY');
 			$this->Logbook->savefield('action', 'INSERT');
 			//$this->Logbook->savefield('log_date', time());
 
