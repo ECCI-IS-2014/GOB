@@ -1,3 +1,5 @@
+<?php echo $this->Html->link('Home', '/');?>
+
 <div class="features index">
 	<h2><?php __('Features');?></h2>
 	<table cellpadding="0" cellspacing="0">
@@ -51,3 +53,4 @@
 		<li><?php echo $this->Html->link(__('New Sensor', true), array('controller' => 'sensors', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+

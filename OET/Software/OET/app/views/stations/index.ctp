@@ -1,3 +1,5 @@
+<?php echo $this->Html->link('Home', '/');?>
+
 <div class="stations index">
 	<h2><?php __('Stations');?></h2>
 	<table cellpadding="0" cellspacing="0">

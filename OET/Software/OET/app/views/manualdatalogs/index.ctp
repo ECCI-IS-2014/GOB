@@ -1,3 +1,5 @@
+<?php echo $this->Html->link('Home', '/');?>
+
 <div class="manualdatalogs index">
 	<h2><?php __('Manual datalogs');?></h2>
 	<table cellpadding="0" cellspacing="0">
@@ -67,3 +69,4 @@
 		<li><?php echo $this->Html->link(__('New Station', true), array('controller' => 'stations', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+

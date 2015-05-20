@@ -1,3 +1,5 @@
+<?php echo $this->Html->link('Home', '/');?>
+
 <div class="logbooks index">
 	<h2><?php __('Logbooks');?></h2>
 	<table cellpadding="0" cellspacing="0">
@@ -47,3 +49,4 @@
 		<?php echo $this->Paginator->next(__('next', true) . ' >>', array(), null, array('class' => 'disabled'));?>
 	</div>
 </div>
+
