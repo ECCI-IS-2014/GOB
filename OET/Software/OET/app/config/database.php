@@ -6,8 +6,8 @@ class DATABASE_CONFIG {
 		'persistent' => true,
 		'host' => 'localhost',
 		'port' => 1521,
-		'login' => 'oet',
-		'password' => 'oet',
+		'login' => 'Coba',
+		'password' => 'sensores',
 		'database' => 'localhost:1521/XE',
 	);
 
