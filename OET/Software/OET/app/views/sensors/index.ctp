@@ -2,7 +2,7 @@
 	<h2><?php __('Sensors');?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-                        <th><?php echo $this->Paginator->sort('id_sensor');?></th>
+            <th><?php echo $this->Paginator->sort('id');?></th>
 			<th><?php echo $this->Paginator->sort('serial');?></th>
 			<th><?php echo $this->Paginator->sort('price');?></th>
 			<th><?php echo $this->Paginator->sort('type_');?></th>
@@ -27,7 +27,7 @@
 		}
 	?>
 	<tr<?php echo $class;?>>
-                <td><?php echo $sensor['Sensor']['id_sensor']; ?>&nbsp;</td>
+                <td><?php echo $sensor['Sensor']['id']; ?>&nbsp;</td>
 		<td><?php echo $sensor['Sensor']['serial']; ?>&nbsp;</td>
 		<td><?php echo $sensor['Sensor']['price']; ?>&nbsp;</td>
 		<td><?php echo $sensor['Sensor']['type_']; ?>&nbsp;</td>

@@ -25,3 +25,5 @@
 2015-05-20 01:42:05 Debug: Notice (8): Undefined index: data_ in [C:\xampp\htdocs\GOB\OET\Software\OET\app\views\logbooks\index.ctp, line 25]
 2015-05-20 01:42:05 Debug: Notice (8): Undefined index: action in [C:\xampp\htdocs\GOB\OET\Software\OET\app\views\logbooks\index.ctp, line 32]
 2015-05-20 01:44:20 Debug: Notice (8): Undefined index: action in [C:\xampp\htdocs\GOB\OET\Software\OET\app\views\logbooks\index.ctp, line 32]
+2015-05-20 17:54:48 Debug: Notice (8): Undefined index: id_sensor in [C:\xampp\htdocs\GOB\OET\Software\OET\app\views\sensors\index.ctp, line 30]
+2015-05-20 17:55:41 Debug: Notice (8): Undefined index: name in [C:\xampp\htdocs\GOB\OET\Software\OET\app\views\logbooks\index.ctp, line 27]

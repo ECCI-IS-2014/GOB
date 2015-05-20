@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-1518452136
+1432137387
 a:8:{s:2:"id";a:2:{s:4:"type";s:7:"integer";s:6:"length";s:2:"22";}s:5:"data_";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"255";}s:11:"oet_user_id";a:2:{s:4:"type";s:7:"integer";s:6:"length";s:2:"22";}s:10:"table_name";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"255";}s:8:"newvalue";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"255";}s:8:"oldvalue";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"255";}s:8:"log_date";a:2:{s:4:"type";s:4:"date";s:6:"length";s:1:"7";}s:6:"action";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"255";}}
-=======
-1432079627
-a:8:{s:8:"log_date";a:2:{s:4:"type";s:4:"date";s:6:"length";s:1:"7";}s:6:"action";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"255";}s:2:"id";a:2:{s:4:"type";s:7:"integer";s:6:"length";s:2:"22";}s:5:"data_";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"255";}s:11:"oet_user_id";a:2:{s:4:"type";s:7:"integer";s:6:"length";s:2:"22";}s:10:"table_name";a:2:{s:4:"type";s:6:"string";s:6:"length";s:3:"255";}s:8:"newvalue";a:2:{s:4:"type";s:6:"string";s:6:"length";s:2:"20";}s:8:"oldvalue";a:2:{s:4:"type";s:6:"string";s:6:"length";s:2:"20";}}
->>>>>>> origin/master

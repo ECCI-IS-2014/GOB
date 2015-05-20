@@ -24,7 +24,7 @@
 		<td><?php echo $logbook['Logbook']['id']; ?>&nbsp;</td>
 		<td><?php echo $logbook['Logbook']['data_']; ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($logbook['OetUser']['name'], array('controller' => 'oet_users', 'action' => 'view', $logbook['OetUser']['id'])); ?>
+			<?php echo $this->Html->link($logbook['OetUser']['name_'], array('controller' => 'oet_users', 'action' => 'view', $logbook['OetUser']['id'])); ?>
 		</td>
 		<td><?php echo $logbook['Logbook']['table_name']; ?>&nbsp;</td>
 		<td><?php echo $logbook['Logbook']['newvalue']; ?>&nbsp;</td>
