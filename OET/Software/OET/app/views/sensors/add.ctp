@@ -8,7 +8,10 @@
 		echo $this->Form->input('price');
 		echo $this->Form->input('type_');
 		echo $this->Form->input('model_');
-		echo $this->Form->input('station_id');
+		echo $this->Form->input('station_id',array(
+                    'empty' => true,
+                    'default' => ''
+                ));
 		echo $this->Form->input('installation_date',array(
                     'empty' => true,
                     'default' => ''

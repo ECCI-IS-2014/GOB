@@ -40,8 +40,11 @@ class SensorsController extends AppController
 			$this->Sensor->savefield('provider', $this->data['Sensor']['provider']);
 			$this->Sensor->savefield('coordinate_x', $this->data['Sensor']['coordinate_x']);
 			$this->Sensor->savefield('coordinate_y', $this->data['Sensor']['coordinate_y']);
-			$this->Sensor->savefield('station_id', $this->data['Sensor']['station_id']);
-
+                        if($this->data['Sensor']['station_id'] == ''){
+                            $this->Sensor->savefield('installation_date', null);
+                        }else{
+                            $this->Sensor->savefield('station_id', $this->data['Sensor']['station_id']);
+                        }
 			$this->Logbook->savefield('data_', $this->data['Sensor']['serial']);
 			$this->Logbook->savefield('table_name', 'Sensors');
 			$this->Logbook->savefield('newvalue', $this->data['Sensor']['serial']);
@@ -83,6 +86,16 @@ class SensorsController extends AppController
                         }else{
                             $dd = date('Y/m/d', mktime(0, 0, 0, $this->data['Sensor']['installation_date']['month'], ($this->data['Sensor']['installation_date']['day']), ($this->data['Sensor']['installation_date']['year'])));
                             $this->Sensor->savefield('installation_date', $dd);
+                        }
+                        try {
+                            if($this->data['Sensor']['removal_date']['month'] == '' || $this->data['Sensor']['removal_date']['day'] == '' || $this->data['Sensor']['removal_date']['year'] == ''){
+                                 $this->Sensor->savefield('removal_date', null);
+                            }else{
+                                $dd = date('Y/m/d', mktime(0, 0, 0, $this->data['Sensor']['removal_date']['month'], ($this->data['Sensor']['removal_date']['day']), ($this->data['Sensor']['removal_date']['year'])));
+                                $this->Sensor->savefield('removal_date', $dd);
+                            }
+                        }catch(Exception $e) {
+                          debug($e);
                         }
 			$this->Sensor->savefield('brand', $this->data['Sensor']['brand']);
 			$this->Sensor->savefield('description', $this->data['Sensor']['description']);
@@ -130,6 +143,7 @@ class SensorsController extends AppController
 
 	function calibrate($id = null)
 	{
+                $this->Sensor->id = $id;
 		if (!$id && empty($this->data)) {
 			$this->Session->setFlash(__('Invalid sensor', true));
 			$this->redirect(array('action' => 'index'));
