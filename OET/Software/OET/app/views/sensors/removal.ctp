@@ -4,7 +4,11 @@
 		<legend><?php __('Edit Sensor'); ?></legend>
 	<?php
 		echo $this->Form->input('id');
-		echo $this->Form->input('removal_date');
+		echo $this->Form->input('removal_date',array(
+                    'empty' => true,
+                    'default' => '',
+                    'type' => 'datetime',
+                    'timeFormat' => '24'));
 		echo $form->input('Successor',array('type'=>'select','options'=>$sensors));
 	?>
 	</fieldset>

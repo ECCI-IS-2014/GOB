@@ -4,7 +4,11 @@
 		<legend><?php __('Edit Sensor'); ?></legend>
 	<?php
 		echo $this->Form->input('id');
-		echo $this->Form->input('calibration_date');
+		echo $this->Form->input('calibration_date',array(
+                    'empty' => true,
+                    'default' => '',
+                    'type' => 'datetime',
+                    'timeFormat' => '24'));
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit', true));?>

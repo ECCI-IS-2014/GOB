@@ -14,12 +14,16 @@
                 ));
 		echo $this->Form->input('installation_date',array(
                     'empty' => true,
-                    'default' => ''
+                    'default' => '',
+                    'type' => 'datetime',
+                    'timeFormat' => '24',
                 ));
                 if($this->data['Sensor']['removal_date'] != ''){
                     echo $this->Form->input('removal_date',array(
                         'empty' => true,
-                        'default' => ''
+                        'default' => '',
+                        'type' => 'datetime',
+                        'timeFormat' => '24',
                     ));
                 }
 		echo $this->Form->input('brand');
