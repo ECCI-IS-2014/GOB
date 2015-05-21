@@ -1,6 +1,7 @@
 <?php
 class DataType extends AppModel {
 	var $name = 'DataType';
+	var $displayField = 'description';
 	var $validate = array(
 		'data_type' => array(
 			'numeric' => array(

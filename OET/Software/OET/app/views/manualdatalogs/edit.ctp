@@ -5,7 +5,12 @@
 	<?php
 		echo $this->Form->input('id');
 		echo $this->Form->input('data_type_id');
-		echo $this->Form->input('recolection_date');
+		echo $this->Form->input('recolection_date',array(
+                                    'empty' => true,
+                                    'type' => 'datetime',
+                                    'default'=> '',
+                                    'timeFormat' => '24',
+                                ));
 		echo $this->Form->input('data_');
 		echo $this->Form->input('sensor_id');
 		echo $this->Form->input('datalog');

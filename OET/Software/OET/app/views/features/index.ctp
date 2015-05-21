@@ -4,7 +4,7 @@
 	<h2><?php __('Features');?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('id');?></th>
+			<th><?php echo $this->Paginator->sort('id_feature');?></th>
 			<th><?php echo $this->Paginator->sort('name');?></th>
 			<th><?php echo $this->Paginator->sort('sensor_id');?></th>
 			<th class="actions"><?php __('Actions');?></th>
@@ -18,7 +18,7 @@
 		}
 	?>
 	<tr<?php echo $class;?>>
-		<td><?php echo $feature['Feature']['id']; ?>&nbsp;</td>
+		<td><?php echo $feature['Feature']['id_feature']; ?>&nbsp;</td>
 		<td><?php echo $feature['Feature']['name']; ?>&nbsp;</td>
 		<td>
 			<?php echo $this->Html->link($feature['Sensor']['id'], array('controller' => 'sensors', 'action' => 'view', $feature['Sensor']['id'])); ?>

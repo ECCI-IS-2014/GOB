@@ -4,7 +4,7 @@
 	<h2><?php __('Manual datalogs');?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('id');?></th>
+			<th><?php echo $this->Paginator->sort('id_manualdatalogs');?></th>
 			<th><?php echo $this->Paginator->sort('data_type_id');?></th>
 			<th><?php echo $this->Paginator->sort('recolection_date');?></th>
 			<th><?php echo $this->Paginator->sort('data_');?></th>
@@ -22,7 +22,7 @@
 		}
 	?>
 	<tr<?php echo $class;?>>
-		<td><?php echo $manualdatalog['Manualdatalog']['id']; ?>&nbsp;</td>
+		<td><?php echo $manualdatalog['Manualdatalog']['id_manualdatalogs']; ?>&nbsp;</td>
 		<td>
 			<?php echo $this->Html->link($manualdatalog['DataType']['id'], array('controller' => 'data_types', 'action' => 'view', $manualdatalog['DataType']['id'])); ?>
 		</td>

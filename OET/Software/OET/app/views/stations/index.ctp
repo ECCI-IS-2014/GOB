@@ -4,7 +4,7 @@
 	<h2><?php __('Stations');?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('id');?></th>
+			<th><?php echo $this->Paginator->sort('id_station');?></th>
 			<th><?php echo $this->Paginator->sort('station');?></th>
 			<th><?php echo $this->Paginator->sort('description');?></th>
 			<th class="actions"><?php __('Actions');?></th>
@@ -18,7 +18,7 @@
 		}
 	?>
 	<tr<?php echo $class;?>>
-		<td><?php echo $station['Station']['id']; ?>&nbsp;</td>
+		<td><?php echo $station['Station']['id_station']; ?>&nbsp;</td>
 		<td><?php echo $station['Station']['station']; ?>&nbsp;</td>
 		<td><?php echo $station['Station']['description']; ?>&nbsp;</td>
 		<td class="actions">

@@ -17,15 +17,37 @@ class ManualdatalogsController extends AppController {
 	}
 
 	function add() {
-		if (!empty($this->data)) {
-			$this->Manualdatalog->create();
-			if ($this->Manualdatalog->save($this->data)) {
-				$this->Session->setFlash(__('The manualdatalog has been saved', true));
+		if (!empty($this->data))
+
+			if(!empty($this->data['Manualdatalog']['recolection_date']['min'])&&!empty($this->data['Manualdatalog']['recolection_date']['day'])
+			&&!empty($this->data['Manualdatalog']['recolection_date']['year'])&&!empty($this->data['Manualdatalog']['recolection_date']['month'])
+			&&!empty($this->data['Manualdatalog']['recolection_date']['hour'])&&!empty($this->data['Manualdatalog']['data_type_id'])
+			&&!empty($this->data['Manualdatalog']['station_id'])&&!empty($this->data['Manualdatalog']['sensor_id'])
+			&&!empty($this->data['Manualdatalog']['data_'])&&!empty($this->data['Manualdatalog']['datalog'])) {
+				$this->Manualdatalog->create();
+				$this->Manualdatalog->savefield('data_type_id', $this->data['Manualdatalog']['data_type_id']);
+				$this->Manualdatalog->savefield('station_id', $this->data['Manualdatalog']['station_id']);
+				$this->Manualdatalog->savefield('sensor_id', $this->data['Manualdatalog']['sensor_id']);
+				$dd = date('Y/m/d H:i:s', mktime($this->data['Manualdatalog']['recolection_date']['hour'],
+					$this->data['Manualdatalog']['recolection_date']['min'], 0,
+					$this->data['Manualdatalog']['recolection_date']['month'],
+					$this->data['Manualdatalog']['recolection_date']['day'],
+					$this->data['Manualdatalog']['recolection_date']['year']));
+				debug($this->data['Manualdatalog']['recolection_date']);
+				$this->Manualdatalog->savefield('recolection_date', $dd);
+				$this->Manualdatalog->savefield('data_', $this->data['Manualdatalog']['data_']);
+
+				$this->Manualdatalog->savefield('datalog', $this->data['Manualdatalog']['datalog']);
+				$this->Session->setFlash(__('The Manual datalog has been saved', true));
 				$this->redirect(array('action' => 'index'));
-			} else {
+			}
+		else {
+			if (!$this->Manualdatalog->save($this->data)) {
 				$this->Session->setFlash(__('The manualdatalog could not be saved. Please, try again.', true));
 			}
 		}
+
+
 
 		/*if (!empty($this->data)) {
 			$this->Manualdatalog->create();
@@ -57,11 +79,32 @@ class ManualdatalogsController extends AppController {
 			$this->redirect(array('action' => 'index'));
 		}
 		if (!empty($this->data)) {
-			if ($this->Manualdatalog->save($this->data)) {
-				$this->Session->setFlash(__('The manualdatalog has been saved', true));
+
+			if (!empty($this->data['Manualdatalog']['recolection_date']['min']) && !empty($this->data['Manualdatalog']['recolection_date']['day'])
+				&& !empty($this->data['Manualdatalog']['recolection_date']['year']) && !empty($this->data['Manualdatalog']['recolection_date']['month'])
+				&& !empty($this->data['Manualdatalog']['recolection_date']['hour']) && !empty($this->data['Manualdatalog']['data_type_id'])
+				&& !empty($this->data['Manualdatalog']['station_id']) && !empty($this->data['Manualdatalog']['sensor_id'])
+				&& !empty($this->data['Manualdatalog']['data_']) && !empty($this->data['Manualdatalog']['datalog'])
+			) {
+				$this->Manualdatalog->id = $id;
+				$this->Manualdatalog->savefield('data_type_id', $this->data['Manualdatalog']['data_type_id']);
+				$this->Manualdatalog->savefield('station_id', $this->data['Manualdatalog']['station_id']);
+				$this->Manualdatalog->savefield('sensor_id', $this->data['Manualdatalog']['sensor_id']);
+				$dd = date('Y/m/d H:i:s', mktime($this->data['Manualdatalog']['recolection_date']['hour'],
+					$this->data['Manualdatalog']['recolection_date']['min'], 0,
+					$this->data['Manualdatalog']['recolection_date']['month'],
+					($this->data['Manualdatalog']['recolection_date']['day']),
+					($this->data['Manualdatalog']['recolection_date']['year'])));
+				$this->Manualdatalog->savefield('recolection_date', $dd);
+				$this->Manualdatalog->savefield('data_', $this->data['Manualdatalog']['data_']);
+
+				$this->Manualdatalog->savefield('datalog', $this->data['Manualdatalog']['datalog']);
+				$this->Session->setFlash(__('The Manual datalog has been saved', true));
 				$this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The manualdatalog could not be saved. Please, try again.', true));
+				if (!$this->Manualdatalog->save($this->data)) {
+					$this->Session->setFlash(__('The manualdatalog could not be saved. Please, try again.', true));
+				}
 			}
 		}
 		if (empty($this->data)) {
