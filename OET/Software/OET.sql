@@ -214,5 +214,117 @@ end if;
    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:new.Serial,null,:old.Serial,sysdate,'sensors','DELETE');
  end if;
  end new_logbook_sensors;
+ 
+ create or replace trigger new_logbook_data_types
+before insert or delete or update
+on data_types
+REFERENCING NEW AS NEW OLD AS OLD
+for each row 
+begin
+if inserting then
+   insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:new.data_type,:new.data_type,null,sysdate,'data_types','INSERT');
+ end if;
+ if updating then
+  if(:new.data_type != :old.data_type) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Data Type',:new.data_type,:old.data_type,sysdate,'data_types','UPDATE');
+  end if;
+  if(:new.description != :old.description) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Description',:new.description,:old.description,sysdate,'data_types','UPDATE');
+  end if;
+  if(:new.temporality != :old.temporality) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Temporality',:new.temporality,:old.temporality,sysdate,'data_types','UPDATE');
+  end if;
+end if;
+ if deleting then
+   insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:new.data_type,null,:old.data_type,sysdate,'data_types','DELETE');
+ end if;
+ end new_logbook_data_types;
+ 
+create or replace trigger new_logbook_features
+before insert or delete or update
+on features
+REFERENCING NEW AS NEW OLD AS OLD
+for each row 
+begin
+if inserting then
+   insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:new.name,:new.name,null,sysdate,'Features','INSERT');
+ end if;
+ if updating then
+  if(:new.name != :old.name) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Name',:new.name,:old.name,sysdate,'Features','UPDATE');
+  end if;
+  if(:new.sensor_id != :old.sensor_id) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Id Sensor',:new.sensor_id,:old.sensor_id,sysdate,'Features','UPDATE');
+  end if;
+  if(:new.id_feature != :old.id_feature) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Id Feature',:new.id_feature,:old.id_feature,sysdate,'Features','UPDATE');
+  end if;
+end if;
+ if deleting then
+   insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:new.name,null,:old.name,sysdate,'Features','DELETE');
+ end if;
+ end new_logbook_features;
+ 
+ create or replace trigger new_logbook_manual_datalogs
+before insert or delete or update
+on manualdatalogs
+REFERENCING NEW AS NEW OLD AS OLD
+for each row 
+begin
+if inserting then
+   insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:new.ID_MANUALDATALOGS,:new.ID_MANUALDATALOGS,null,sysdate,'Manual Datalogs','INSERT');
+ end if;
+ if updating then
+  if(:new.ID_MANUALDATALOGS != :old.ID_MANUALDATALOGS) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Id Manual Datalogs',:new.ID_MANUALDATALOGS,:old.ID_MANUALDATALOGS,sysdate,'Manual Datalogs','UPDATE');
+  end if;
+  if(:new.data_type_id != :old.data_type_id) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Data Type Id',:new.data_type_id,:old.data_type_id,sysdate,'Manual Datalogs','UPDATE');
+  end if;
+  if(:new.recolection_date != :old.recolection_date) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Recolection Date',:new.recolection_date,:old.recolection_date,sysdate,'Manual Datalogs','UPDATE');
+  end if;
+  if(:new.data_ != :old.data_) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Id Feature',:new.data_,:old.data_,sysdate,'Manual Datalogs','UPDATE');
+  end if;
+  if(:new.sensor_id != :old.sensor_id) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Sensor Id',:new.sensor_id,:old.sensor_id,sysdate,'Manual Datalogs','UPDATE');
+  end if;
+  if(:new.datalog != :old.datalog) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Datalog',:new.datalog,:old.datalog,sysdate,'Manual Datalogs','UPDATE');
+  end if;
+  if(:new.station_id != :old.station_id) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Station Id',:new.station_id,:old.station_id,sysdate,'Manual Datalogs','UPDATE');
+  end if;
+end if;
+ if deleting then
+   insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:new.ID_MANUALDATALOGS,null,:old.ID_MANUALDATALOGS,sysdate,'Manual Datalogs','DELETE');
+ end if;
+ end new_logbook_manual_datalogs;
+ 
+ create or replace trigger new_logbook_stations
+before insert or delete or update
+on stations
+REFERENCING NEW AS NEW OLD AS OLD
+for each row 
+begin
+if inserting then
+   insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:new.station,:new.station,null,sysdate,'Stations','INSERT');
+ end if;
+ if updating then
+  if(:new.id_station != :old.id_station) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Id Station',:new.id_station,:old.id_station,sysdate,'Stations','UPDATE');
+  end if;
+  if(:new.description != :old.description) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Description',:new.description,:old.description,sysdate,'Stations','UPDATE');
+  end if;
+  if(:new.station != :old.station) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Station',:new.station,:old.station,sysdate,'Stations','UPDATE');
+  end if;
+end if;
+ if deleting then
+   insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:new.station,null,:old.station,sysdate,'Stations','DELETE');
+ end if;
+ end new_logbook_stations;
 
 commit;
