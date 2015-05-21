@@ -1,9 +1,9 @@
 create table oet_users(
 id number NOT NULL,
-name varchar2(255),
-role varchar2(255),
+name_ varchar2(255),
+role_ varchar2(255),
 email varchar2(255),
-password varchar2(255),
+password_ varchar2(255),
 
 primary key(id)
 );
@@ -65,12 +65,11 @@ primary key(id)
 
 create table logbooks(
 id number NOT NULL,
-data varchar2(255),
+data_ varchar2(255),
 oet_user_id numeric,
 table_name varchar2(255),
 newvalue numeric, 
 oldvalue numeric,
-sensor_id number,
 log_date Date,
 action varchar2(255),
 
