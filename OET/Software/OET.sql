@@ -24,7 +24,7 @@ data_ numeric,
 sensor_id number,
 datalog numeric not null,
 station_id numeric,
-
+ID_MANUALDATALOGS NUMBER, 
 primary key(id)
 );
 
@@ -32,6 +32,7 @@ create table stations(
 id number not null,
 station number not null,
 description varchar2(2550),
+ID_STATION NUMBER,
 primary key(id)
 );
 
@@ -50,7 +51,7 @@ provider varchar2(255),
 coordinate_x float,
 coordinate_y float,
 station_id number,
-
+ID_SENSOR NUMBER,
 primary key(id)
 );
 
@@ -58,7 +59,7 @@ create table features(
 id number NOT NULL,
 name varchar2(255),
 sensor_id numeric,
-
+ID_FEATURE NUMBER, 
 primary key(id)
 );
 
