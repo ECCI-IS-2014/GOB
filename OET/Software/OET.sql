@@ -8,6 +8,28 @@ password_ varchar2(255),
 primary key(id)
 );
 
+create table Doc_types(
+id number NOT NULL,
+id_doc_types number,
+description varchar2(255),
+
+primary key(id)
+);
+
+create table Documentations(
+id number NOT NULL,
+doc_types_id number,
+sensor_id number,
+station_id number,
+description varchar2(255),
+upload_date date,
+path varchar2(255),
+doc_name varchar2(255),
+id_documentations number,
+
+primary key(id)
+);
+
 create table data_Types(
 id number not null,
 data_type numeric,
@@ -84,6 +106,32 @@ create sequence data_types_seq START WITH 1 INCREMENT BY 1;
 create sequence manualDatalogs_seq START WITH 1 INCREMENT BY 1;
 create sequence stations_seq START WITH 1 INCREMENT BY 1;
 create sequence oet_users_seq START WITH 1 INCREMENT BY 1;
+create sequence doc_types_seq START WITH 1 INCREMENT BY 1;
+create sequence documentations_seq START WITH 1 INCREMENT BY 1;
+
+create or replace TRIGGER documentations_trigger
+BEFORE INSERT
+ON documentations
+REFERENCING NEW AS NEW
+FOR EACH ROW
+DECLARE valor number;
+BEGIN
+valor := documentations_seq.nextval;
+SELECT valor INTO :NEW.ID FROM dual;
+SELECT valor INTO :NEW.id_documentations FROM dual;
+END;
+
+create or replace TRIGGER doc_types_trigger
+BEFORE INSERT
+ON doc_types
+REFERENCING NEW AS NEW
+FOR EACH ROW
+DECLARE valor number;
+BEGIN
+valor := doc_types_seq.nextval;
+SELECT valor INTO :NEW.ID FROM dual;
+SELECT valor INTO :NEW.id_doc_types FROM dual;
+END;
 
 create or replace TRIGGER stations_trigger
 BEFORE INSERT
