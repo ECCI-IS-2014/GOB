@@ -55,6 +55,8 @@ id number not null,
 station number not null,
 description varchar2(2550),
 ID_STATION NUMBER,
+coordinate_x float,
+coordinate_y float,
 primary key(id)
 );
 
@@ -142,7 +144,6 @@ DECLARE valor number;
 BEGIN
 valor := stations_seq.nextval;
 SELECT valor INTO :NEW.ID FROM dual;
-SELECT valor INTO :NEW.ID_STATION FROM dual;
 END;
 
 create or replace TRIGGER manualDatalogs_trigger
