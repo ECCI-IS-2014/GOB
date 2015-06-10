@@ -12,13 +12,18 @@ class ManualdatalogFixture extends CakeTestFixture {
  */
 	public $fields = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10, 'unsigned' => true, 'key' => 'primary'),
-		'data_type_id' => array('type' => 'integer', 'null' => true, 'default' => null, 'unsigned' => false),
 		'recolection_date' => array('type' => 'date', 'null' => true, 'default' => null),
-		'data_' => array('type' => 'integer', 'null' => true, 'default' => null, 'unsigned' => false),
-		'sensor_id' => array('type' => 'integer', 'null' => true, 'default' => null, 'unsigned' => false),
-		'datalog' => array('type' => 'integer', 'null' => true, 'default' => null, 'unsigned' => false),
 		'station_id' => array('type' => 'integer', 'null' => true, 'default' => null, 'unsigned' => false),
+		'temp' => array('type' => 'integer', 'null' => true, 'default' => null, 'unsigned' => false),
+		'mintemp' => array('type' => 'integer', 'null' => true, 'default' => null, 'unsigned' => false),
+		'maxtemp' => array('type' => 'integer', 'null' => true, 'default' => null, 'unsigned' => false),
+		'relative_humidity' => array('type' => 'integer', 'null' => true, 'default' => null, 'unsigned' => false),
+		'barometric_pressure' => array('type' => 'integer', 'null' => true, 'default' => null, 'unsigned' => false),
+		'rainfall' => array('type' => 'integer', 'null' => true, 'default' => null, 'unsigned' => false),
+		'recolector' => array('type' => 'string', 'null' => true, 'default' => null,'length' => 50),
+		'comments' => array('type' => 'string', 'null' => true, 'default' => null,'length' => 250),
 		'ID_MANUALDATALOGS' => array('type' => 'integer', 'null' => true, 'default' => null, 'unsigned' => false),
+		'insertion_date' => array('type' => 'date', 'null' => true, 'default' => null),
 		'indexes' => array(
 			'PRIMARY' => array('column' => 'id', 'unique' => 1)
 		),
@@ -33,13 +38,18 @@ class ManualdatalogFixture extends CakeTestFixture {
 	public $records = array(
 		array(
 			'id' => '1',
-			'data_type_id' => '1',
 			'recolection_date' => '2015-05-25',
-			'data_' => '3',
-			'sensor_id' => '1',
-			'datalog' => '45',
 			'station_id' => '1',
-			'ID_MANUALDATALOGS' => '12'
+			'temp' => '5',
+			'mintemp' => '5',
+			'maxtemp' => '5',
+			'relative_humidity' => '10',
+			'barometric_pressure' => '50',
+			'rainfall' => '25',
+			'recolector' => 'juan',
+			'comments' => 'bien',
+			'ID_MANUALDATALOGS' => '12',
+			'insertion_date' => '2015-06-09'
 		),
 	);
 

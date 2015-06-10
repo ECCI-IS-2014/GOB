@@ -14,7 +14,7 @@ class Manualdatalog extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'data_';
+	//public $displayField = 'recolection_date';
 
 /**
  * Validation rules
@@ -23,6 +23,16 @@ class Manualdatalog extends AppModel {
  */
 	public $validate = array(
 		'recolection_date' => array(
+			'date' => array(
+				'rule' => array('date'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'insertion_date' => array(
 			'date' => array(
 				'rule' => array('date'),
 				//'message' => 'Your custom message here',
@@ -41,21 +51,7 @@ class Manualdatalog extends AppModel {
  *
  * @var array
  */
-	public $belongsTo = array(
-		'DataType' => array(
-			'className' => 'DataType',
-			'foreignKey' => 'data_type_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
-		),
-		'Sensor' => array(
-			'className' => 'Sensor',
-			'foreignKey' => 'sensor_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
-		),
+	/*public $belongsTo = array(
 		'Station' => array(
 			'className' => 'Station',
 			'foreignKey' => 'station_id',
@@ -63,19 +59,29 @@ class Manualdatalog extends AppModel {
 			'fields' => '',
 			'order' => ''
 		)
-	);
+	);*/
         
             //Probando:Obtener todo de la base de datos.
     public function getAllManualdatalogs(){
         return $this->find('all',array(
-            'fields' => array('id','data_type_id','data_','sensor_id','station_id')));
+            'fields' => array('id','recolection_date','station_id','temp','mintemp','maxtemp','relative_humidity',
+			'barometric_pressure','rainfall','recolector','comments','ID_MANUALDATALOGS','insertion_date')));
     }
 
     //Probando:Obtener todo de la base de datos según Id.
     public function getManualdatalogsFiltrados($id = null) {
         return $this->find('first', array(
             'conditions' => array('Manualdatalog.id' => $id),
-            'fields' => array('id','data_type_id','data_','sensor_id','station_id')
+            'fields' => array('id','recolection_date','station_id','temp','mintemp','maxtemp','relative_humidity',
+			'barometric_pressure','rainfall','recolector','comments','ID_MANUALDATALOGS','insertion_date')
         ));
+	}
+	//Probando:Añadir un manualdatalog.
+    public function addManualdatalog($manualdat) {
+        return $this->save($manualdat);
+    }
+	//Probando:Borrar un manualdatalog.
+    public function deleteManualdatalog($manualdata) {
+        return $this->delete($manualdata);
     }
 }

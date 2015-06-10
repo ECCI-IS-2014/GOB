@@ -1,60 +1,77 @@
+<?php echo $this->Html->link('Home', '/');?>
 <div class="manualdatalogs view">
-<h2><?php echo __('Manualdatalog'); ?></h2>
-	<dl>
-		<dt><?php echo __('Id'); ?></dt>
-		<dd>
-			<?php echo h($manualdatalog['Manualdatalog']['id']); ?>
+<h2><?php  __('Manualdatalog');?></h2>
+	<dl><?php $i = 0; $class = ' class="altrow"';?>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Id'); ?></dt>
+		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
+			<?php echo $manualdatalog['Manualdatalog']['id']; ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Data Type'); ?></dt>
-		<dd>
-			<?php echo $this->Html->link($manualdatalog['DataType']['id'], array('controller' => 'data_types', 'action' => 'view', $manualdatalog['DataType']['id'])); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Recolection Date'); ?></dt>
-		<dd>
-			<?php echo h($manualdatalog['Manualdatalog']['recolection_date']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Data '); ?></dt>
-		<dd>
-			<?php echo h($manualdatalog['Manualdatalog']['data_']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Sensor'); ?></dt>
-		<dd>
-			<?php echo $this->Html->link($manualdatalog['Sensor']['serial'], array('controller' => 'sensors', 'action' => 'view', $manualdatalog['Sensor']['id'])); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Datalog'); ?></dt>
-		<dd>
-			<?php echo h($manualdatalog['Manualdatalog']['datalog']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Station'); ?></dt>
-		<dd>
+        <dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Recolection Date'); ?></dt>
+        <dd<?php if ($i++ % 2 == 0) echo $class;?>>
+            <?php echo $manualdatalog['Manualdatalog']['recolection_date']; ?>
+            &nbsp;
+        </dd>
+        <dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Insertion Date'); ?></dt>
+        <dd<?php if ($i++ % 2 == 0) echo $class;?>>
+            <?php echo $manualdatalog['Manualdatalog']['insertion_date']; ?>
+            &nbsp;
+        </dd>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Station'); ?></dt>
+		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
 			<?php echo $this->Html->link($manualdatalog['Station']['station'], array('controller' => 'stations', 'action' => 'view', $manualdatalog['Station']['id'])); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('ID MANUALDATALOGS'); ?></dt>
-		<dd>
-			<?php echo h($manualdatalog['Manualdatalog']['ID_MANUALDATALOGS']); ?>
+        <dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Temp'); ?></dt>
+        <dd<?php if ($i++ % 2 == 0) echo $class;?>>
+            <?php echo $manualdatalog['Manualdatalog']['temp']; ?>
+            &nbsp;
+        </dd>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Mintemp'); ?></dt>
+		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
+			<?php echo $manualdatalog['Manualdatalog']['mintemp']; ?>
+			&nbsp;
+		</dd>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Maxtemp'); ?></dt>
+		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
+			<?php echo $manualdatalog['Manualdatalog']['maxtemp']; ?>
+			&nbsp;
+		</dd>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Relative Humidity'); ?></dt>
+		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
+			<?php echo $manualdatalog['Manualdatalog']['relative_humidity']; ?>
+			&nbsp;
+		</dd>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Barometric Pressure'); ?></dt>
+		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
+			<?php echo $manualdatalog['Manualdatalog']['barometric_pressure']; ?>
+			&nbsp;
+		</dd>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Rainfall'); ?></dt>
+		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
+			<?php echo $manualdatalog['Manualdatalog']['rainfall']; ?>
+			&nbsp;
+		</dd>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Recolector'); ?></dt>
+		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
+			<?php echo $manualdatalog['Manualdatalog']['recolector']; ?>
+			&nbsp;
+		</dd>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Comments'); ?></dt>
+		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
+			<?php echo $manualdatalog['Manualdatalog']['comments']; ?>
 			&nbsp;
 		</dd>
 	</dl>
 </div>
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
+	<h3><?php __('Actions'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('Edit Manualdatalog'), array('action' => 'edit', $manualdatalog['Manualdatalog']['id'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Manualdatalog'), array('action' => 'delete', $manualdatalog['Manualdatalog']['id']), array(), __('Are you sure you want to delete # %s?', $manualdatalog['Manualdatalog']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Manualdatalogs'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Manualdatalog'), array('action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Data Types'), array('controller' => 'data_types', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Data Type'), array('controller' => 'data_types', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Sensors'), array('controller' => 'sensors', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Sensor'), array('controller' => 'sensors', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Stations'), array('controller' => 'stations', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Station'), array('controller' => 'stations', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Edit Manualdatalog', true), array('action' => 'edit', $manualdatalog['Manualdatalog']['id'])); ?> </li>
+		<li><?php echo $this->Html->link(__('Delete Manualdatalog', true), array('action' => 'delete', $manualdatalog['Manualdatalog']['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $manualdatalog['Manualdatalog']['id'])); ?> </li>
+		<li><?php echo $this->Html->link(__('List Manualdatalogs', true), array('action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Manualdatalog', true), array('action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Stations', true), array('controller' => 'stations', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Station', true), array('controller' => 'stations', 'action' => 'add')); ?> </li>
 	</ul>
 </div>

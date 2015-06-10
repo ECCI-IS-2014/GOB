@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 25, 2015 at 08:23 AM
+-- Generation Time: Jun 10, 2015 at 05:23 PM
 -- Server version: 5.6.20
 -- PHP Version: 5.5.15
 
@@ -68,21 +68,26 @@ INSERT INTO `features` (`id`, `name`, `sensor_id`, `ID_FEATURE`) VALUES
 
 CREATE TABLE IF NOT EXISTS `manualdatalogs` (
 `id` int(10) unsigned NOT NULL,
-  `data_type_id` int(11) DEFAULT NULL,
   `recolection_date` date DEFAULT NULL,
-  `data_` int(11) DEFAULT NULL,
-  `sensor_id` int(11) DEFAULT NULL,
-  `datalog` int(11) DEFAULT NULL,
   `station_id` int(11) DEFAULT NULL,
-  `ID_MANUALDATALOGS` int(11) DEFAULT NULL
+  `temp` int(11) DEFAULT NULL,
+  `mintemp` int(11) DEFAULT NULL,
+  `maxtemp` int(11) NOT NULL,
+  `relative_humidity` int(11) DEFAULT NULL,
+  `barometric_pressure` int(11) DEFAULT NULL,
+  `rainfall` int(11) DEFAULT NULL,
+  `recolector` varchar(50) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `comments` varchar(250) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `ID_MANUALDATALOGS` int(11) DEFAULT NULL,
+  `insertion_date` date DEFAULT NULL
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=2 ;
 
 --
 -- Dumping data for table `manualdatalogs`
 --
 
-INSERT INTO `manualdatalogs` (`id`, `data_type_id`, `recolection_date`, `data_`, `sensor_id`, `datalog`, `station_id`, `ID_MANUALDATALOGS`) VALUES
-(1, 1, '2015-05-25', 3, 1, 45, 1, 12);
+INSERT INTO `manualdatalogs` (`id`, `recolection_date`, `station_id`, `temp`, `mintemp`, `maxtemp`, `relative_humidity`, `barometric_pressure`, `rainfall`, `recolector`, `comments`, `ID_MANUALDATALOGS`, `insertion_date`) VALUES
+(1, '2015-05-25', 1, 5, 5, 5, 10, 50, 25, 'juan', 'bien', 12, '2015-06-09');
 
 -- --------------------------------------------------------
 

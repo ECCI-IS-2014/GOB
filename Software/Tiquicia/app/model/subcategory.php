@@ -24,6 +24,6 @@ class Subcategory extends AppModel {
 
 
     public function deleteSubcategory($subcategoryData) {
-        return $this->delete($subcategoryData);
+        return $this->($subcategoryData);
     }
 }

@@ -1,31 +1,33 @@
 <div class="manualdatalogs form">
-<?php echo $this->Form->create('Manualdatalog'); ?>
+<?php echo $this->Form->create('Manualdatalog');?>
 	<fieldset>
-		<legend><?php echo __('Edit Manualdatalog'); ?></legend>
+		<legend><?php __('Edit Manualdatalog'); ?></legend>
 	<?php
 		echo $this->Form->input('id');
-		echo $this->Form->input('data_type_id');
-		echo $this->Form->input('recolection_date');
-		echo $this->Form->input('data_');
-		echo $this->Form->input('sensor_id');
-		echo $this->Form->input('datalog');
+        echo $this->Form->input('recolection_date',array(
+            'type' => 'datetime',
+            'timeFormat' => '24',
+        ));
 		echo $this->Form->input('station_id');
-		echo $this->Form->input('ID_MANUALDATALOGS');
+        echo $this->Form->input('temp');
+		echo $this->Form->input('mintemp');
+		echo $this->Form->input('maxtemp');
+		echo $this->Form->input('relative_humidity');
+		echo $this->Form->input('barometric_pressure');
+		echo $this->Form->input('rainfall');
+		echo $this->Form->input('recolector');
+		echo $this->Form->input('comments');
 	?>
 	</fieldset>
-<?php echo $this->Form->end(__('Submit')); ?>
+<?php echo $this->Form->end(__('Submit', true));?>
 </div>
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
+	<h3><?php __('Actions'); ?></h3>
 	<ul>
 
-		<li><?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $this->Form->value('Manualdatalog.id')), array(), __('Are you sure you want to delete # %s?', $this->Form->value('Manualdatalog.id'))); ?></li>
-		<li><?php echo $this->Html->link(__('List Manualdatalogs'), array('action' => 'index')); ?></li>
-		<li><?php echo $this->Html->link(__('List Data Types'), array('controller' => 'data_types', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Data Type'), array('controller' => 'data_types', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Sensors'), array('controller' => 'sensors', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Sensor'), array('controller' => 'sensors', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Stations'), array('controller' => 'stations', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Station'), array('controller' => 'stations', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Delete', true), array('action' => 'delete', $this->Form->value('Manualdatalog.id')), null, sprintf(__('Are you sure you want to delete # %s?', true), $this->Form->value('Manualdatalog.id'))); ?></li>
+		<li><?php echo $this->Html->link(__('List Manualdatalogs', true), array('action' => 'index'));?></li>
+		<li><?php echo $this->Html->link(__('List Stations', true), array('controller' => 'stations', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Station', true), array('controller' => 'stations', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
