@@ -315,7 +315,7 @@ end if;
  end new_logbook_features;
  
  create or replace trigger new_logbook_manual_datalogs
-before insert or delete or update
+after insert or delete or update
 on manualdatalogs
 REFERENCING NEW AS NEW OLD AS OLD
 for each row 
@@ -327,23 +327,38 @@ if inserting then
   if(:new.ID_MANUALDATALOGS != :old.ID_MANUALDATALOGS) then 
     insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Id Manual Datalogs',:new.ID_MANUALDATALOGS,:old.ID_MANUALDATALOGS,sysdate,'Manual Datalogs','UPDATE');
   end if;
-  if(:new.data_type_id != :old.data_type_id) then 
-    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Data Type Id',:new.data_type_id,:old.data_type_id,sysdate,'Manual Datalogs','UPDATE');
+  if(:new.temp != :old.temp) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Temperature',:new.temp,:old.temp,sysdate,'Manual Datalogs','UPDATE');
   end if;
   if(:new.recolection_date != :old.recolection_date) then 
     insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Recolection Date',:new.recolection_date,:old.recolection_date,sysdate,'Manual Datalogs','UPDATE');
   end if;
-  if(:new.data_ != :old.data_) then 
-    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Id Feature',:new.data_,:old.data_,sysdate,'Manual Datalogs','UPDATE');
+  if(:new.mintemp != :old.mintemp) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Min Temperature',:new.mintemp,:old.mintemp,sysdate,'Manual Datalogs','UPDATE');
   end if;
-  if(:new.sensor_id != :old.sensor_id) then 
-    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Sensor Id',:new.sensor_id,:old.sensor_id,sysdate,'Manual Datalogs','UPDATE');
+  if(:new.maxtemp != :old.maxtemp) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Max Temperature',:new.maxtemp,:old.maxtemp,sysdate,'Manual Datalogs','UPDATE');
   end if;
-  if(:new.datalog != :old.datalog) then 
-    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Datalog',:new.datalog,:old.datalog,sysdate,'Manual Datalogs','UPDATE');
+  if(:new.relative_humidity != :old.relative_humidity) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Relative Humidity',:new.relative_humidity,:old.relative_humidity,sysdate,'Manual Datalogs','UPDATE');
   end if;
   if(:new.station_id != :old.station_id) then 
     insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Station Id',:new.station_id,:old.station_id,sysdate,'Manual Datalogs','UPDATE');
+  end if;
+  if(:new.barometric_pressure != :old.barometric_pressure) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Barometric Pressure',:new.barometric_pressure,:old.barometric_pressure,sysdate,'Manual Datalogs','UPDATE');
+  end if;
+  if(:new.rainfall != :old.rainfall) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Rainfall',:new.rainfall,:old.rainfall,sysdate,'Manual Datalogs','UPDATE');
+  end if;
+  if(:new.recolector != :old.recolector) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Station Id',:new.recolector,:old.recolector,sysdate,'Manual Datalogs','UPDATE');
+  end if;
+  if(:new.comments != :old.comments) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Comments',:new.comments,:old.comments,sysdate,'Manual Datalogs','UPDATE');
+  end if;
+  if(:new.insertion_date != :old.insertion_date) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Insertion Date',:new.insertion_date,:old.insertion_date,sysdate,'Manual Datalogs','UPDATE');
   end if;
 end if;
  if deleting then
@@ -370,10 +385,49 @@ if inserting then
   if(:new.station != :old.station) then 
     insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Station',:new.station,:old.station,sysdate,'Stations','UPDATE');
   end if;
+   if(:new.coordinate_x != :old.coordinate_x) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Coordinate x',:new.coordinate_x,:old.coordinate_x,sysdate,'Stations','UPDATE');
+  end if;
+   if(:new.coordinate_y != :old.coordinate_y) then 
+    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values ('Coordinate y',:new.coordinate_y,:old.coordinate_y,sysdate,'Stations','UPDATE');
+  end if;
 end if;
  if deleting then
    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:new.station,null,:old.station,sysdate,'Stations','DELETE');
  end if;
  end new_logbook_stations;
 
+ 
+ create or replace trigger new_logbook_documentations
+after insert or delete or update
+on documentations
+REFERENCING NEW AS NEW OLD AS OLD
+for each row 
+begin
+if inserting then
+   insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:new.id_documentations,:new.id_documentations,null,sysdate,'Documentations','INSERT');
+ end if;
+ if deleting then
+   insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:old.description,null,:old.description,sysdate,'Documentations','DELETE');
+ end if;
+ end new_logbook_documentations;
+ 
+ create or replace trigger new_logbook_doc_types
+after insert or delete or update
+on doc_types
+REFERENCING NEW AS NEW OLD AS OLD
+for each row 
+begin
+if inserting then
+   insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:new.description,:new.description,null,sysdate,'Doc_types','INSERT');
+ end if;
+ if updating then
+	insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action) values ('Description',:new.description,:old.description,sysdate,'Doc_types','UPDATE');
+ end if;
+ if deleting then
+   insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:old.description,null,:old.description,sysdate,'Doc_types','DELETE');
+ end if;
+ end new_logbook_doc_types;
+ 
+ 
 commit;
