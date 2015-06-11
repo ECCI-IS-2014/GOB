@@ -26,27 +26,50 @@ upload_date date,
 path varchar2(255),
 doc_name varchar2(255),
 id_documentations number,
+type number,
 
 primary key(id)
 );
 
-create table data_Types(
-id number not null,
-data_type numeric,
-description varchar2(2550),
-temporality VARCHAR2(255),
-primary key(id)
+create table data_types(
+  id number not null,
+  NAME varchar2(255),
+  SENSOR_ID number,
+  TEMPORALITY varchar2(255),
+  ID_DATA_TYPE number,
+  primary key(id)
+);
+
+create table automaticdatalogs(
+  id number not null,
+  station_id number,
+  recolection_date date,
+  primary key(id)
+);
+
+create table valuesdatatypes(
+  id number not null,
+  data_type_id number,
+  automaticdatalog_id number,
+  data_value varchar2(255),
+  primary key(id)
 );
 
 create table manualDatalogs(
 id number not null,
-data_type_id numeric,
-recolection_date timestamp,
-data_ numeric,
-sensor_id number,
-datalog numeric not null,
-station_id numeric,
-ID_MANUALDATALOGS NUMBER, 
+recolection_date date,
+station_id number,
+temp number,
+mintemp number,
+maxtemp number,
+relative_humidity number,
+barometric_pressure number,
+rainfall number,
+recolector varchar2(255),
+comments varchar2(255),
+id_manualdatalogs number,
+insertion_date date,
+
 primary key(id)
 );
 
@@ -104,7 +127,9 @@ constraint PK_logbook primary key(id)
 create sequence sensors_seq START WITH 1 INCREMENT BY 1;
 create sequence features_seq START WITH 1 INCREMENT BY 1;
 create sequence logbooks_seq START WITH 1 INCREMENT BY 1;
-create sequence data_types_seq START WITH 1 INCREMENT BY 1;
+create sequence DATA_TYPES_SEQ START WITH 1 INCREMENT BY 1;
+create sequence automaticdatalogs_seq START WITH 1 INCREMENT BY 1;
+create sequence valuesdatatypes_seq START WITH 1 INCREMENT BY 1;
 create sequence manualDatalogs_seq START WITH 1 INCREMENT BY 1;
 create sequence stations_seq START WITH 1 INCREMENT BY 1;
 create sequence oet_users_seq START WITH 1 INCREMENT BY 1;
@@ -158,13 +183,37 @@ SELECT valor INTO :NEW.ID FROM dual;
 SELECT valor INTO :NEW.ID_MANUALDATALOGS FROM dual;
 END;
 
-CREATE OR REPLACE TRIGGER Data_Types_trigger
+create or replace TRIGGER DATA_TYPES_trigger
 BEFORE INSERT
-ON data_types
+ON DATA_TYPES
 REFERENCING NEW AS NEW
 FOR EACH ROW
+DECLARE valor number;
 BEGIN
-SELECT data_types_seq.nextval INTO :NEW.ID FROM dual;
+valor := DATA_TYPES_SEQ.nextval;
+SELECT valor INTO :NEW.ID FROM dual;
+END;
+
+create or replace TRIGGER automaticdatalogs_trigger
+BEFORE INSERT
+ON automaticdatalogs
+REFERENCING NEW AS NEW
+FOR EACH ROW
+DECLARE valor number;
+BEGIN
+valor := automaticdatalogs_seq.nextval;
+SELECT valor INTO :NEW.ID FROM dual;
+END;
+
+create or replace TRIGGER valuesdatatypes_trigger
+BEFORE INSERT
+ON valuesdatatypes
+REFERENCING NEW AS NEW
+FOR EACH ROW
+DECLARE valor number;
+BEGIN
+valor := valuesdatatypes_seq.nextval;
+SELECT valor INTO :NEW.ID FROM dual;
 END;
 
 CREATE OR REPLACE TRIGGER Logbooks_trigger
@@ -314,7 +363,7 @@ end if;
  end if;
  end new_logbook_features;
  
- create or replace trigger new_logbook_manual_datalogs
+create or replace trigger new_logbook_manual_datalogs
 after insert or delete or update
 on manualdatalogs
 REFERENCING NEW AS NEW OLD AS OLD
@@ -428,6 +477,3 @@ if inserting then
    insert into Logbooks(Data_,newvalue,oldvalue,log_date,table_name,action)  values (:old.description,null,:old.description,sysdate,'Doc_types','DELETE');
  end if;
  end new_logbook_doc_types;
- 
- 
-commit;
