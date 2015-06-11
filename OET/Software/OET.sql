@@ -99,6 +99,7 @@ coordinate_x float,
 coordinate_y float,
 station_id number,
 ID_SENSOR NUMBER,
+currency varchar2(255),
 primary key(id)
 );
 
