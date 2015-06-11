@@ -135,14 +135,14 @@ SELECT valor INTO :NEW.ID FROM dual;
 SELECT valor INTO :NEW.id_doc_types FROM dual;
 END;
 
-create or replace TRIGGER stations_trigger
+CREATE OR REPLACE TRIGGER stations_trigger
 BEFORE INSERT
 ON stations
 REFERENCING NEW AS NEW
 FOR EACH ROW
 DECLARE valor number;
 BEGIN
-valor := stations_seq.nextval;
+valor := :NEW.ID_STATION;
 SELECT valor INTO :NEW.ID FROM dual;
 END;
 
@@ -366,7 +366,7 @@ end if;
  end if;
  end new_logbook_manual_datalogs;
  
- create or replace trigger new_logbook_stations
+create or replace trigger new_logbook_stations
 before insert or delete or update
 on stations
 REFERENCING NEW AS NEW OLD AS OLD
