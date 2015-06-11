@@ -7,6 +7,7 @@
             <th><?php echo $this->Paginator->sort('id_sensor');?></th>
 			<th><?php echo $this->Paginator->sort('serial');?></th>
 			<th><?php echo $this->Paginator->sort('price');?></th>
+			<th><?php echo $this->Paginator->sort('currency');?></th>
 			<th><?php echo $this->Paginator->sort('type_');?></th>
 			<th><?php echo $this->Paginator->sort('model_');?></th>
 			<th><?php echo $this->Paginator->sort('station_id');?></th>
@@ -32,6 +33,7 @@
         <td><?php echo $sensor['Sensor']['id_sensor']; ?>&nbsp;</td>
 		<td><?php echo $sensor['Sensor']['serial']; ?>&nbsp;</td>
 		<td><?php echo $sensor['Sensor']['price']; ?>&nbsp;</td>
+		<td><?php echo $sensor['Sensor']['currency']; ?>&nbsp;</td>
 		<td><?php echo $sensor['Sensor']['type_']; ?>&nbsp;</td>
 		<td><?php echo $sensor['Sensor']['model_']; ?>&nbsp;</td>
 		<td><?php echo $sensor['Sensor']['station_id']; ?>&nbsp;</td>
@@ -66,8 +68,8 @@
 
 	<div class="paging">
 		<?php echo $this->Paginator->prev('<< ' . __('previous', true), array(), null, array('class'=>'disabled'));?>
-	 | 	<?php echo $this->Paginator->numbers();?>
- |
+	  	<?php echo $this->Paginator->numbers();?>
+ 
 		<?php echo $this->Paginator->next(__('next', true) . ' >>', array(), null, array('class' => 'disabled'));?>
 	</div>
 </div>

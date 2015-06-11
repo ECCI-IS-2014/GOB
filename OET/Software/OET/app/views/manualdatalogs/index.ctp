@@ -1,16 +1,20 @@
 <?php echo $this->Html->link('Home', '/');?>
-
 <div class="manualdatalogs index">
-	<h2><?php __('Manual datalogs');?></h2>
+	<h2><?php __('Manualdatalogs');?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
 			<th><?php echo $this->Paginator->sort('id_manualdatalogs');?></th>
-			<th><?php echo $this->Paginator->sort('data_type_id');?></th>
-			<th><?php echo $this->Paginator->sort('recolection_date');?></th>
-			<th><?php echo $this->Paginator->sort('data_');?></th>
-			<th><?php echo $this->Paginator->sort('sensor_id');?></th>
-			<th><?php echo $this->Paginator->sort('datalog');?></th>
-			<th><?php echo $this->Paginator->sort('station_id');?></th>
+            <th><?php echo $this->Paginator->sort('recolection_date');?></th>
+            <th><?php echo $this->Paginator->sort("insertion-Date");?></th>
+            <th><?php echo $this->Paginator->sort('station_id');?></th>
+			<th><?php echo $this->Paginator->sort('temp');?></th>
+			<th><?php echo $this->Paginator->sort('mintemp');?></th>
+			<th><?php echo $this->Paginator->sort('maxtemp');?></th>
+			<th><?php echo $this->Paginator->sort('relative_humidity');?></th>
+			<th><?php echo $this->Paginator->sort('barometric_pressure');?></th>
+			<th><?php echo $this->Paginator->sort('rainfall');?></th>
+			<th><?php echo $this->Paginator->sort('recolector');?></th>
+			<th><?php echo $this->Paginator->sort('comments');?></th>
 			<th class="actions"><?php __('Actions');?></th>
 	</tr>
 	<?php
@@ -22,19 +26,20 @@
 		}
 	?>
 	<tr<?php echo $class;?>>
-		<td><?php echo $manualdatalog['Manualdatalog']['id_manualdatalogs']; ?>&nbsp;</td>
-		<td>
-			<?php echo $this->Html->link($manualdatalog['DataType']['id'], array('controller' => 'data_types', 'action' => 'view', $manualdatalog['DataType']['id'])); ?>
-		</td>
+		<td><?php echo $manualdatalog['Manualdatalog']['id']; ?>&nbsp;</td>
 		<td><?php echo $manualdatalog['Manualdatalog']['recolection_date']; ?>&nbsp;</td>
-		<td><?php echo $manualdatalog['Manualdatalog']['data_']; ?>&nbsp;</td>
+        <td><?php echo $manualdatalog['Manualdatalog']['insertion_date']; ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($manualdatalog['Sensor']['serial'], array('controller' => 'sensors', 'action' => 'view', $manualdatalog['Sensor']['id'])); ?>
+			<?php echo $this->Html->link($manualdatalog['Station']['description'], array('controller' => 'stations', 'action' => 'view', $manualdatalog['Station']['id'])); ?>
 		</td>
-		<td><?php echo $manualdatalog['Manualdatalog']['datalog']; ?>&nbsp;</td>
-		<td>
-			<?php echo $this->Html->link($manualdatalog['Station']['station'], array('controller' => 'stations', 'action' => 'view', $manualdatalog['Station']['id'])); ?>
-		</td>
+        <td><?php echo $manualdatalog['Manualdatalog']['temp']; ?>&nbsp;</td>
+		<td><?php echo $manualdatalog['Manualdatalog']['mintemp']; ?>&nbsp;</td>
+		<td><?php echo $manualdatalog['Manualdatalog']['maxtemp']; ?>&nbsp;</td>
+		<td><?php echo $manualdatalog['Manualdatalog']['relative_humidity']; ?>&nbsp;</td>
+		<td><?php echo $manualdatalog['Manualdatalog']['barometric_pressure']; ?>&nbsp;</td>
+		<td><?php echo $manualdatalog['Manualdatalog']['rainfall']; ?>&nbsp;</td>
+		<td><?php echo $manualdatalog['Manualdatalog']['recolector']; ?>&nbsp;</td>
+		<td><?php echo $manualdatalog['Manualdatalog']['comments']; ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View', true), array('action' => 'view', $manualdatalog['Manualdatalog']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit', true), array('action' => 'edit', $manualdatalog['Manualdatalog']['id'])); ?>
@@ -60,13 +65,8 @@
 <div class="actions">
 	<h3><?php __('Actions'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('New Manual datalog', true), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Data Types', true), array('controller' => 'data_types', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Data Type', true), array('controller' => 'data_types', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Sensors', true), array('controller' => 'sensors', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Sensor', true), array('controller' => 'sensors', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Manualdatalog', true), array('action' => 'add')); ?></li>
 		<li><?php echo $this->Html->link(__('List Stations', true), array('controller' => 'stations', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Station', true), array('controller' => 'stations', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
-

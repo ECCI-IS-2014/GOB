@@ -19,6 +19,11 @@
 			<?php echo $sensor['Sensor']['price']; ?>
 			&nbsp;
 		</dd>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Currency'); ?></dt>
+		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
+			<?php echo $sensor['Sensor']['currency']; ?>
+			&nbsp;
+		</dd>
 		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Type '); ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
 			<?php echo $sensor['Sensor']['type_']; ?>
@@ -105,7 +110,7 @@
 			<td class="actions">
 				<?php echo $this->Html->link(__('View', true), array('controller' => 'features', 'action' => 'view', $feature['id'])); ?>
 				<?php echo $this->Html->link(__('Edit', true), array('controller' => 'features', 'action' => 'edit', $feature['id'])); ?>
-				<?php echo $this->Html->link(__('Delete', true), array('controller' => 'features', 'action' => 'delete', $feature['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $feature['id'])); ?>
+			<?php echo $this->Html->link(__('Delete', true), array('controller' => 'features', 'action' => 'delete', $feature['id'],$sensor['Sensor']['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $feature['id'])); ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>
@@ -115,6 +120,43 @@
 	<div class="actions">
 		<ul>
 			<li><?php echo $this->Html->link(__('New Feature', true), array('controller' => 'features', 'action' => 'add',$idd));?> </li>
+		</ul>
+	</div>
+</div>
+
+<div class="related">
+	<h3><?php __('Related Documentation');?></h3>
+	<?php if (!empty($sensor['Documentation'])):?>
+		<table cellpadding = "0" cellspacing = "0">
+			<tr>
+				<th><?php __('Id Documentations'); ?></th>
+				<th><?php __('Name'); ?></th>
+				<th class="actions"><?php __('Actions');?></th>
+			</tr>
+			<?php
+			$i = 0;
+			foreach ($sensor['Documentation'] as $documentation):
+				$class = null;
+				if ($i++ % 2 == 0) {
+					$class = ' class="altrow"';
+				}
+				?>
+				<tr<?php echo $class;?>>
+					<td><?php echo $documentation['id_documentations'];?></td>
+					<td><?php echo $documentation['doc_name'];?></td>
+					<td class="actions">
+						<?php echo $this->Html->link(__('View', true), array('controller' => 'documentations', 'action' => 'view', $documentation['id'])); ?>
+						<?php echo $this->Html->link(__('Delete', true), array('controller' => 'documentations', 'action' => 'delete', $documentation['id'],0,$sensor['Sensor']['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $documentation['id'])); ?>
+						<?php echo $this->Html->link(__('Download', true), array('controller' => 'documentations', 'action' => 'download', $documentation['id'],0));?>
+					</td>
+				</tr>
+			<?php endforeach; ?>
+		</table>
+	<?php endif; ?>
+
+	<div class="actions">
+		<ul>
+			<li><?php echo $this->Html->link(__('New Documentation', true), array('controller' => 'documentations', 'action' => 'add',$idd,0));?> </li>
 		</ul>
 	</div>
 </div>

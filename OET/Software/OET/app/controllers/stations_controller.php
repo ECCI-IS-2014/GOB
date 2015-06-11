@@ -23,7 +23,7 @@ class StationsController extends AppController {
 				$this->Session->setFlash(__('The station has been saved', true));
 				$this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The station could not be saved. Please, try again.', true));
+				$this->Session->setFlash(__('The station could not be saved. Verify if the Id is already in use. Please, try again.', true));
 			}
 		}
 	}
@@ -38,7 +38,7 @@ class StationsController extends AppController {
 				$this->Session->setFlash(__('The station has been saved', true));
 				$this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The station could not be saved. Please, try again.', true));
+				$this->Session->setFlash(__('The station could not be saved. Verify if the Id is already in use. Please, try again.', true));
 			}
 		}
 		if (empty($this->data)) {

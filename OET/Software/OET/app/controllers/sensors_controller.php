@@ -31,6 +31,7 @@ class SensorsController extends AppController
                             debug($this->data['Sensor']['installation_date']);
                             $this->Sensor->savefield('serial', $this->data['Sensor']['serial']);
                             $this->Sensor->savefield('price', $this->data['Sensor']['price']);
+							$this->Sensor->savefield('currency', $this->data['Sensor']['currency']);
                             $this->Sensor->savefield('type_', $this->data['Sensor']['type_']);
                             $this->Sensor->savefield('model_', $this->data['Sensor']['model_']);
                             if($this->data['Sensor']['installation_date']['month'] == '' || $this->data['Sensor']['installation_date']['day'] == '' || $this->data['Sensor']['installation_date']['year'] == ''){
@@ -84,6 +85,7 @@ class SensorsController extends AppController
                         {//VERIFY THE NOT EMPTY RULE.
                             $this->Sensor->savefield('serial', $this->data['Sensor']['serial']);
                             $this->Sensor->savefield('price', $this->data['Sensor']['price']);
+							$this->Sensor->savefield('currency', $this->data['Sensor']['currency']);
                             $this->Sensor->savefield('type_', $this->data['Sensor']['type_']);
                             $this->Sensor->savefield('model_', $this->data['Sensor']['model_']);
                             $this->Sensor->savefield('station_id', $this->data['Sensor']['station_id']);

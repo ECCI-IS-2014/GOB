@@ -3,9 +3,10 @@
 	<table cellpadding="0" cellspacing="0">
 	<tr>
 			<th><?php echo $this->Paginator->sort('id');?></th>
-			<th><?php echo $this->Paginator->sort('data_type');?></th>
-			<th><?php echo $this->Paginator->sort('description');?></th>
+			<th><?php echo $this->Paginator->sort('name');?></th>
+			<th><?php echo $this->Paginator->sort('sensor_id');?></th>
 			<th><?php echo $this->Paginator->sort('temporality');?></th>
+			<th><?php echo $this->Paginator->sort('id_data_type');?></th>
 			<th class="actions"><?php __('Actions');?></th>
 	</tr>
 	<?php
@@ -18,9 +19,12 @@
 	?>
 	<tr<?php echo $class;?>>
 		<td><?php echo $dataType['DataType']['id']; ?>&nbsp;</td>
-		<td><?php echo $dataType['DataType']['data_type']; ?>&nbsp;</td>
-		<td><?php echo $dataType['DataType']['description']; ?>&nbsp;</td>
+		<td><?php echo $dataType['DataType']['name']; ?>&nbsp;</td>
+		<td>
+			<?php echo $this->Html->link($dataType['Sensor']['id'], array('controller' => 'sensors', 'action' => 'view', $dataType['Sensor']['id'])); ?>
+		</td>
 		<td><?php echo $dataType['DataType']['temporality']; ?>&nbsp;</td>
+		<td><?php echo $dataType['DataType']['id_data_type']; ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View', true), array('action' => 'view', $dataType['DataType']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit', true), array('action' => 'edit', $dataType['DataType']['id'])); ?>
@@ -47,5 +51,10 @@
 	<h3><?php __('Actions'); ?></h3>
 	<ul>
 		<li><?php echo $this->Html->link(__('New Data Type', true), array('action' => 'add')); ?></li>
+		<li><?php echo $this->Html->link(__('List Sensors', true), array('controller' => 'sensors', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Sensor', true), array('controller' => 'sensors', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Valuesdatatypes', true), array('controller' => 'valuesdatatypes', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Valuesdatatype', true), array('controller' => 'valuesdatatypes', 'action' => 'add')); ?> </li>
+
 	</ul>
 </div>

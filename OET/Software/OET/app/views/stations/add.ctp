@@ -3,8 +3,10 @@
 	<fieldset>
 		<legend><?php __('Add Station'); ?></legend>
 	<?php
-		echo $this->Form->input('station');
+		echo $this->Form->input('id_station');
 		echo $this->Form->input('description');
+		echo $this->Form->input('coordinate_x');
+		echo $this->Form->input('coordinate_y');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit', true));?>

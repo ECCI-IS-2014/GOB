@@ -1,7 +1,7 @@
 <?php
 class Station extends AppModel {
 	var $name = 'Station';
-	var $displayField = 'station';
+	var $displayField = 'description';
 	var $validate = array(
 		'station' => array(
 			'numeric' => array(
@@ -39,7 +39,46 @@ class Station extends AppModel {
 			'exclusive' => '',
 			'finderQuery' => '',
 			'counterQuery' => ''
-		)
+		),
+		'Documentation' => array(
+			'className' => 'Documentation',
+			'foreignKey' => 'station_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'Manualdatalog' => array(
+			'className' => 'Manualdatalog',
+			'foreignKey' => 'station_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'Automaticdatalog' => array(
+            'className' => 'Automaticdatalog',
+            'foreignKey' => 'station_id',
+            'dependent' => false,
+            'conditions' => '',
+            'fields' => '',
+            'order' => '',
+            'limit' => '',
+            'offset' => '',
+            'exclusive' => '',
+            'finderQuery' => '',
+            'counterQuery' => ''
+        )
 	);
 
 }

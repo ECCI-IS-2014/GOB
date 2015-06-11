@@ -2,8 +2,10 @@
 class DataTypesController extends AppController {
 
 	var $name = 'DataTypes';
+    public $uses = array('DataType', 'Automaticdatalog');
 
 	function index() {
+
 		$this->DataType->recursive = 0;
 		$this->set('dataTypes', $this->paginate());
 	}
@@ -13,6 +15,7 @@ class DataTypesController extends AppController {
 			$this->Session->setFlash(__('Invalid data type', true));
 			$this->redirect(array('action' => 'index'));
 		}
+        $this->set('Automaticdatalogs',$this->Automaticdatalog->find('all'));
 		$this->set('dataType', $this->DataType->read(null, $id));
 	}
 
@@ -26,6 +29,8 @@ class DataTypesController extends AppController {
 				$this->Session->setFlash(__('The data type could not be saved. Please, try again.', true));
 			}
 		}
+		$sensors = $this->DataType->Sensor->find('list');
+		$this->set(compact('sensors'));
 	}
 
 	function edit($id = null) {
@@ -44,6 +49,8 @@ class DataTypesController extends AppController {
 		if (empty($this->data)) {
 			$this->data = $this->DataType->read(null, $id);
 		}
+		$sensors = $this->DataType->Sensor->find('list');
+		$this->set(compact('sensors'));
 	}
 
 	function delete($id = null) {

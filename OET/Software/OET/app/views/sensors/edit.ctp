@@ -6,6 +6,7 @@
 		echo $this->Form->input('id');
 		echo $this->Form->input('serial');
 		echo $this->Form->input('price');
+		echo $this->Form->input('currency', array('options' => array('$' => 'Dollar $', '€' => 'Euro €', '₡' => 'Colones ₡')));
 		echo $this->Form->input('type_');
 		echo $this->Form->input('model_');
 		echo $this->Form->input('station_id',array(

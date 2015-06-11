@@ -56,14 +56,14 @@ class FeaturesController extends AppController {
 		$this->set(compact('sensors'));
 	}
 
-	function delete($id = null) {
+	function delete($id = null,$sensorId = null) {
 		if (!$id) {
 			$this->Session->setFlash(__('Invalid id for feature', true));
 			$this->redirect(array('action'=>'index'));
 		}
 		if ($this->Feature->delete($id)) {
 			$this->Session->setFlash(__('Feature deleted', true));
-			$this->redirect(array('action'=>'index'));
+			$this->redirect(array('controller'=> 'Sensors', 'action'=>'view'.'/'.$sensorId));
 		}
 		$this->Session->setFlash(__('Feature was not deleted', true));
 		$this->redirect(array('action' => 'index'));
