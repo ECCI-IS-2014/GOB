@@ -1,0 +1,14 @@
+Pruebas Unitarias Tercer Sprint Datos Automáticos
+
+Para probar los modelos se hacen consultas a las bases de datos,
+primero pidiendo todos los registros y luego pidiendo solo uno en 
+especifico. (funciones getAll y GetFiltrados).
+
+Para probar los controladores se prueban las funciones index y view.
+Además en el fixture de la clase AutomaticDatalogs se utilizan 20 registros 
+que se toman de la base de datos, y dichos registros en la base de datos 
+fueron añadidos por medio de la funcion add CSV (Ver imagen adjunta FuncionGuardaAutomaticos.PNG y Ver en 
+la aplicacion de pruebas la carpeta automatic, en la cual van a estar todos los archivos que generan los
+sensores automaticamente),
+la cual es la utilizada para cargar los datos automáticos que vienen de los
+sensores.

@@ -1,26 +1,18 @@
 <?php
 App::uses('AppModel', 'Model');
 /**
- * DataType Model
+ * Automaticdatalog Model
  *
- * @property Sensor $Sensor
- * @property valuesdatatypes $valuesdatatypes
+ * @property Station $Station
  */
-class DataType extends AppModel {
-
-/**
- * Primary key field
- *
- * @var string
- */
-	public $primaryKey = 'Id';
+class Automaticdatalog extends AppModel {
 
 /**
  * Display field
  *
  * @var string
  */
-	public $displayField = 'Name';
+	public $displayField = 'id';
 
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed
@@ -31,9 +23,9 @@ class DataType extends AppModel {
  * @var array
  */
 	public $belongsTo = array(
-		'Sensor' => array(
-			'className' => 'Sensor',
-			'foreignKey' => 'Sensor_id',
+		'Station' => array(
+			'className' => 'Station',
+			'foreignKey' => 'station_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
@@ -43,16 +35,14 @@ class DataType extends AppModel {
 
 
 
-
-    public function getAllDataTypes(){
+    public function getAllAutomaticdatalogs(){
         return $this->find('all');
     }
 
     //Probando:Obtener todo de la base de datos según Id.
-    public function getDataTypesFiltrados($id = null) {
+    public function getAutomaticdatalogsFiltrados($id = null) {
         return $this->find('first', array(
-            'conditions' => array('DataType.id' => $id)
+            'conditions' => array('Automaticdatalog.id' => $id)
         ));
     }
-
 }

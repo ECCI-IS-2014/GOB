@@ -55,6 +55,8 @@ class DataTypesController extends AppController {
 				$this->Session->setFlash(__('The data type could not be saved. Please, try again.'));
 			}
 		}
+		$sensors = $this->DataType->Sensor->find('list');
+		$this->set(compact('sensors'));
 	}
 
 /**
@@ -79,6 +81,8 @@ class DataTypesController extends AppController {
 			$options = array('conditions' => array('DataType.' . $this->DataType->primaryKey => $id));
 			$this->request->data = $this->DataType->find('first', $options);
 		}
+		$sensors = $this->DataType->Sensor->find('list');
+		$this->set(compact('sensors'));
 	}
 
 /**

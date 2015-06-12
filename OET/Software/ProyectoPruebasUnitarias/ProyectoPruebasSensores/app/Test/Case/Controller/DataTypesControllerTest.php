@@ -36,8 +36,8 @@ class DataTypesControllerTest extends ControllerTestCase {
  * @return void
  */
 	public function testView() {
-            $this->testAction('/dataTypes/view/1');
-            $this->assertInternalType('array', $this->vars['dataType']);
+        $this->testAction('/dataTypes/index');
+        $this->assertInternalType('array', $this->vars['dataTypes']);
 	}
 
 

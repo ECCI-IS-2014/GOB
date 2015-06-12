@@ -3,22 +3,27 @@
 	<dl>
 		<dt><?php echo __('Id'); ?></dt>
 		<dd>
-			<?php echo h($dataType['DataType']['id']); ?>
+			<?php echo h($dataType['DataType']['Id']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Data Type'); ?></dt>
+		<dt><?php echo __('Name'); ?></dt>
 		<dd>
-			<?php echo h($dataType['DataType']['data_type']); ?>
+			<?php echo h($dataType['DataType']['Name']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Description'); ?></dt>
+		<dt><?php echo __('Sensor'); ?></dt>
 		<dd>
-			<?php echo h($dataType['DataType']['description']); ?>
+			<?php echo $this->Html->link($dataType['Sensor']['serial'], array('controller' => 'sensors', 'action' => 'view', $dataType['Sensor']['id'])); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Temporality'); ?></dt>
 		<dd>
-			<?php echo h($dataType['DataType']['temporality']); ?>
+			<?php echo h($dataType['DataType']['Temporality']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Id Data Type'); ?></dt>
+		<dd>
+			<?php echo h($dataType['DataType']['Id_Data_Type']); ?>
 			&nbsp;
 		</dd>
 	</dl>
@@ -26,43 +31,37 @@
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('Edit Data Type'), array('action' => 'edit', $dataType['DataType']['id'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Data Type'), array('action' => 'delete', $dataType['DataType']['id']), array(), __('Are you sure you want to delete # %s?', $dataType['DataType']['id'])); ?> </li>
+		<li><?php echo $this->Html->link(__('Edit Data Type'), array('action' => 'edit', $dataType['DataType']['Id'])); ?> </li>
+		<li><?php echo $this->Form->postLink(__('Delete Data Type'), array('action' => 'delete', $dataType['DataType']['Id']), array(), __('Are you sure you want to delete # %s?', $dataType['DataType']['Id'])); ?> </li>
 		<li><?php echo $this->Html->link(__('List Data Types'), array('action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Data Type'), array('action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Manualdatalogs'), array('controller' => 'manualdatalogs', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Manualdatalog'), array('controller' => 'manualdatalogs', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Sensors'), array('controller' => 'sensors', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Sensor'), array('controller' => 'sensors', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Valuesdatatypes'), array('controller' => 'valuesdatatypes', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Valuesdatatypes'), array('controller' => 'valuesdatatypes', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
 <div class="related">
-	<h3><?php echo __('Related Manualdatalogs'); ?></h3>
-	<?php if (!empty($dataType['Manualdatalog'])): ?>
+	<h3><?php echo __('Related Valuesdatatypes'); ?></h3>
+	<?php if (!empty($dataType['valuesdatatypes'])): ?>
 	<table cellpadding = "0" cellspacing = "0">
 	<tr>
 		<th><?php echo __('Id'); ?></th>
 		<th><?php echo __('Data Type Id'); ?></th>
-		<th><?php echo __('Recolection Date'); ?></th>
-		<th><?php echo __('Data '); ?></th>
-		<th><?php echo __('Sensor Id'); ?></th>
-		<th><?php echo __('Datalog'); ?></th>
-		<th><?php echo __('Station Id'); ?></th>
-		<th><?php echo __('ID MANUALDATALOGS'); ?></th>
+		<th><?php echo __('Automaticdatalog Id'); ?></th>
+		<th><?php echo __('Data Value'); ?></th>
 		<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
-	<?php foreach ($dataType['Manualdatalog'] as $manualdatalog): ?>
+	<?php foreach ($dataType['valuesdatatypes'] as $valuesdatatypes): ?>
 		<tr>
-			<td><?php echo $manualdatalog['id']; ?></td>
-			<td><?php echo $manualdatalog['data_type_id']; ?></td>
-			<td><?php echo $manualdatalog['recolection_date']; ?></td>
-			<td><?php echo $manualdatalog['data_']; ?></td>
-			<td><?php echo $manualdatalog['sensor_id']; ?></td>
-			<td><?php echo $manualdatalog['datalog']; ?></td>
-			<td><?php echo $manualdatalog['station_id']; ?></td>
-			<td><?php echo $manualdatalog['ID_MANUALDATALOGS']; ?></td>
+			<td><?php echo $valuesdatatypes['Id']; ?></td>
+			<td><?php echo $valuesdatatypes['Data_type_Id']; ?></td>
+			<td><?php echo $valuesdatatypes['Automaticdatalog_id']; ?></td>
+			<td><?php echo $valuesdatatypes['Data_value']; ?></td>
 			<td class="actions">
-				<?php echo $this->Html->link(__('View'), array('controller' => 'manualdatalogs', 'action' => 'view', $manualdatalog['id'])); ?>
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'manualdatalogs', 'action' => 'edit', $manualdatalog['id'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'manualdatalogs', 'action' => 'delete', $manualdatalog['id']), array(), __('Are you sure you want to delete # %s?', $manualdatalog['id'])); ?>
+				<?php echo $this->Html->link(__('View'), array('controller' => 'valuesdatatypes', 'action' => 'view', $valuesdatatypes['id'])); ?>
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'valuesdatatypes', 'action' => 'edit', $valuesdatatypes['id'])); ?>
+				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'valuesdatatypes', 'action' => 'delete', $valuesdatatypes['id']), array(), __('Are you sure you want to delete # %s?', $valuesdatatypes['id'])); ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>
@@ -71,7 +70,7 @@
 
 	<div class="actions">
 		<ul>
-			<li><?php echo $this->Html->link(__('New Manualdatalog'), array('controller' => 'manualdatalogs', 'action' => 'add')); ?> </li>
+			<li><?php echo $this->Html->link(__('New Valuesdatatypes'), array('controller' => 'valuesdatatypes', 'action' => 'add')); ?> </li>
 		</ul>
 	</div>
 </div>
