@@ -1,0 +1,12 @@
+Pruebas Unitarias Cuarto Sprint Archivos de Configuración
+
+Para probar los modelos se hacen consultas a las bases de datos,
+primero pidiendo todos los registros y luego pidiendo solo uno en 
+especifico. (funciones getAll y GetFiltrados).
+
+Para probar los controladores se prueban las funciones index y view.
+El proyecto para correr estas pruebas estará en la carpeta de pruebas unitarias
+del 4to sprint en Github.
+
+Si desea correr dicho proyecto debe además importar la base de datos, adjunta en la misma carpeta
+en formato sql.
